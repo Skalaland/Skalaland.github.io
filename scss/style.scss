@@ -1,0 +1,844 @@
+*,*:before,*:after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    background-color:rgba(0, 161, 225, 0.493);
+}
+.content{
+    overflow: hidden;
+}
+
+.page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 360px;
+}
+
+.parallax{
+    flex: 1 0 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.parallax__list{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.parallax__list li{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+}
+//Солнце///////////////////////////////////////////////////////////
+.parallax__sun{
+    position: absolute;
+    top: 0%;
+    left: -10%;
+    z-index: 1;
+    opacity: 0;
+    animation: sun 2s ease 2s forwards;
+}
+.parallax__sun span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__sun img{
+    width: 857px;
+    height: 612px;
+}
+//Облака///////////////////////////////////////////////////
+.parallax__clouds {
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    z-index: 1;
+    opacity: 0;
+    animation: cloud 3s linear 2.5s forwards;
+}
+.parallax__clouds span {
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__clouds img{
+    width: 1172px;
+    height: 206px;
+}
+//Холм1/////////////////////////////////////////////////////////////////
+.parallax__hill1 {
+    position: absolute;
+    bottom: 0%;
+    right: -5%;
+    opacity: 0;
+    z-index: 7;
+    animation: hill1 2s ease 2.5s forwards;
+}
+.parallax__hill1 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__hill1 img{
+    width: 1808px;
+    height: 262px;
+}
+//Лес на холме 1////////////////////////////////////////////////////////////////////
+.parallax__forest1{
+    position: absolute;
+    bottom: 0%;
+    right: 40%;
+    z-index: 8;
+    opacity: 0;  
+    animation: forest1 2s ease 3s forwards;
+}
+.parallax__forest1 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__forest1 img{
+    width: 446px;
+    height: 434px;
+}
+//Холм 2//////////////////////////////////////////////////////////////
+.parallax__hill2 {
+    position: absolute;
+    bottom: -3%;
+    left: 0%;
+    z-index: 4;
+    opacity: 0;
+    animation: hill2 1.5s ease 2.5s forwards;
+}
+.parallax__hill2 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__hill2 img{
+    width: 902px;
+    height: 223px;
+}
+//Лес на холме 2//////////////////////////////////////////////
+.parallax__forest2{
+    position: absolute;
+    bottom: -2%;
+    left: 6%;
+    z-index: 8;
+    opacity: 0;
+    animation: forest2 1s ease 3s forwards; 
+}
+.parallax__forest2 span {
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__forest2 img{
+    width: 454px;
+    height: 314px; 
+}
+//Гора по центру//////////////////////////////////////////////////
+.parallax__mount1{
+    position: absolute;
+    top: 8%;
+    left: 16%;
+    z-index: 3;
+    opacity: 0;
+    animation: mount1 1.5s ease 4s forwards; 
+}
+.parallax__mount1 span {
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__mount1 img{
+    width: 1432px;
+    height: 893px;
+}
+//Гора правая//////////////////////////////////////////////////////////////////
+.parallax__mount2{
+    position: absolute;
+    top: 18%;
+    left: 58%;
+    z-index: 2;
+    opacity: 0;
+    animation: mount2 1.3s ease 4s forwards; 
+}
+.parallax__mount2 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__mount2 img{
+    width: 1020px;
+    height: 761px;
+}
+//Гора левая////////////////////////////////////////////////////////////////////////////
+.parallax__mount3{
+    position: absolute;
+    top: 40%;
+    left: -5%;
+    z-index: 1;
+    opacity: 0;
+    animation: mount3 1s ease 4s forwards;
+}
+.parallax__mount3 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__mount3 img{
+    width: 971px;
+    height: 684px;
+}
+//Доска/////////////////////////////////////////////////////// 
+.parallax__board {
+    position: absolute;
+    bottom: 0%;
+    right: 3%;
+    z-index: 8;
+    opacity: 0;
+    animation: board .7s linear 4.5s forwards;
+}
+.parallax__board span :hover{
+    animation: boardhov 1s linear 0.1s infinite alternate-reverse forwards;
+}
+.parallax__board span {
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__board img{
+    width: 380px;
+    height: 545px;
+}
+.parallax__board a {
+    position: absolute;
+    margin: 0 auto;
+    top: 24%;
+    left: -65%;
+    transform: rotate(0.5deg);
+
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'skalalend';
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 61px;
+    
+    text-shadow: 
+    -0   -3px 0   #705733,
+    0   -3px 0   #705733,
+    -0    3px 0   #705733,
+    0    3px 0   #705733,
+    -3px -0   0   #705733,
+    3px -0   0   #705733,
+    -3px  0   0   #705733,
+    3px  0   0   #705733,
+    -1px -3px 0   #705733,
+    1px -3px 0   #705733,
+    -1px  3px 0   #705733,
+    1px  3px 0   #705733,
+    -3px -1px 0   #705733,
+    3px -1px 0   #705733,
+    -3px  1px 0   #705733,
+    3px  1px 0   #705733,
+    -2px -3px 0   #705733,
+    2px -3px 0   #705733,
+    -2px  3px 0   #705733,
+    2px  3px 0   #705733,
+    -3px -2px 0   #705733,
+    3px -2px 0   #705733,
+    -3px  2px 0   #705733,
+    3px  2px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+//Логотип
+.parallax__logo{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 8;
+    opacity: 0;
+    animation: logo 1.5s ease 4.5s forwards;
+}
+.parallax__logo span {
+    display: inline-block;
+    transform-origin: 50% 0;
+    width:672.5px;
+    height: 384px;
+    transform: skew(15deg);
+    background:  rgba(255, 255, 255, 0.8);;
+}
+.parallax__logo img {
+    position: absolute;
+    top: 5%;
+    left:20%;
+    width: 482px;
+    height: 317px;
+
+}
+
+//Анимация;
+
+@keyframes sun {
+    0%{
+        left: -50%;
+        opacity: 1;
+    }
+    50%{
+        top: 5%;
+        left: 5%;
+    }
+    100%{
+        top: 0%;
+        left: -10%;
+        opacity: 1;
+    }
+}
+@keyframes cloud {
+    0%{opacity: 0;
+
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}
+@keyframes hill1{
+    0%{
+        bottom: -50%;
+        opacity: 1;
+
+    }
+    70%{
+        bottom: 0.00001%;   
+    }
+    100%{
+        bottom: -10%;
+        opacity: 1;
+
+    }
+}
+@keyframes hill2{
+    0%{
+        bottom: -50%;
+        opacity: 1;
+
+    }
+    70%{
+        bottom: 0.00001%;   
+    }
+    100%{
+        bottom: -10%;
+        opacity: 1;
+
+    }
+}
+@keyframes forest1{
+    0%{
+        bottom: 210%;
+        opacity: 1;
+    }
+    50%{
+        bottom: -7%;
+    }
+    100%{
+        bottom: -5%;
+        opacity: 1;
+    }
+}
+@keyframes forest2{
+    0%{
+        bottom: 210%;
+        opacity: 1;
+    }
+    50%{
+        bottom: -12%;
+    }
+    100%{
+        bottom: -9%;
+        opacity: 1;
+    }
+}
+@keyframes mount1{
+    0%{
+        top: 150%;
+        opacity: 1;
+    }
+    50%{
+        top: 0%;
+    }
+    100%{
+        top: 8%;
+        opacity: 1;
+    }
+}
+@keyframes mount2{
+    0%{
+        top: 150%;
+        opacity: 1;
+    }
+    50%{
+        top: 0%;
+    }
+    100%{
+        top: 18%;
+        opacity: 1;
+    }
+}
+@keyframes mount3{
+    0%{
+        top: 150%;
+        opacity: 1;
+    }
+    50%{
+        top: 0%;
+    }
+    100%{
+        top: 40%;
+        opacity: 1;
+    }
+}
+@keyframes board{
+    0%{
+        opacity: 1;
+        transform: translate3d(50%,0%,0) rotateZ(10deg);
+    }
+    70%{
+        transform: translate3d(-15%,2%,0) rotateZ(-5deg);
+    }
+    100%{
+        opacity: 1;
+        transform: translate3d(-15%,2%,0) rotateZ(0deg);
+    }
+}
+@keyframes boardhov{
+    0%{
+        opacity: 1;
+        transform: rotateZ(0deg);
+    }
+    20%{
+        opacity: 1;
+        transform: rotateZ(-5deg);
+    }
+    40%{
+        opacity: 1;
+        transform: rotateZ(0deg);
+    }
+    60%{
+        opacity: 1;
+        transform: rotateZ(5deg);
+    }
+    80%{
+        opacity: 1;
+        transform: rotateZ(0deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateZ(-5deg);
+    }
+}
+@keyframes logo{
+    0%{
+        opacity: 1;
+        right: -100%;
+    }
+    50%{
+        opacity: 1;
+        right: 10%;
+    }
+    100%{
+        opacity: 1;
+        right: 0%;
+    }
+}
+//Адаптив
+@media(max-width:1440px){
+    .parallax__list li{
+        max-width: 1440px;
+    }
+    .parallax__sun img{
+        width: 630px;
+        height: 447px;
+    }
+    .parallax__hill1 img{
+        width: 1255px;
+        height: 186px;
+    }
+    .parallax__hill2 img{
+        width: 687px;
+        height: 170px;
+    }
+    .parallax__forest1 img{
+        width: 340px;
+        height: 330px;
+    }
+    .parallax__forest2 img{
+        width: 330px;
+        height: 227px;
+    }
+    .parallax__mount1 img{
+        width: 1091px;
+        height: 680px;
+    }
+    .parallax__mount2 img{
+        width: 777px;
+        height: 580px;
+    }
+    .parallax__mount3 img{
+        width: 740px;
+        height: 521px;
+    }
+    .parallax__board img{
+        width: 245px;
+        height: 350px;
+    }
+    .parallax__board a{
+        position: absolute;
+        margin: 0 auto;
+        top: 28%;
+        left: -125%;
+        transform: rotate(0.5deg);
+    
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+        font-family: 'skalalend';
+        font-size: 28px;
+        line-height: 33px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .parallax__logo span {
+        display: inline-block;
+        transform-origin: 50% 0;
+        width:452px;
+        height: 237px;
+        transform: skew(15deg);
+        background: rgba(255, 255, 255, 0.8);
+    }
+    .parallax__logo img {
+        width: 322px;
+        height: 212px;
+    }
+
+    @keyframes mount1{
+        0%{
+            top: 150%;
+            opacity: 1;
+        }
+        50%{
+            top: 0%;
+        }
+        100%{
+            top: 25%;
+            opacity: 1;
+        }
+    }
+    @keyframes mount2{
+        0%{
+            top: 150%;
+            opacity: 1;
+        }
+        50%{
+            top: 0%;
+        }
+        100%{
+            top: 35%;
+            opacity: 1;
+        }
+    }
+}
+@media (max-width:1370px) {
+
+    @keyframes mount1{
+        0%{
+            top: 150%;
+            opacity: 1;
+        }
+        50%{
+            top: 0%;
+        }
+        100%{
+            top: 8%;
+            opacity: 1;
+        }
+    }
+    @keyframes mount2{
+        0%{
+            top: 150%;
+            opacity: 1;
+        }
+        50%{
+            top: 0%;
+        }
+        100%{
+            top: 18%;
+            opacity: 1;
+        }
+    }
+}
+@media (max-width:900px){
+    .parallax__sun img{
+        width: 246px;
+        height: 175px;
+    }
+    .parallax__hill1 img{
+        width: 727px;
+        height: 105px;
+    }
+    .parallax__hill2 img{
+        width: 611px;
+        height: 115px;
+    }
+    .parallax__forest1 img{
+        width: 160px;
+        height: 155px;
+    }
+    .parallax__forest2 img{
+        width: 193px;
+        height: 133px;
+    }
+    .parallax__mount1 {
+        left: 35%;
+    }
+    .parallax__mount1 img{
+        width: 528px;
+        height: 329px;
+    }
+    .parallax__mount2 {
+        left: 80%;
+    }
+    .parallax__mount2 img{
+        width: 396px;
+        height: 295px;
+    }
+    .parallax__mount3 {
+        left: 10%;
+    }
+    .parallax__mount3 img{
+        width: 395px;
+        height: 278px;
+    }
+    .parallax__board img{
+        width: 158px;
+        height: 226px;
+    }
+    .parallax__board a{
+        top: 28%;
+        left: -600%;
+        transform: rotate(0.5deg);
+        text-align: center;
+        text-decoration: none;
+        font-family: 'skalalend';
+        font-size: 15px;
+        line-height: 20px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .parallax__logo span {
+        width: 250px;
+        height: 131px;
+    }
+    .parallax__logo img {
+        width: 161px;
+        height: 106px;
+    }
+    @keyframes sun {
+    0%{
+        left: -50%;
+        opacity: 1;
+    }
+    50%{
+        top: 5%;
+        left: 20%;
+    }
+    100%{
+        top: 0%;
+        left: 10%;
+        opacity: 1;
+    }
+}
+    @keyframes mount3{
+        0%{
+            top: 150%;
+            opacity: 1;
+        }
+        50%{
+            top: 0%;
+        }
+        100%{
+            top: 30%;
+            opacity: 1;
+        }
+    }
+}
+@media (max-width:380px) {
+    .parallax__sun img{
+        width: 355px;
+        height: 252px;
+    }
+    .parallax__hill1 img{
+        width: 563px;
+        height: 139px;
+    }
+    .parallax__hill2 img{
+        width: 465px;
+        height: 115px;
+    }
+    .parallax__forest1 img{
+        width: 260px;
+        height: 253px;
+    }
+    .parallax__forest2 img{
+        width: 208px;
+        height: 144px;
+    }
+    .parallax__mount1 img{
+        width: 528px;
+        height: 330px;
+    }
+    .parallax__mount2 {
+        left: 80%;
+    }
+    .parallax__mount2 img{
+        width: 396px;
+        height: 295px;
+    }
+    .parallax__mount3 {
+        left: -5%;
+    }
+    .parallax__mount3 img{
+        width: 395px;
+        height: 278px;
+    }
+    .parallax__board img{
+        width: 187px;
+        height: 268px;
+    }
+    .parallax__board a{
+        position: absolute;
+        top: 28%;
+        left: -260%;
+        transform: rotate(0.5deg);
+    
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+        font-family: 'skalalend';
+        font-size: 22px;
+        line-height: 27px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .parallax__logo span {
+        display: inline-block;
+        transform-origin: 50% 0;
+        width:452px;
+        height: 237px;
+        transform: skew(15deg);
+        background: rgba(255, 255, 255, 0.8);
+    }
+    .parallax__logo img {
+        width: 222px;
+        height: 152px;
+
+        left: 30%;
+    }
+    @keyframes mount1{
+        0%{
+            top: 150%;
+            opacity: 1;
+        }
+        50%{
+            top: 0%;
+        }
+        100%{
+            top: 50%;
+            opacity: 1;
+        }
+    }
+    @keyframes mount2{
+        0%{
+            top: 150%;
+            opacity: 1;
+        }
+        50%{
+            top: 0%;
+        }
+        100%{
+            top: 60%;
+            opacity: 1;
+        }
+    }
+    @keyframes mount3{
+        0%{
+            top: 150%;
+            opacity: 1;
+        }
+        50%{
+            top: 0%;
+        }
+        100%{
+            top: 65%;
+            opacity: 1;
+        }
+    }
+    @keyframes hill1{
+        0%{
+            bottom: -50%;
+            opacity: 1;
+    
+        }
+        70%{
+            bottom: 0.00001%;   
+        }
+        100%{
+            bottom: -2%;
+            opacity: 1;
+    
+        }
+    }
+    @keyframes hill2{
+        0%{
+            bottom: -50%;
+            opacity: 1;
+    
+        }
+        70%{
+            bottom: 0.00001%;   
+        }
+        100%{
+            bottom: 5%;
+            opacity: 1;
+    
+        }
+    }
+}
+

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/CSS/style4.css">
+    <link rel="stylesheet" href="assets/CSS/style4media.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="assets/CSS/fullpage.css" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Скалалэнд-центр</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header__zvonok" id="zvonok">
+            <div class="zvonok__wrapper">
+                <div class="zvonok__wrapper-h1">Заказать звонок</div>
+                <div class="zvonok__wrapper-line"></div>
+                <div class="zvonok__wrapper-h2">Наши менеджеры свяжутся с вами для обсуждения деталей</div>
+                <form>
+                    <input type="tel" name="tel" id="phone" placeholder="+7-___-___-__-__" class="zvonok__input">
+                </form>
+                <div class="zvonok__wrapper-fon"></div>
+                <div class="zvonok__but">
+                    <a href="#">Запрос</a>
+                </div>
+                <div class="zvonok__logo">
+                    <img src="assets/IMG/ICO/ico7.png">
+                </div>
+                <div class="zvonok__crest" id="crest">
+                    <img src="assets/IMG/ICO/crest.png">
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="header__logo">
+                <a href="index.html"><img src="/assets/IMG/logo.png"></a>
+            </div>
+            <div class="header__button">
+                <img src="assets/IMG/menusico/ico1.png">
+                <div class="header__buttonp">
+                    <a href="#secondSection">О ЦЕНТРЕ</a>
+                </div>
+            </div>
+            <div class="header__button">
+                <img src="assets/IMG/menusico/ico2.png">
+                <div class="header__buttonp">
+                    <a href="#thirdSection">АКТИВНОСТИ</a>
+                </div>
+            </div>
+            <div class="header__button">
+                <img src="assets/IMG/menusico/ico3.png">
+                <div class="header__buttonp">
+                    <a href="#fourthSection">ЗАКАЖИТЕ ИГРУ</a>
+                </div>
+            </div>
+            <div class="header__button">
+                <img src="assets/IMG/menusico/ico4.png">
+                <div class="header__buttonp">
+                    <a href="#sixedSection">КОНТАКТЫ</a>
+                </div>
+            </div>
+            <div class="header__button" id="zvonokbtn">
+                <img src="assets/IMG/menusico/ico7.png">
+            </div>
+            <div class="header__burger" id="burger">
+                <div class="header__burger-container">
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="cloned__menu" id="cloned">
+            <div class="cloned__logo">
+                <a href="index.html"><img src="/assets/IMG/logo.png"></a>
+            </div>
+            <div class="cloned__button">
+                <img src="assets/IMG/menusico/ico1.png">
+                <div class="cloned__buttonp">
+                    <a href="index4.html#secondSection">О ЦЕНТРЕ</a>
+                </div>
+                <div class="cloned__img">
+                    <img src="assets/IMG/menusico/ico1.png">
+                </div>
+            </div>
+            <div class="cloned__button">
+                <img src="assets/IMG/menusico/ico2.png">
+                <div class="cloned__buttonp">
+                    <a href="index4.html#thirdSection">АКТИВНОСТИ</a>
+                </div>
+                <div class="cloned__img">
+                    <img src="assets/IMG/menusico/ico2.png">
+                </div>
+            </div>
+            <div class="cloned__button">
+                <img src="assets/IMG/menusico/ico3.png">
+                <div class="cloned__buttonp">
+                    <a href="index4.html#fourthSection">ЗАКАЖИТЕ ИГРУ</a>
+                </div>
+                <div class="cloned__img">
+                    <img src="assets/IMG/menusico/ico3.png">
+                </div>
+            </div>
+            <div class="cloned__button">
+                <img src="assets/IMG/menusico/ico4.png">
+                <div class="cloned__buttonp">
+                    <a href="index4.html#sixedSection">КОНТАКТЫ</a>
+                </div>
+                <div class="cloned__img">
+                    <img src="assets/IMG/menusico/ico4.png">
+                </div>
+            </div>
+            <div class="cloned__zvonok" id="clonzvonokbtn">
+                <img src="assets/IMG/menusico/ico7.png">
+            </div>
+        </div>
+        <div class="content" id="fullpage">
+            <section class="vertical-scrolling">
+                <img src="assets/IMG/foncont/fon1.png">
+                <div class="face">
+                    <div class="face__h1">
+                        <div class="face__h1txt">
+                            <p>Семейный <span>развлекательный</span> центр для активного отдыха <span>детей и их родителей</span></p>
+                        </div>
+                        <div class="face__h1phone"><p>+7 <span>(900)</span> 541-48-73</p></div>
+                        <div class="face__h1logo">
+                            <img src="/assets/IMG/logo.png">
+                        </div>
+                    </div>
+                    <div class="face__line"></div>
+                    <div class="face__h2">
+                    <p>У нас есть <span style="color: #FFD507;">все</span> для настоящего <span style="color: #FFD507;">приключения!!!</span></p>
+                    <div class="face__h2f"></div>
+                    </div>
+                    <!--CЛАЙДЕР-->
+                    <div class="face__slaider">
+                        <!--Стрелка влево-->
+                        <a class="slaider__prew" onclick="plusSlides(-1)">
+                            <img src="assets/IMG/ICO/cursor.png">
+                        </a>
+                        <!--Контейнер для слайдов-->
+                        <div class="slaider__content fade"><img src="assets/IMG/logo.png"></div>
+                        <div class="slaider__content fade"><img src="assets/IMG/mount1.png"></div>
+                        <div class="slaider__content fade"><img src="assets/IMG/mount2.png"></div>
+                        <div class="slaider__content fade"><img src="assets/IMG/mount3.png"></div>
+                        <!--Стрелка вправо-->
+                        <a class="slaider__next" onclick="plusSlides(1)">
+                            <img src="assets/IMG/ICO/cursor.png">
+                        </a>
+                        <div class="slaider__dot">
+                            <span class="sldot" onclick="currentSlide(1)"></span>
+                            <span class="sldot" onclick="currentSlide(2)"></span>
+                            <span class="sldot" onclick="currentSlide(3)"></span>
+                            <span class="sldot" onclick="currentSlide(4)"></span>
+                        </div>
+                    </div>
+                    <!--/////CЛАЙДЕР-->
+                    <div class="face__social">
+                        <div class="social">
+                            <a href="index4.html#fifthSection"><img src="assets/IMG/ICO/opl.png"></a>
+                        </div>
+                        <div class="social">
+                            <a href="index.html"><img src="assets/IMG/ICO/vk.png"></a>
+                        </div>
+                        <div class="social">
+                            <a href="index.html"><img src="assets/IMG/ICO/you.png"></a>
+                        </div>
+                        <div class="social">
+                            <a href="index.html"><img src="assets/IMG/ICO/inst.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="vertical-scrolling">
+                <img src="assets/IMG/foncont/fon2.png">
+                <div class="about">
+                    <div class="about__h1">
+                    <div class="about__h1txt">
+                        <p>Центр приключений <span>«Скалалэнд»</span> - это уникальный формат <span>семейного развлекательного пространства.</span></p>
+                        <div class="about__h1txtf"></div>
+                    </div>
+                    </div>
+                    <div class="about__h2">
+                    <div class="about__slaider">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="assets/IMG/foncont/fon1.png"></div>
+                                    <div class="swiper-slide"><img src="assets/IMG/foncont/fon2.png"></div>
+                                    <div class="swiper-slide"><img src="assets/IMG/foncont/fon3.png"></div>
+                                    <div class="swiper-slide"><img src="assets/IMG/foncont/fon4.png"></div>
+                                    <div class="swiper-slide"><img src="assets/IMG/foncont/fon5.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__h2txt">
+                        <div class="about__h2tx1">
+                            За <span>7 лет работы</span> мы создали наиболее интересные и современные концепции <span>семейных центров, собрали команду профессионалов.</span>
+                        </div>
+                        <div class="about__h2txl"></div>
+                        <div class="about__h2tx2">
+                            Мы находимся в постоянном поиске новых решений и непрерывном развитии для того, чтобы <span>дети любого возраста</span> могли безопасно и интересно <span>развлекаться.</span> 
+                        </div>
+                        <div class="about__h2txf"></div>
+                    </div>
+                    </div>
+                    <div class="about__h3">
+                    <div class="about__h3txt">
+                        <p>У нас есть <span>все,</span> что вы только могли <span>вообразить!</span></p>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="vertical-scrolling">
+                <img src="assets/IMG/foncont/fon3.png">
+                <div class="acktiv">
+                    <div class="acktiv__h1">
+                    <p>Мы <span>всегда</span> рады видеть и <span>малышей</span> от 1 года, и <span>подростков</span> 14 лет.<br>У нас каждый <span>ребенок</span> найдет развлечение  <span>на свой вкус</span> <br>под присмотром <span>опытных</span> инструкторов.</p> 
+                    <div class="acktiv__h1f"></div>
+                    </div>
+                    <div class="acktiv__slaider">
+                        <div class="aslaid">
+                            <div class="aslaid__img">
+                            </div>
+                            <p>горки</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                        <div class="aslaid">
+                            <div class="aslaid__img"></div>
+                            <p><span>сухой</span> бассейн</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                        <div class="aslaid">
+                            <div class="aslaid__img"></div>
+                            <p>скаладром</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                        <div class="aslaid">
+                            <div class="aslaid__img"></div>
+                            <p>батуты</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                        <div class="aslaid">
+                            <div class="aslaid__img"></div>
+                            <p>тарзанка</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                        <div class="aslaid">
+                            <div class="aslaid__img"></div>
+                            <p><span>верёвочный</span> лабиринт</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                        <div class="aslaid">
+                            <div class="aslaid__img"></div>
+                            <p><span>Интерактивные</span> игры</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                        <div class="aslaid">
+                            <div class="aslaid__img"></div>
+                            <p><span>прочие</span> активности</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                    </div>
+                    <div class="acktiv__slaider2">
+                        <div class="aslaid">
+                            <div class="aslaid__img">
+                            </div>
+                            <p>горки</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                        <div class="aslaid">
+                            <div class="aslaid__img"></div>
+                            <p><span>сухой</span> бассейн</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                        <div class="aslaid">
+                            <div class="aslaid__img"></div>
+                            <p>скаладром</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                        <div class="aslaid">
+                            <div class="aslaid__img"></div>
+                            <p>батуты</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                        <div class="aslaid">
+                            <div class="aslaid__img"></div>
+                            <p>тарзанка</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                        <div class="aslaid">
+                            <div class="aslaid__img"></div>
+                            <p><span>верёвочный</span> лабиринт</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                        <div class="aslaid">
+                            <div class="aslaid__img"></div>
+                            <p><span>Интерактивные</span> игры</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                        <div class="aslaid">
+                            <div class="aslaid__img"></div>
+                            <p><span>прочие</span> активности</p>
+                            <div class="aslaid__btn"><a href="Aktivnosty.html">подробнее</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+            <section class="vertical-scrolling">
+                <img src="assets/IMG/foncont/fon4.png">
+                <div class="prais">
+                    <div class="prais__h1">
+                    <p>Прайс-лист <span>для проведения детских</span> праздников</p>
+                    <div class="prais__h1f"></div>
+                    </div>
+                    <div class="prais__line"></div>
+                    <div class="prais__cena">
+                    <div class="cena1"></div>
+                    <div class="cena2">
+                        <div class="cena2__txt">
+                            <div class="cena2__txt1">
+                            <div class="txt__content">
+                                <ul class="txt__content">
+                                    <li>Будни</li>
+                                    <div class="txt__contentline"></div>
+                                    <li>1 <span>час</span> - 3000 <span>руб</span></li>
+                                    <li>1.5 <span>час</span> - 4000 <span>руб</span></li>
+                                    <li>2 <span>час</span> - 5000 <span>руб</span></li>
+                                    <li>3 <span>час</span> - 6500 <span>руб</span></li>
+                                </ul>
+                            </div>
+                            </div>
+                            <div class="cena2__txt1">
+                            <div class="txt__content2">
+                                <ul class="txt__content2">
+                                    <li>Выходной</li>
+                                    <div class="txt__contentline2"></div>
+                                    <li>1 <span>час</span> - 3500 <span>руб</span></li>
+                                    <li>1.5 <span>час</span> - 4500 <span>руб</span></li>
+                                    <li>2 <span>час</span> - 6000 <span>руб</span></li>
+                                    <li>3 <span>час</span> - 8000 <span>руб</span></li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="cena__animat">АНИМАТОР <span>НА</span> ВАШ <span>ВЫБОР</span> - 2000 <span>РУБ</span></div>
+                        <div class="cena__button"><a href="#fifthSection">ЗАКАЗАТЬ ПРАЗДНИК</a></div>
+                        <div class="cena2__f"></div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="vertical-scrolling">
+                <img src="assets/IMG/foncont/fon5.png">
+                <div class="zakaz">
+                    <div class="zakaz__h1">
+                    <p>Закажите <span>праздник</span> не выходя <span>из дома</span></p>
+                    <div class="zakaz__h1f"></div>
+                    </div>
+                    <div class="zakaz__line"></div>
+                    <form action="#" class="zakaz__forma">
+                    <div class="forma1">
+                        <input autocomplete="off" type="text" name="form[]" class="input" placeholder="Как к вам обратиться?"/>
+                    </div>
+                    <div class="forma1">
+                        <input autocomplete="off" type="text" name="form[]" class="input" placeholder="Телефон/E-mail/Город"/>
+                    </div>
+                    <div class="forma1">
+                        <select name="form[]" class="input" placeholder="Выбрать услугу">
+                            <option>1 ЧАС</option>
+                            <option>1,5 ЧАСА</option>
+                            <option>2 ЧАСА</option>
+                            <option>3 ЧАСА</option>
+                        </select>
+                    </div>
+                    <div class="forma1">
+                        <textarea autocomplete="off" type="text" name="form[]" class="input" placeholder="Сообщение"></textarea>
+                    </div>
+                    <div class="zakaz__button">
+                        <div class="zakaz__button1">
+                            <button type="submit">Оставить заявку</button>
+                        </div>
+                        <div class="zakaz__button2">
+                            <button type="submit">Оплатить праздник</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </section>
+            <section class="vertical-scrolling">
+                <img src="assets/IMG/foncont/fon6.png">
+                <div class="kontakts">
+                    <div class="kontakts__h1">
+                    <p>Остались вопросы<span>?</span> <br> Мы с <span>радостью</span> на них ответим</p>
+                    </div>
+                    <div class="kontakst__block">
+                    <div class="kontakts__text">
+                        <p>Свяжитесь с <span>нами:</span><br> +7 <span>(900)</span> 541-48-73 </p>
+                        <div class="kontakts__call">
+                            <div id="kontaktsbtn">Сделать звонок</div>
+                        </div>
+                        <p>Режим работы <span>центров:</span><br>ежедневно с <span>10.00</span> до <span>21.00</span></p>
+                        <p>Режим работы <span>офиса:</span><br>пн- пт с <span>9.00</span> до <span>17.00</span></p>
+                        <p>E-mail: <span>office@skalalend.ru</span></p>
+                        <div class="kontakts__call">
+                            <a href="#fifthSection">Написать письмо</a>
+                        </div>
+                        <div class="kontakts__tetxf"></div>
+                    </div>
+                    <div class="kontakts__map">
+                        <div class="map__social">
+                            <div class="socialmap">
+                                <a href="#"> <img src="assets/IMG/ICO/vk.png"></a>
+                            </div>
+                            <div class="socialmap">
+                                <a href="#"> <img src="assets/IMG/ICO/inst.png"></a>
+                            </div>
+                            <div class="socialmap">
+                                <a href="#"> <img src="assets/IMG/ICO/you.png"></a>
+                            </div>
+                        </div>
+                        <div class="map__map">
+                            <div class="map__block">
+                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A19838cfd9a131c2ca06461cd805f6b71aa0858e42754cb2ac021fc4a6229e41a&amp;width=100%25&amp;height=300&amp;lang=ru_RU&amp;scroll=false"></script>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

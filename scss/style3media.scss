@@ -1,0 +1,1448 @@
+@media(max-width: 1600px){
+    //////--------------------------------------------////////////////////////////////////////////////////
+    .content1{
+        position: absolute;
+        top:10%;
+        left: 42%;
+        width: 289px;
+        height: 114px;
+
+        transform: translate(0, 60%);
+        opacity: 0;
+        transition: all 1s ease 0.8s;
+    }
+    .content1._active{
+        opacity: 1;
+        transform: translate(0, 0);
+        animation: content1 2s ease 1s none;
+    }
+    @keyframes content1{
+        0%{
+            top: 3%;
+        }
+        50%{
+            top: 5%;
+        }
+        100%{
+            top: 10%;
+        }
+    }
+    .content1._active:hover{
+        top: 6%;
+        opacity: .8;
+        cursor: pointer;
+        transition: all linear .5s;
+    }
+    .content1 img{
+        width: 100%;
+        height: 100%;
+    }
+    //////--------------------------------------------////////////////////////////////////////////////////
+    .content2{
+        position: absolute;
+        top: 9.8%;
+        left: 56%;
+        width: 208px;
+        height: 247px;
+
+        transform: translate(-60%, 0);
+        opacity: 0;
+        transition: all 1s ease 1.1s;
+    }
+    .content2._active{
+        opacity: 1;
+        transform: translate(0, 0);
+        animation: content2 2s ease 1.5s none;
+    }
+    @keyframes content2{
+        0%{
+            top: 9.8%;
+            left: 57%;
+        }
+        50%{
+            top: 9.8%;
+            left: 57%;
+        }
+        100%{
+            top: 9.8%;
+            left: 56%;
+        }
+    }
+    .content2:hover{
+        top: 8%;
+        left: 54.7%;
+        opacity: .8;
+        cursor: pointer;
+        transition: all linear .5s;
+    }
+    .content2 img{
+        width: 100%;
+        height: 100%;
+    }
+    //////--------------------------------------------////////////////////////////////////////////////////
+    .content3{
+        position: absolute;
+        top: 58.7%;
+        left: 56%;
+        width: 208px;
+        height: 247px;
+
+        transform: translate(-60%, 0);
+        opacity: 0;
+        transition: all 1s ease 1.4s;
+        
+    }
+    .content3._active{
+        opacity: 1;
+        transform: translate(0, 0);
+        animation: content3 2s ease 2s none;
+    }
+    @keyframes content3{
+        0%{
+            top: 60.7%;
+            left: 57%;
+        }
+        50%{
+            top: 60.7%;
+            left: 57%;
+        }
+        100%{
+            top: 58.9%;
+            left: 56%;
+        }
+    }
+    .content3:hover{
+        top: 61.5%;
+        left: 54.7%;
+        opacity: .8;
+        cursor: pointer;
+        transition: all linear .5s;
+    }
+    .content3 img{
+        width: 100%;
+        height: 100%;
+    }
+    //////--------------------------------------------////////////////////////////////////////////////////
+    .content4{
+        position: absolute;
+        top:85.5%;
+        left: 42.05%;
+        width: 289px;
+        height: 114px;
+        
+        transform: translate(0, -100%);
+        opacity: 0;
+        transition: all 1s ease 1.7s;
+    }
+    .content4._active{
+        opacity: 1;
+        transform: translate(0, 0);
+        animation: content4 2s ease 2s none;
+    }
+    @keyframes content4{
+        0%{
+            top: 88%;
+        }
+        50%{
+            top: 88%;
+        }
+        100%{
+            top: 85.5%;
+        }
+    }
+    .content4:hover{
+        top: 90%;
+        opacity: .8;
+        cursor: pointer;
+        transition: all linear .5s;
+    }
+    .content4 img{
+        width: 100%;
+        height: 100%;
+    }
+    //////--------------------------------------------////////////////////////////////////////////////////
+    .content5{
+        position: absolute;
+        top: 59.4%;
+        left: 33.2%;
+        width: 208px;
+        height: 247px;
+        
+        transform: translate(60%, 0);
+        opacity: 0;
+        transition: all 1s ease 2s;
+    }
+    .content5._active{
+        opacity: 1;
+        transform: translate(0, 0);
+        animation: content5 2s ease 2.5s none;
+    }
+    @keyframes content5{
+        0%{
+            top: 60.5%;
+            left: 31.5%;
+        }
+        50%{
+            top: 60.5%;
+            left: 31.5%;
+        }
+        100%{
+            top: 59.5%;
+            left: 33.5%;
+        }
+    }
+    .content5:hover{
+        top: 61.5%;
+        left: 33.5%;
+        opacity: .8;
+        cursor: pointer;
+        transition: all linear .5s;
+    }
+    .content5 img{
+        width: 100%;
+        height: 100%;
+    }
+    //////--------------------------------------------////////////////////////////////////////////////////
+    .content6{
+        position: absolute;
+        top: 10%;
+        left: 33.2%;
+        width: 208px;
+        height: 247px;
+
+        transform: translate(60%, 0);
+        opacity: 0;
+        transition: all 1s ease 2.3s;
+    }
+    .content6._active{
+        opacity: 1;
+        transform: translate(0, 0);
+        animation: content6 2s ease 2.5s none;
+    }
+    @keyframes content6{
+        0%{
+            top: 9%;
+            left: 31.5%;
+        }
+        50%{
+            top: 9%;
+            left: 31.5%;
+        }
+        100%{
+            top: 10%;
+            left: 33.2%;
+        }
+    }
+    .content6:hover{
+        top: 8%;
+        left: 33.5%;
+        opacity: .8;
+        cursor: pointer;
+        transition: all linear .5s;
+    }
+    .content6 img{
+        width: 100%;
+        height: 100%;
+    }
+    //////--------------------------------------------////////////////////////////////////////////////////
+    .content7{
+        position: absolute;
+        top: 36%;
+        left: 42.7%;
+        width: 268px;
+        height: 231px;
+        opacity: 0;
+        transition: all 1s ease 0.5s;
+    }
+    //////--------------------------------------------////////////////////////////////////////////////////
+
+    .preimush-header{
+        padding-left: 15%;
+    }
+    .preimush-header h1{
+        font-size: 55px;
+        line-height: 70px;
+    }
+    .preimush-header span{
+        top: 19%;
+    }
+    .preimush-list li{
+        font-size: 45px;
+        line-height: 50px;
+    }
+/////////////////////////////////////////////////////////////////////////////////////////
+    .why-gex{
+        height: 900px;
+    }
+    .gex-1{
+        width: 14%;
+        position: absolute;
+        top: -2%;
+        left: 43%;
+        transform: translate(0, 17%);
+        transition: all 1.5s ease 0.8s;
+    }
+    .gex-2{
+        width: 14%;
+        position: absolute;
+        margin-top: 13%;
+        left: 43%;
+        transition: all 1.5s ease 0.8s;
+    }
+    .gex-3{
+        width: 14%;
+        position: absolute;
+        top: 39%;
+        left: 29%;
+        transform: translate(7%, -3%);
+        transition: all 1.5s ease 0.8s;
+    }
+    .gex-4{
+        width: 14%;
+        position: absolute;
+        top: 39%;
+        right: 29%;
+        transform: translate(-7%, -3%);
+        transition: all 1.5s ease 0.8s;
+    }
+//////////////////////////////////////////////////////////////
+    .trb-block h2{
+        font-size: 25px;
+        line-height: 30px;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////
+    .faq-sld h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
+@media (max-width: 1440px){
+    .logo__button button{
+        font-size: 35px;
+    }
+    .phone-inp{
+        font-size: 40px;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content2{
+        left: 57.5%;
+    }
+    @keyframes content2{
+        0%{
+            top: 9.8%;
+            left: 59%;
+        }
+        50%{
+            top: 9.8%;
+            left: 59%;
+        }
+        100%{
+            top: 9.8%;
+            left: 57.5%;
+        }
+    }
+    .content2:hover{
+        left: 58.5%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content3{
+        left: 57.5%;
+    }
+    @keyframes content3{
+        0%{
+            top: 60.7%;
+            left: 59%;
+        }
+        50%{
+            top: 60.7%;
+            left: 59%;
+        }
+        100%{
+            top: 58.9%;
+            left: 57.5%;
+        }
+    }
+    .content3:hover{
+        left: 58.5%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content5{
+        left: 32.2%;
+    }
+    @keyframes content5{
+        0%{
+            top: 60.5%;
+            left: 30.5%;
+        }
+        50%{
+            top: 60.5%;
+            left: 30.5%;
+        }
+        100%{
+            top: 59.5%;
+            left: 32.2%;
+        }
+    }
+    .content5:hover{
+        left: 31.5%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content6{
+        left: 32.2%;
+    }
+    @keyframes content6{
+        0%{
+            top: 9%;
+            left: 30.5%;
+        }
+        50%{
+            top: 9%;
+            left: 30.5%;
+        }
+        100%{
+            top: 10%;
+            left: 33.2%;
+        }
+    }
+    .content6:hover{
+        left: 31.5%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .preimush-header{
+        padding-left: 10%;
+    }
+    .preimush-header h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+/////////////////////////////////////////////////////////////////////////////////////////
+    .why-gex{
+        height: 800px;
+    }
+    .trb-block h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////
+    .faq-sld h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+@media(max-width: 1366px){
+    .logo__button button{
+        font-size: 30px;
+    }
+/////////////////////////////////////////////////////////////////////////////////////////
+    .wrapper-text h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .wrapper-text h2{
+        font-size: 35px;
+        line-height: 45px;
+    }
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+    .about-title h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .about-title h2{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    //////--------------------------------------------////////////////////////////////////////////////////
+    .content2{
+        left: 58.5%;
+    }
+    @keyframes content2{
+        0%{
+            top: 9.8%;
+            left: 60%;
+        }
+        50%{
+            top: 9.8%;
+            left: 60%;
+        }
+        100%{
+            top: 9.8%;
+            left: 58.5%;
+        }
+    }
+    .content2:hover{
+        left: 59.5%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content3{
+        left: 58.5%;
+    }
+    @keyframes content3{
+        0%{
+            top: 60.7%;
+            left: 60%;
+        }
+        50%{
+            top: 60.7%;
+            left: 60%;
+        }
+        100%{
+            top: 58.9%;
+            left: 58.5%;
+        }
+    }
+    .content3:hover{
+        left: 59.5%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content5{
+        left: 31.2%;
+    }
+    @keyframes content5{
+        0%{
+            top: 60.5%;
+            left: 28.5%;
+        }
+        50%{
+            top: 60.5%;
+            left: 28.5%;
+        }
+        100%{
+            top: 59.5%;
+            left: 31.2%;
+        }
+    }
+    .content5:hover{
+        left: 30.5%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content6{
+        left: 31.2%;
+    }
+    @keyframes content6{
+        0%{
+            top: 9%;
+            left: 28.5%;
+        }
+        50%{
+            top: 9%;
+            left: 28.5%;
+        }
+        100%{
+            top: 10%;
+            left: 31.2%;
+        }
+    }
+    .content6:hover{
+        left: 30.5%;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+    .preimush-header h1{
+        font-size: 40px;
+        line-height: 54px;
+    }
+    .preimush-list li{
+        font-size: 35px;
+        line-height: 45px;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+    .why-header h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .why-gex{
+        height: 760px;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+    .trebovania-header h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .trb-block h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .trb-block h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+////////////////////////////////////////////////////////////////////////////////////////////////////
+    .faq-sld h1{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .faq-sld h2{
+        height: 365px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////////////
+    .forma-header h1{
+        font-size: 45px;
+        line-height: 54px;
+    }
+    .forma-header h2{
+        font-size: 30px;
+        line-height: 39px;
+    }
+    .input{
+        height: 60px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .zvonok__input{
+        height: 60px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    textarea.input{
+        height: 150px;
+    }
+
+    .forma-button button{
+        font-size: 50px;
+        line-height: 64px;
+    }
+}
+@media(max-width: 1024px){
+    .logo__button button{
+        font-size: 25px;
+    }
+    .logo__tel p{
+        font-size: 40px;
+        padding-top: 5%;
+    }
+    .nav__link a{
+        font-size: 13px;
+    }
+    .nav__link a:hover{
+        font-size: 15px;
+    }
+    .phone-wrap h1{
+        font-size: 30px;
+    }
+    .phone-wrap h2{
+        font-size: 20px;
+    }
+    .phone-inp{
+        font-size: 25px;
+    }
+/////////////////////////////////////////////////////////////////////////////////////////
+    .wrapper-text h1{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .wrapper-text h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+    .about-title h1{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .about-title h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content1{
+        top:10%;
+        left: 40%;
+        width: 210px;
+        height: 82px;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content2{
+        top: 9.9%;
+        left: 55.8%;
+        width: 151px;
+        height: 179px;
+    }
+    @keyframes content2{
+        0%{
+            top: 10%;
+            left: 56.55%;
+        }
+        50%{
+            top: 10%;
+            left: 56.55%;
+        }
+        100%{
+            top: 9.9%;
+            left: 55.8%;
+        }
+    }
+    .content2:hover{
+        top: 10%;
+        left: 56.7%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content3{
+        top: 45.9%;
+        left: 55.8%;
+        width: 151px;
+        height: 179px;   
+    }
+    @keyframes content3{
+        0%{
+            top: 46.9%;
+            left: 56.55%;
+        }
+        50%{
+            top: 46.9%;
+            left: 56.55%;
+        }
+        100%{
+            top: 45.9%;
+            left: 55.8%;
+        }
+    }
+    .content3:hover{
+        top: 46.5%;
+        left: 56.8%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content4{
+        top: 65.5%;
+        left: 40%;
+        width: 210px;
+        height: 82px;
+    }
+    @keyframes content4{
+        0%{
+            top: 67.5%;
+        }
+        50%{
+            top: 67.5%;
+        }
+        100%{
+            top: 65.5%;
+        }
+    }
+    .content4:hover{
+        top: 68.5%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content5{
+        top: 46%;
+        left: 30%;
+        width: 151px;
+        height: 179px;
+    }
+    @keyframes content5{
+        0%{
+            top: 48.4%;
+            left: 28.5%;
+        }
+        50%{
+            top: 48.4%;
+            left: 28.5%;
+        }
+        100%{
+            top: 46%;
+            left: 30%;
+        }
+    }
+    .content5:hover{
+        top: 48.4%;
+        left: 28.5%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content6{
+        top: 10%;
+        left: 30%;
+        width: 151px;
+        height: 179px;
+    }
+    @keyframes content6{
+        0%{
+            top: 9%;
+            left: 28.5%;
+        }
+        50%{
+            top: 9%;
+            left: 28.5%;
+        }
+        100%{
+            top: 10%;
+            left: 30%;
+        }
+    }
+    .content6:hover{
+        top: 8%;
+        left: 28.5%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+.content7{
+    top: 29.5%;
+    left: 40.7%;
+    width: 194px;
+    height: 168px;
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+    .preimush-header h1{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .preimush-list li{
+        font-size: 25px;
+        line-height: 35px;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+    .why-header h1{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .why-gex{
+        height: 570px;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+    .trebovania-header h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .trb-block h1{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .trb-block h2{
+        font-size: 15px;
+        line-height: 25px;
+    }
+////////////////////////////////////////////////////////////////////////////////////////////////////
+    .faq-header h1{
+        font-size: 50px;
+        line-height: 64px;
+    }
+    .faq-sld h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////////////
+    .forma-header h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .forma-header h2{
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .forma-button button{
+        font-size: 40px;
+        line-height: 54px;
+    }
+}
+
+@media(max-width: 820px){
+    .logo__button button{
+        font-size: 18px;
+    }
+    .logo__tel p{
+        font-size: 30px;
+        padding-top: 5%;
+    }
+    .nav__link a{
+        font-size: 10px;
+    }
+    .nav__link a:hover{
+        font-size: 12px;
+    }
+    .phone-wrap h1{
+        font-size: 20px;
+    }
+    .phone-wrap h2{
+        font-size: 15px;
+    }
+    .phone-inp{
+        font-size: 15px;
+    }
+    .phone-wrap button{
+        font-size: 20px;
+    }
+/////////////////////////////////////////////////////////////////////////////////////////
+    .wrapper-text h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .wrapper-text h2{
+        font-size: 15px;
+        line-height: 25px;
+    }
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+    .about-title h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .about-title h2{
+        font-size: 15px;
+        line-height: 25px;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content2{
+        top: 9.9%;
+        left: 60.2%;
+        width: 151px;
+        height: 179px;
+    }
+    @keyframes content2{
+        0%{
+            top: 10%;
+            left: 62%;
+        }
+        50%{
+            top: 10%;
+            left: 62%;
+        }
+        100%{
+            top: 9.9%;
+            left: 60.2%;
+        }
+    }
+    .content2:hover{
+        top: 10%;
+        left: 62%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content3{
+        top: 45.9%;
+        left: 60.2%;
+        width: 151px;
+        height: 179px;   
+    }
+    @keyframes content3{
+        0%{
+            top: 46.9%;
+            left: 62%;
+        }
+        50%{
+            top: 46.9%;
+            left: 62%;
+        }
+        100%{
+            top: 45.9%;
+            left: 60.2%;
+        }
+    }
+    .content3:hover{
+        top: 46.5%;
+        left: 62%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content5{
+        top: 46%;
+        left: 27.2%;
+        width: 151px;
+        height: 179px;
+    }
+    @keyframes content5{
+        0%{
+            top: 48.4%;
+            left: 25.5%;
+        }
+        50%{
+            top: 48.4%;
+            left: 25.5%;
+        }
+        100%{
+            top: 46%;
+            left: 27.2%;
+        }
+    }
+    .content5:hover{
+        top: 48.4%;
+        left: 25.5%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content6{
+        top: 10%;
+        left: 27.2%;
+        width: 151px;
+        height: 179px;
+    }
+    @keyframes content6{
+        0%{
+            top: 9%;
+            left: 25.5%;
+        }
+        50%{
+            top: 9%;
+            left: 25.5%;
+        }
+        100%{
+            top: 10%;
+            left: 27.2%;
+        }
+    }
+    .content6:hover{
+        top: 8%;
+        left: 25.5%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content7{
+        top: 29.3%;
+        left: 40.9%;
+        width: 194px;
+        height: 168px;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+    .preimush-header h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .preimush-list li{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    .why-header h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .why-gex{
+        height: 440px;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+    .trebovania-header h1{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .trb-block h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .trb-block h2{
+        font-size: 12px;
+        line-height: 20px;
+    }
+////////////////////////////////////////////////////////////////////////////////////////////////////
+    .faq-header h1{
+        font-size: 40px;
+        line-height: 54px;
+    }
+    .faq-sld h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .faq-sld h2{
+        height: 270px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////////////
+    .forma-header h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .forma-header h2{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .forma-button button{
+        font-size: 30px;
+        line-height: 44px;
+    }
+}
+@media(max-width: 380px){
+    .logo__img{
+        width: 40%;
+        height: 100%;
+    
+        position: relative;
+        transition: all .3s linear;
+        margin: 1% auto;
+    }
+    .logo__img img{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .logo__button{
+        display: none;
+    }
+    .logo__tel{
+        display: none;
+    }
+    .nav__link{
+        display: none;
+    }
+    .nav__burger{
+        display: flex;
+    }
+    .menu__burger{
+        width: 100%;
+        height: 500px;
+
+        display: none;
+        flex-direction: column;
+
+        background: rgba($color: #00A3E1, $alpha: .8);
+    }
+    .menu__burger.show{
+        display: flex;
+        position: absolute;
+        z-index: 20;
+    }
+    .burger__link{
+        width: 100%;
+        margin: 2.5% 0;
+        text-align: center;
+    }
+    .burger__link a{
+        font-family: 'skalalend';
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .menu__burger button{
+        width: 90%;
+
+        margin: 5% auto;
+        background: #48BAE7;
+        box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 35px;
+        text-transform: uppercase;
+        padding: 5% 1%;
+
+        color: #FFFFFF;
+    }
+    .menu__burger p{
+        text-align: center;
+        font-family: 'skalalend';
+
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 49px;
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .wrapper-text{
+        padding: 0;
+    }
+    .wrapper-text h1{
+        font-size: 20px;
+        line-height: 25px;
+        padding: 2% 0;
+    }
+    .wrapper-text h2{
+        margin-top: 2%;
+        font-size: 15px;
+        line-height: 18px;
+        padding: 0;
+    }
+    //////--------------------------------------------////////////////////////////////////////////////////
+    .content1{
+        top:10%;
+        left: 29.5%;
+        width: 154px;
+        height: 60px;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content2{
+        top: 9.9%;
+        left: 62%;
+        width: 111px;
+        height: 131px;
+    }
+    @keyframes content2{
+        0%{
+            top: 10%;
+            left: 64%;
+        }
+        50%{
+            top: 10%;
+            left: 64%;
+        }
+        100%{
+            top: 9.9%;
+            left: 62%;
+        }
+    }
+    .content2:hover{
+        top: 10%;
+        left: 64%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content3{
+        top: 37%;
+        left: 62%;
+        width: 111px;
+        height: 131px;  
+    }
+    @keyframes content3{
+        0%{
+            top: 38%;
+            left: 64%;
+        }
+        50%{
+            top: 38%;
+            left: 64%;
+        }
+        100%{
+            top: 37%;
+            left: 62%;
+        }
+    }
+    .content3:hover{
+        top: 38%;
+        left: 64%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content4{
+        top: 51%;
+        left: 29.5%;
+        width: 154px;
+        height: 60px;
+    }
+    @keyframes content4{
+        0%{
+            top: 53%;
+        }
+        50%{
+            top: 53%;
+        }
+        100%{
+            top: 51%;
+        }
+    }
+    .content4:hover{
+        top: 53%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content5{
+        top: 37%;
+        left: 8%;
+        width: 111px;
+        height: 131px;
+    }
+    @keyframes content5{
+        0%{
+            top: 38%;
+            left: 6%;
+        }
+        50%{
+            top: 38%;
+            left: 6%;
+        }
+        100%{
+            top: 37%;
+            left: 8%;
+        }
+    }
+    .content5:hover{
+        top: 38%;
+        left: 6%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content6{
+        top: 10%;
+        left: 8%;
+        width: 111px;
+        height: 131px;
+    }
+    @keyframes content6{
+        0%{
+            top: 8.9%;
+            left: 6%;
+        }
+        50%{
+            top: 8.9%;
+            left: 6%;
+        }
+        100%{
+            top: 9.9%;
+            left: 8%;
+        }
+    }
+    .content6:hover{
+        top: 8%;
+        left: 6%;
+    }
+//////--------------------------------------------////////////////////////////////////////////////////
+    .content7{
+        top: 24.5%;
+        left: 31%;
+        width: 142px;
+        height: 123px;
+    }
+    .full, .full1, .full2{
+        display: none;
+    }
+    .par-1, .par-2, .par-3, .par-4, .par-5, .par-6, .par-7{
+        display: none;
+    }
+    .preimush-header{
+        padding: 0;
+        padding-top: 2%;
+        padding-right: 2%;
+    }
+    .preimush-header h1{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .preimush-header span{
+        top: 25%;
+    }
+    .preimush-list{
+        width: 95%;
+    }
+    .preimush-list li{
+        padding-bottom: 5%;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .li1{
+        width: 100%;
+    }
+    .li5{
+        width: 100%;
+    }
+    .li6{
+        width: 100%;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    .why-header h1{
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .why-header span{
+        top: 13%;
+    }
+    .why-gex{
+        height: 950px;
+        padding-top: 5%;
+    }
+    .gex-1{
+        width: 43%;
+        top: 23%;
+        left: 2%;
+    }
+    .gex-2{
+        width: 43%;
+        margin: 0;
+        top: 28%;
+        left: 55%;
+    }
+    .gex-3{
+        width: 43%;
+        top: 56%;
+        left: 55%;
+    }
+    .gex-4{
+        width: 43%;
+        top: 63%;
+        right: 55%;
+    }
+    .gex-5{
+        width: 66%;
+        margin-top: 0%;
+        right: 2%;
+    }
+    .gex-6{
+        width: 66%;
+        margin: 0;
+        top: 39%;
+        left: 2%;
+    }
+    .gex-7{
+        width: 66%;
+        margin: 0;
+        top: 72%;
+        left: 32%;
+    }
+////////////////////////////////////////////////////////////////////////////////////////////////////
+    .trebovania-header h1{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .trebovania-header span{
+        margin: 2% 0;
+    }
+    .trebovania-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 2% auto;
+    }
+    .trb-block{
+        width: 90%;
+        margin: 5% 3%;
+    }
+    .trb-block h1{
+        padding-top: 10%;
+        font-size: 25px;
+        line-height: 31px;
+    }
+    .trb-block h2{
+        padding: 0 5%;
+        font-size: 15px;
+        line-height: 18px;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+    .faq-header h1{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .faq-sld h1{
+        width: 90%;
+        height: 90px;
+        padding-left: 5%;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .faq-sld h2{
+        height: 163px;
+        padding: 5%;
+        font-size: 15px;
+        line-height: 18px;
+    
+        border-radius: 20px;
+    }
+    .slick-dots li{
+        margin: 0 10px;
+    }
+    .slick-dots li button:before{
+        font-size: 20px;
+        line-height: 25px;
+        width: 20px;
+        height: 20px;
+    }
+    .slick-dots li.slick-active button:before{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .phone-wrap{
+        width: 90%;
+    }
+    .phone-wrap h1{
+        font-size: 20px;
+    }
+    .phone-wrap h2{
+        font-size: 15px;
+    }
+    .phone-inp{
+        width: 90%;
+        font-size: 30px;
+    }
+    .phone-wrap button{
+        width: 50%;
+    }
+    .phone-wrap button:focus{
+        width: 55%;
+    }
+    .phone-wrap button:hover{
+        width: 55%;
+    }
+
+}
