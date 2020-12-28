@@ -127,16 +127,9 @@ html, body {
   transition: opacity 0.3s linear;
 }
 
-.cloned__button img {
-  width: 50%;
-  padding-top: 3%;
-}
-
 .cloned__buttonp {
-  position: absolute;
+  position: relative;
   width: 30%;
-  right: 6%;
-  top: 40%;
   text-align: center;
   font-family: 'Impact';
   font-size: 15px;
@@ -422,6 +415,11 @@ html, body {
   top: 0;
   left: 0;
   z-index: 1;
+}
+
+.face__fon {
+  display: none;
+  opacity: 0;
 }
 
 .face {
