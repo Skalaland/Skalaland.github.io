@@ -2,14 +2,14 @@
     .header__buttonp{
         font-size: 16px;
         text-shadow: 
-        -0   -.5px 0   #3B1D6B,
-        0   -.5px 0   #3B1D6B,
-        -0    .5px 0   #3B1D6B,
-        0    .5px 0   #3B1D6B,
-        -.5px -0   0  #3B1D6B,
-        .5px -0   0  #3B1D6B,
-        -.5px  0   0  #3B1D6B,
-        .5px  0   0   #3B1D6B,
+        -0   -1px 0   #45268d,
+        0   -1px 0   #45268d,
+        -0    1px 0   #45268d,
+        0    1px 0   #45268d,
+        -1px -0   0  #45268d,
+        1px -0   0  #45268d,
+        -1px  0   0  #45268d,
+        1px  0   0   #45268d;
     }
     .zvonok__wrapper-h2{
         font-size: 40px;
@@ -46,7 +46,7 @@
     }
     .about__h1txtf{
         width: 95%;
-        border-bottom: 220px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 220px solid rgba(255, 255, 255, 0.95);
         border-left: 200px solid transparent;
     }
     .about__h2txt{
@@ -58,7 +58,7 @@
         font-size: 35px;
     }
     .about__h2txf{
-        border-bottom: 594.9px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 594.9px solid rgba(255, 255, 255, 0.95);
         margin-top: -4.85%;
     }
     .about__h3{
@@ -67,7 +67,7 @@
     //БЛОК АКТИВНОСТИ////////////////////////////////////////////////////////////////////////
     .acktiv__h1f{
         width: 100%;
-        border-bottom: 180px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 180px solid rgba(255, 255, 255, 0.95);
         border-left: 200px solid transparent;
     }
     .acktiv__h1 p{
@@ -80,17 +80,17 @@
     .aslaid p{
         font-size: 30px;
     
-        color: #FFE66B;
+        color: #EEF3ED;
         text-transform: uppercase;
         text-shadow: 
-        -0   -1px 0   #FFD507,
-        0   -1px 0   #FFD507,
-        -0    1px 0   #FFD507,
-        0    1px 0   #FFD507,
-        -1px -0   0  #FFD507,
-        1px -0   0  #FFD507,
-        -1px  0   0  #FFD507,
-        1px  0   0   #FFD507,
+        -0   -1px 0   #3F4D8B,
+        0   -1px 0   #3F4D8B,
+        -0    1px 0   #3F4D8B,
+        0    1px 0   #3F4D8B,
+        -1px -0   0  #3F4D8B,
+        1px -0   0  #3F4D8B,
+        -1px  0   0  #3F4D8B,
+        1px  0   0   #3F4D8B,
         2px 2px 2px rgba(0, 0, 0, 0.25);
     }
     .aslaid span{
@@ -110,7 +110,7 @@
         font-size: 40px;
     }
     .prais__h1f{
-        border-bottom: 138px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 138px solid rgba(255, 255, 255, 0.95);
         border-left: 150px solid transparent;
     }
     .txt__content{
@@ -137,7 +137,7 @@
     //БЛОК ЗАКАЗА/////////////////////////////////////////////////////////////////////
     .zakaz__h1f{
         width: 63%;
-        border-bottom: 180px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 180px solid rgba(255, 255, 255, 0.95);
     }
     .zakaz__button{
         margin-top: 3%;
@@ -236,11 +236,11 @@
     }
     .about__h1txtf{
         width: 95%;
-        border-bottom: 220px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 220px solid rgba(255, 255, 255, 0.95);
         border-left: 200px solid transparent;
     }
     .about__h2txf{
-        border-bottom: 592px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 592px solid rgba(255, 255, 255, 0.95);
         margin-top: -4.2%;
     }
     .about__h3{
@@ -249,7 +249,7 @@
     //БЛОК АКТИВНОСТИ////////////////////////////////////////////////////////////////////////
     .acktiv__h1f{
         width: 100%;
-        border-bottom: 180px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 180px solid rgba(255, 255, 255, 0.95);
         border-left: 200px solid transparent;
     }
     .acktiv__h1 p{
@@ -282,7 +282,7 @@
         font-size: 35px;
     }
     .prais__h1f{
-        border-bottom: 138px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 138px solid rgba(255, 255, 255, 0.95);
         border-left: 150px solid transparent;
     }
     .txt__content{
@@ -320,7 +320,7 @@
     }
     .zakaz__h1f{
         width: 64%;
-        border-bottom: 147px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 147px solid rgba(255, 255, 255, 0.95);
     }
     .zakaz__button{
         margin-top: 3%;
@@ -376,14 +376,15 @@
         margin-top: -18%;
         font-size: 13px;
         text-shadow: 
-        -0   -.5px 0   #3B1D6B,
-        0   -.5px 0   #3B1D6B,
-        -0    .5px 0   #3B1D6B,
-        0    .5px 0   #3B1D6B,
-        -.5px -0   0  #3B1D6B,
-        .5px -0   0  #3B1D6B,
-        -.5px  0   0  #3B1D6B,
-        .5px  0   0   #3B1D6B,
+        -0   -1px 0   #3F4D8B,
+        0   -1px 0   #3F4D8B,
+        -0    1px 0   #3F4D8B,
+        0    1px 0   #3F4D8B,
+        -1px -0   0  #3F4D8B,
+        1px -0   0  #3F4D8B,
+        -1px  0   0  #3F4D8B,
+        1px  0   0   #3F4D8B,
+        2px 2px 2px rgba(0, 0, 0, 0.25);
     }
     .zvonok__wrapper{
         height: 55%;
@@ -462,7 +463,7 @@
     }
     .about__h1txtf{
         width: 95%;
-        border-bottom: 180px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 180px solid rgba(255, 255, 255, 0.95);
         border-left: 200px solid transparent;
     }
     .about__h2txt{
@@ -473,7 +474,7 @@
         font-size: 28px;
     }
     .about__h2txf{
-        border-bottom: 415px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 415px solid rgba(255, 255, 255, 0.95);
         margin-top: -2.2%;
     }
     .about__h3{
@@ -491,7 +492,7 @@
     //БЛОК АКТИВНОСТИ////////////////////////////////////////////////////////////////////////
     .acktiv__h1f{
         width: 100%;
-        border-bottom: 180px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 180px solid rgba(255, 255, 255, 0.95);
         border-left: 200px solid transparent;
     }
     .acktiv__h1 p{
@@ -524,7 +525,7 @@
         font-size: 30px;
     }
     .prais__h1f{
-        border-bottom: 118px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 118px solid rgba(255, 255, 255, 0.95);
         border-left: 150px solid transparent;
     }
     .txt__content{
@@ -573,7 +574,7 @@
     }
     .zakaz__h1f{
         width: 65%;
-        border-bottom: 133px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 133px solid rgba(255, 255, 255, 0.95);
     }
     input[type=text],input[type=email],input[type=tel],textarea{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
     .input{
@@ -665,7 +666,7 @@
         z-index: 50;
         display: none;
     
-        background: rgba(255, 255, 255, 0.8);
+        background: rgba(255, 255, 255, 0.95);
     }
     .cloned__show{
         position: fixed;
@@ -678,7 +679,7 @@
         display: flex;
         flex-direction: column;
     
-        background: rgba(255, 255, 255, 0.8);
+        background: rgba(255, 255, 255, 0.95);
     }
     .cloned__logo{
         width: 100%;
@@ -884,7 +885,7 @@
         padding: 0 5%;
     }
     .face__h2f{
-        border-bottom: 0px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 0px solid rgba(255, 255, 255, 0.95);
     }
     //СЛАЙДЕР//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     .face__slaider{
@@ -933,7 +934,7 @@
         height: 80%;
         margin-top: 5%;
         position: relative;
-        background: rgba(255, 255, 255, 0.7);
+        background: rgba(255, 255, 255, 0.95);
         border: 1px solid rgba(164, 155, 155, 0.6);
         border-radius: 50px;
     }
@@ -949,7 +950,7 @@
     }
     //БЛОК О ЦЕНТРЕ ////////////////////////////////////////////////////////////////////////////
     .about{
-        background: rgba(255, 255, 255, 0.6);
+        background: rgba(255, 255, 255, 0.95);
     }
     .about__h1{
         width: 100%;
@@ -974,7 +975,7 @@
         font-size: 65px;
     }
     .about__h1txtf{
-        border-bottom: 0px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 0px solid rgba(255, 255, 255, 0.95);
     }
     .about__h2{
         width: 100%;
@@ -1008,7 +1009,7 @@
         width: 100%;
         height: 100%;
     
-        background: rgba(255, 255, 255, 0.75);
+        background: rgba(255, 255, 255, 0.95);
         border-radius: 48px;
         position: relative;
     }
@@ -1056,7 +1057,7 @@
         left: 10%;
     }
     .about__h2txf{
-        border-bottom: 0px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 0px solid rgba(255, 255, 255, 0.95);
     }
     .about__h3{
         width: 100%;
@@ -1078,7 +1079,7 @@
     }
     //БЛОК АКТИВНОСТИ............////////////////////////////////////////////////////////////////////////
     .acktiv{
-        background-color:  rgba(255, 255, 255, 0.6);
+        background-color:  rgba(255, 255, 255, 0.95);
     }
     .acktiv__h1{
         width: 90%;
@@ -1086,7 +1087,7 @@
         margin-left: 5%;
     }
     .acktiv__h1f{
-        border-bottom: 0px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 0px solid rgba(255, 255, 255, 0.95);
     }
     .acktiv__h1 p{
         margin: 0;
@@ -1122,7 +1123,7 @@
         flex-direction: column;
         outline: none;
     
-        background: rgba(253, 253, 253, 0.8);
+        background: rgba(253, 253, 253, 0.95);
         border-radius: 30px;
     }
     
@@ -1134,7 +1135,6 @@
         margin-top: 5%;
         position: relative;
     
-        background: yellow;
         border-radius: 43px;
     }
     
@@ -1152,7 +1152,7 @@
     }
     //БЛОК С ЦЕНАМИ..............//////////////////////////////////////////////////////
     .prais{
-        background-color: rgba(253, 253, 253, 0.6);
+        background-color: rgba(253, 253, 253, 0.95);
     }
     .prais__h1{
         width: 100%;
@@ -1171,7 +1171,7 @@
         font-size: 70px;
     }
     .prais__h1f{
-        border-bottom: 0px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 0px solid rgba(255, 255, 255, 0.95);
     }
     .prais__cena{
         width: 100%;
@@ -1264,7 +1264,7 @@
     
     //БЛОК ЗАКАЗА..../////////////////////////////////////////////////////////////////////
     .zakaz{
-        background-color: rgba(255, 255, 255, 0.6);
+        background-color: rgba(255, 255, 255, 0.95);
     }
     .zakaz__h1{
         font-size: 60px;
@@ -1281,7 +1281,7 @@
         font-size: 65px;
     }
     .zakaz__h1f{
-        border-bottom: 0px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 0px solid rgba(255, 255, 255, 0.95);
     }
     .zakaz__forma{
         width: 100%;
@@ -1336,7 +1336,7 @@
     
 //БЛОК КОНТАКТОВ........................///////////////////////////////////////////////////
     .kontakts{
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(255, 255, 255, 0.95);
     }
     .kontakts__h1{
         z-index: 2;
