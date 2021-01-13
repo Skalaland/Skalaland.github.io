@@ -1298,7 +1298,7 @@ html, body {
 
 .cena2__txt {
   width: 100%;
-  height: 80%;
+  height: 35%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1313,8 +1313,10 @@ html, body {
 }
 
 .cena2__txt1 {
-  width: 48%;
+  width: 45%;
   height: 100%;
+  margin-top: -7%;
+  padding-bottom: 10%;
   border-radius: 50px;
   background: rgba(255, 255, 255, 0.5);
   border: 3px solid #FFD507;
@@ -1326,29 +1328,29 @@ html, body {
   height: 100%;
   text-align: center;
   font-family: 'skalalend';
-  font-size: 40px;
-  line-height: 49px;
+  font-size: 25px;
+  line-height: 30px;
   text-transform: uppercase;
   color: #3F4D8B;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .txt__contentline {
-  width: 60%;
+  width: 50%;
   height: 0;
   border: 3px solid #3F4D8B;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 2%;
   -webkit-box-shadow: 2px 1px 2px rgba(0, 163, 225, 0.8);
           box-shadow: 2px 1px 2px rgba(0, 163, 225, 0.8);
 }
 
 .txt__content li {
-  margin-top: 7%;
+  margin-top: 3%;
 }
 
 .txt__content li span {
-  font-size: 35px;
+  font-size: 25px;
   color: #3F4D8B;
 }
 
@@ -1358,28 +1360,28 @@ html, body {
   height: 100%;
   text-align: center;
   font-family: 'skalalend';
-  font-size: 40px;
-  line-height: 49px;
+  font-size: 25px;
+  line-height: 30px;
   text-transform: uppercase;
   color: #3F4D8B;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .txt__content2 li {
-  margin-top: 7%;
+  margin-top: 3%;
 }
 
 .txt__content2 li span {
-  font-size: 35px;
+  font-size: 25px;
   color: #3F4D8B;
 }
 
 .txt__contentline2 {
-  width: 60%;
+  width: 50%;
   height: 0;
   border: 3px solid #3F4D8B;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 2%;
   -webkit-box-shadow: 2px 1px 2px rgba(255, 213, 7, 0.8);
           box-shadow: 2px 1px 2px rgba(255, 213, 7, 0.8);
 }
@@ -1389,11 +1391,12 @@ html, body {
   padding: 2% 0;
   z-index: 2;
   font-family: 'skalalend';
-  font-size: 35px;
-  line-height: 43px;
+  font-size: 30px;
+  line-height: 35px;
+  margin-top: -5%;
+  margin-bottom: 5%;
   color: #3F4D8B;
   text-align: center;
-  margin-top: 5%;
   border-radius: 50px;
   background: rgba(255, 255, 255, 0.5);
   border: 3px solid #FFD507;
@@ -1405,11 +1408,110 @@ html, body {
   color: #3F4D8B;
 }
 
+.cena__posh1 {
+  width: 100%;
+  padding: 2% 0;
+  z-index: 2;
+  font-family: 'skalalend';
+  font-size: 30px;
+  line-height: 35px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  color: #3F4D8B;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.cena-posesh {
+  width: 100%;
+  height: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 5;
+}
+
+.cena-posesh1 {
+  width: 45%;
+  height: 100%;
+  text-align: left;
+  font-family: 'skalalend';
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #3F4D8B;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.cena-posesh1 ul {
+  list-style: none;
+}
+
+.cena-posesh1 li {
+  padding: 2% 0;
+}
+
+.cena-posesh2 {
+  width: 45%;
+  height: 100%;
+  text-align: right;
+  font-family: 'skalalend';
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #3F4D8B;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.cena-posesh2 ul {
+  list-style: none;
+}
+
+.cena-posesh2 li {
+  padding: 2% 0;
+}
+
+.cena-posesh1 span {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cena-posesh2 span {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cena-posline {
+  width: 40%;
+  height: 0;
+  border: 1px solid #3F4D8B;
+  margin: 2% 0;
+  -webkit-box-shadow: 2px 1px 2px rgba(255, 213, 7, 0.8);
+          box-shadow: 2px 1px 2px rgba(255, 213, 7, 0.8);
+}
+
+.cena-posline2 {
+  width: 40%;
+  height: 0;
+  border: 1px solid #3F4D8B;
+  margin: 2% 0;
+  margin-left: 60%;
+  -webkit-box-shadow: 2px 1px 2px rgba(255, 213, 7, 0.8);
+          box-shadow: 2px 1px 2px rgba(255, 213, 7, 0.8);
+}
+
 .cena__button {
   width: 70%;
   text-align: center;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 3%;
   padding: 3% 0;
   z-index: 2;
   font-family: 'skalalend';
@@ -1435,7 +1537,7 @@ html, body {
   width: 71%;
   opacity: .7;
   padding: 4% 0;
-  margin-top: 8%;
+  margin-top: 1%;
   cursor: pointer;
 }
 
