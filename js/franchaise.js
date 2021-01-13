@@ -70,3 +70,20 @@ burbut.on("click", function(event){
     burger.toggleClass("show");
 });
 
+//Меню навигации..................................
+$(function(){
+    let navbar = $("#navbar");
+    let intro = $("#intro");
+    let introH = intro.innerHeight();
+    let scrollPos = $(window).scrollTop();
+
+$(window).on("scroll", function() {
+    scrollPos = $(this).scrollTop();
+
+    if(scrollPos > introH){
+        navbar.addClass("sticky");
+    } else {
+        navbar.removeClass("sticky");
+    }
+    });
+});

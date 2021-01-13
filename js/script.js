@@ -29,6 +29,19 @@ crest.on("click", function(event){
     event.preventDefault();
     zvonok.toggleClass("show");
 });
+//Выбор центра.........................................
+let vubcrest = $("#vubcrest");
+let vubor = $("#vubor");
+let vuborbut = $("#vuborbut");
+
+vuborbut.on("click", function(event){
+  event.preventDefault();
+  vubor.toggleClass("show");
+});
+vubcrest.on("click", function(event){
+  event.preventDefault();
+  vubor.toggleClass("show");
+});
 //Вологда..............................................
 let tc = $("#tc");
 let plant = $("#plant");
