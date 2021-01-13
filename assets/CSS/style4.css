@@ -1734,7 +1734,6 @@ select, option {
 .kontakts__text {
   width: 40%;
   height: 80%;
-  margin-top: 0%;
   padding-left: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1744,24 +1743,32 @@ select, option {
       -ms-flex-direction: column;
           flex-direction: column;
   font-family: 'Roboto';
-  font-size: 50px;
-  line-height: 59px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 45px;
   color: #3F4D8B;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 .kontakts__text p {
-  margin-bottom: 4%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   z-index: 2;
+}
+
+.kontakts__text span {
+  color: #3F4D8B;
+  font-weight: normal;
+  font-size: 35px;
 }
 
 .kontakts__call {
   width: 65%;
   margin: 0 auto;
   padding: 2% 0;
-  margin-bottom: 2%;
   text-transform: uppercase;
   font-size: 40px;
+  font-weight: normal;
   text-align: center;
   color: #FFFFFF;
   background-color: #3F4D8B;
@@ -1776,8 +1783,6 @@ select, option {
 .kontakts__call:hover {
   padding: 3% 0;
   cursor: pointer;
-  margin-top: -1%;
-  margin-bottom: 1%;
   background-color: #5d70c5;
 }
 
@@ -1785,11 +1790,6 @@ select, option {
   text-decoration: none;
   padding: 10% 0;
   color: #FFFFFF;
-}
-
-.kontakts__text span {
-  color: #3F4D8B;
-  font-size: 55px;
 }
 
 .kontakts__tetxf {
