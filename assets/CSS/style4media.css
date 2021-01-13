@@ -406,8 +406,14 @@
   }
   .header__buttonp {
     margin-top: -18%;
-    font-size: 13px;
+    font-size: 15px;
     text-shadow: 0 -1px 0 #3F4D8B, 0 -1px 0 #3F4D8B, 0 1px 0 #3F4D8B, 0 1px 0 #3F4D8B, -1px 0 0 #3F4D8B, 1px 0 0 #3F4D8B, -1px 0 0 #3F4D8B, 1px 0 0 #3F4D8B, 2px 2px 2px rgba(0, 0, 0, 0.25);
+  }
+  .header__button img {
+    width: 100%;
+    padding: 2% 10% 10% 10%;
+    opacity: .9;
+    z-index: 1;
   }
   .zvonok__wrapper {
     height: 55%;
