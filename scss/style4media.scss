@@ -598,34 +598,61 @@
         border-bottom: 118px solid rgba(255, 255, 255, 0.95);
         border-left: 150px solid transparent;
     }
+    .cena2__txt1{
+        padding-bottom: 10%;
+    }
     .txt__content{
-        font-size: 27px;
-        line-height: 32px;
+        font-size: 15px;
+        line-height: 20px;
     }
     .txt__content li span{
-        font-size: 22px;
+        font-size: 15px;
     }
     .txt__content2{
-        font-size: 27px;
-        line-height: 32px;
+        font-size: 15px;
+        line-height: 20px;
     }
     .txt__content2 li span{
-        font-size: 22px;
+        font-size: 15px;
     }
     .cena__animat{
-        font-size: 27px;
-        line-height: 32px;
+        font-size: 20px;
+        line-height: 25px;
     }
     .cena__animat span{
-        font-size: 22px;
+        font-size: 20px;
+    }
+    .cena__posh1{
+        font-size: 25px;
+        line-height: 30px;
+        margin: 0;
+    }
+    .cena-posesh1{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .cena-posesh2{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .cena-posesh1 span{
+        font-size: 20px;
+    }
+    .cena-posesh2 span{
+        font-size: 20px;
     }
     .cena__button{
-        margin-top: 5%;
-        font-size: 32px;
-        line-height: 35px;
+        width: 40%;
+        padding: 1% 0;
+        margin-top: 2%;
+        font-size: 15px;
+        line-height: 20px;
+        text-shadow: none;
     }
     .cena__button:hover{
-        margin-top: 3%;
+        margin-top: 0%;
+        width: 45%;
     }
     .cena2__f{
         top: 18.1%;
