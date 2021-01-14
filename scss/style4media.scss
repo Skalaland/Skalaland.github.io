@@ -743,928 +743,6 @@
     }
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-@media(max-width: 1080px){
-    .header__burger{
-        display: flex;
-    }
-    .header__logo{
-        display: none;
-    }
-    .header__button{
-        display: none;
-    }
-    .vuborh1{
-        width: 100%;
-        height: 10%;
-        padding: 10% 0;
-
-        font-size: 70px;
-    }
-    .vubor-href{
-        width: 100%;
-        height: 50%;
-    
-        display: flex;
-        flex-direction: column;
-        margin-top: 50%;
-    }
-    .vubor-href a{
-        width: 90%;
-    
-        padding: 2% 5%;
-        margin: 0 auto;
-        margin-bottom: 5%;
-        font-size: 30px;
-    
-        text-decoration: none;
-        text-transform: uppercase;
-        background-color: #3B1D6B;
-        border-radius: 50px;
-        color: #FFFFFF;
-        transition: all linear .5s;
-    }
-    .vubor-href a:hover{
-        width: 100%;
-        background-color: #fff;
-        border: 3px solid #3B1D6B;
-        color: #3B1D6B;
-    }
-    .vubor-button{
-        margin-top: 2%;
-    }
-    .vubor-button a{
-        font-family: 'skalalend';
-        font-size: 45px;
-        text-transform: uppercase;
-        padding: 1% 3%;
-    
-        border-radius: 50px;
-        background-color: #fff;
-        border: 3px solid #3B1D6B;
-        color: #3B1D6B;
-    
-        transition: all linear .5s;
-        text-decoration: none;
-    }
-    .vubor-button a:hover{
-        background-color: #3B1D6B;
-        color: #FFF;
-        padding: 1% 4%;
-        cursor: pointer;
-    }
-    .cloned__menu{
-        position: fixed;
-        
-        width: 100%;
-        height: 100%;
-        top:0;
-        left: 0;
-        z-index: 50;
-        display: none;
-    
-        background: rgba(255, 255, 255, 0.95);
-    }
-    .cloned__show{
-        position: fixed;
-        
-        width: 90%;
-        height: 100%;
-        top:0;
-        left: 10%;
-        z-index: 50;
-        display: flex;
-        flex-direction: column;
-    
-        background: rgba(255, 255, 255, 0.95);
-    }
-    .cloned__logo{
-        width: 100%;
-        height: 15%;
-        margin-bottom: 5%;
-        transition: opacity .3s linear;
-    }
-    .cloned__button{
-        width: 100%;
-        height: 15%;
-        position: relative;
-        margin: 0;
-        margin-bottom: 2%;
-    }
-    .cloned__button img{
-        position: absolute;
-        width: 20%;
-        height: 50%;
-        top: 25%;
-        left: 5%;
-    }
-    .cloned__img{
-        position: absolute;
-        width: 20%;
-        height: 50%;
-        top: 15%;
-        right: 6%;
-    }
-    .cloned__img img{
-        width: 100%;
-        height: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    .cloned__buttonp{
-        width: 100%;
-        height: 100%;
-        padding-top: 12%;
-        text-align: center;
-        
-        font-family: 'Impact';
-        font-size: 60px;
-        color: #6E7097;
-    
-        text-shadow: 
-        -0   -.1px 0   #3B1D6B,
-        0   -.1px 0   #3B1D6B,
-        -0    .1px 0   #3B1D6B,
-        0    .1px 0   #3B1D6B,
-        -.1px -0   0  #3B1D6B,
-        .1px -0   0  #3B1D6B,
-        -.1px  0   0  #3B1D6B,
-        .1px  0   0   #3B1D6B,
-    }
-    .cloned__zvonok{
-        width: 40%;
-        height: 10%;
-        position: relative;
-        margin: 5% auto;
-        background: rgba(84, 134, 76, 0.1);
-        border: 2px solid rgba(0, 0, 0, 0.2);
-        border-radius: 13px;
-        box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
-        transition: box-shadow 0.3s linear;
-        transition: translate 0.3s linear;
-        transition: opacity 0.3s linear;
-    }
-    .cloned__zvonok img{
-        width: 100%;
-        height: 100%;
-        padding: 2% 20%;
-    }
-    .cloned__zvonok:hover{
-        opacity: 0.6;
-        cursor: pointer;
-    }
-    .cloned__zvonok:active{
-        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-        transform: translate(3px,3px);
-        opacity: 1;
-    }
-    //////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////ВСПЛЫВАЮЩИЙ БЛОК ЗВОНКА..//////////////////////////////////////////////
-    .zvonok__wrapper{
-        width: 80%;
-        height: 25%;
-        margin: 0 auto;
-        margin-top: 50%;
-    }
-    .zvonok__wrapper-h1{
-        font-size: 50px;
-    }
-    .zvonok__wrapper-h2{
-        font-size: 35px;
-        line-height: 40px;
-    }
-    .zvonok__input{
-        margin-top: 22.5%;
-        background: none;
-        color: #111;
-        font-size: 40px;
-        width: 60%;
-
-        z-index: 8;
-        padding-left: 2%;
-    }
-    .zvonok__wrapper-fon{
-        width: 55%;
-        border-bottom: 70px solid #FFFFFF;
-        border-right: 100px solid transparent;
-    }
-    .zvonok__logo{
-        width: 80px;
-        height: 80px;
-    }
-    //БЛОК ЗАГЛАВНОЙ СТРАНИЦЫ...////////////////////////////////////////////////////////////////////////////
-
-    .face{
-        background: rgba(255, 255, 255, 0.6);
-        position: relative;
-    }
-    .face__fon{
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            display: block;
-            opacity: 1;
-            top:0;
-            left: 0;
-            z-index: 2;
-    }
-    .face__fon img{
-        width: 100%;
-        height: 100%;
-    }
-    .face__h1{
-        height: 50%;
-        position: relative;
-        background: none;
-    }
-    .face__h1logo{
-        width: 618px;
-        height: 408px;
-        margin-left: 18.7%;
-        margin-top: 5%;
-    }
-    .face__h1logo img{
-        width: 100%;
-        height: 100%;
-        margin: 0;
-    }
-    .face__h1txt{
-        width: 100%;
-        height: 50%;
-        position: absolute;
-        top: 48%;
-    }
-    .face__h1txt p{
-        width: 100%;
-        margin: 0;
-        font-size: 65px;
-        line-height: 70px;
-        text-align: center;
-        padding: 0 5%;
-    }
-    .face__h1txt span{
-        font-size: 70px;
-    }
-    .face__h1phone{
-        width: 100%;
-        height: 10%;
-        position: absolute;
-        bottom: 1%;
-    }
-    .face__h1phone p{
-        width: 100%;
-        margin: 0;
-        font-size: 60px;
-        line-height: 65px;
-        text-align: center;
-    }
-    .face__h1phone span{
-        font-size: 65px;
-    }
-    .face__line{
-        position: absolute;
-        left: 30%;
-        top: 43%;
-        z-index: 3;
-        border: 3px solid #FFD507;
-    }
-    .face__h2{
-        width: 100%;
-        z-index: 3;
-        position: absolute;
-        bottom: 10%;
-    }
-    .face__h2 p{
-        font-size: 60px;
-        line-height: 65px;
-        margin: 0;
-        text-align: center;
-        padding: 0 5%;
-    }
-    .face__h2f{
-        border-bottom: 0px solid rgba(255, 255, 255, 0.95);
-    }
-    //СЛАЙДЕР//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    .face__slaider{
-        width: 100%;
-        height: 35%;
-        position: absolute;
-        margin: 0;
-        z-index: 3;
-    }
-    .slaider__dot{
-        width: 30%;
-        position: absolute;
-        bottom: 10%;
-        left: 35%;
-    }
-    .sldot {
-        height: 50px;
-        width: 50px;
-    }
-    .sldot:hover {
-        background: #FFE568;
-        border: 2px solid #AC9D55;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        height: 52px;
-        width: 52px;
-    }
-    .sldot-active{
-        background: #FFE568;
-        border: 2px solid #AC9D55;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        height: 52px;
-        width: 52px;
-    }
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    .face__social{
-        width: 90%;
-        height: 10%;
-        position: absolute;
-        bottom: 1%;
-        right: 5%;
-        z-index: 3;
-    }
-
-    .social{
-        width: 20%;
-        height: 80%;
-        margin-top: 5%;
-        position: relative;
-        background: rgba(255, 255, 255, 0.95);
-        border: 1px solid rgba(164, 155, 155, 0.6);
-        border-radius: 50px;
-    }
-    .social  img{
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 7%;
-        border-radius: 50px;
-    }
-    .social:hover{
-        opacity: .8;
-    }
-    //БЛОК О ЦЕНТРЕ ////////////////////////////////////////////////////////////////////////////
-    .about{
-        background: rgba(255, 255, 255, 0.95);
-    }
-    .about__h1{
-        width: 100%;
-        height: 20%;
-        z-index: 3;
-    }
-    .about__h1txt{
-        width:100%;
-        height: 10%;
-        position: absolute;
-        top: 1%;
-
-        font-size: 60px;
-        line-height: 65px;
-        text-align: center;
-    }
-    .about__h1txt p{
-        width: 100%;
-        margin-top: 0;
-    }
-    .about__h1txt span{
-        font-size: 65px;
-    }
-    .about__h1txtf{
-        border-bottom: 0px solid rgba(255, 255, 255, 0.95);
-    }
-    .about__h2{
-        width: 100%;
-        height: 60%;
-        margin-top: 7%;
-    
-        display: flex;
-        flex-direction: row;
-        z-index: 3;
-        justify-content: space-between;
-    }
-    .about__slaider{
-        width: 100%;
-        height: 100%;
-    }
-    //Слайдер второй............./////////////////////////////////////////////
-    .swiper-container {
-        width: 100%;
-        height: 50%;
-        margin: 0;
-        position: absolute;
-        top: 28%;
-    
-        border-radius: 48px;
-    }
-    .swiper-wrapper{
-        width: 432px;
-        height: 293px;
-    }
-    .swiper-slide {
-        width: 100%;
-        height: 100%;
-    
-        background: rgba(255, 255, 255, 0.95);
-        border-radius: 48px;
-        position: relative;
-    }
-    .swiper-slide img{
-        width: 90%;
-        height: 85%;
-        margin: 5%;
-    
-        border-radius: 50px;
-    }
-    //////////////////////////////////////////////////////////////////////////
-
-    .about__h2txt{
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        margin-top: 2%;
-        font-size: 45px;
-        line-height: 50px;
-    }
-    .about__h2txt span{
-        font-size: 50px;
-    }
-    .about__h2tx1{
-        width: 95%;
-        margin: 0%;
-        margin-left: 5%;
-        padding-right: 5%;
-    }
-    .about__h2tx2{
-        width: 95%;
-        margin: 0;
-        bottom: 38%;
-        text-align: right;
-        position: absolute;
-        right: 5%;
-    }
-    .about__h2txl{
-        width: 80%;
-        height: 0;
-        position: absolute;
-        top: -2%;
-        border: 2px solid #FFD507;
-        margin: 0;
-        left: 10%;
-    }
-    .about__h2txf{
-        border-bottom: 0px solid rgba(255, 255, 255, 0.95);
-    }
-    .about__h3{
-        width: 100%;
-        height: 10%;
-        margin: 0;
-        position: absolute;
-        bottom: 0%;
-    
-        background: none;
-    }
-    .about__h3txt{
-        padding: 0;
-        font-size: 50px;
-        line-height: 55px;
-        text-align: center;
-    }
-    .about__h3 span{
-        font-size: 55px;
-    }
-    //БЛОК АКТИВНОСТИ............////////////////////////////////////////////////////////////////////////
-    .acktiv{
-        background-color:  rgba(255, 255, 255, 0.95);
-    }
-    .acktiv__h1{
-        width: 90%;
-        height: 20%;
-        margin-left: 5%;
-    }
-    .acktiv__h1f{
-        border-bottom: 0px solid rgba(255, 255, 255, 0.95);
-    }
-    .acktiv__h1 p{
-        margin: 0;
-        margin-top: 5%;
-        font-size: 60px;
-        line-height: 65px;
-        text-align: center;
-    }
-    .acktiv__h1 span{
-        font-size: 65px;
-    }
-    .acktiv__slaider{
-        display: none;
-    }
-    .acktiv__slaider2{
-        width: 80%;
-        height: 80%;
-        z-index: 2;
-        margin: 0 auto;
-        margin-top: 25%;
-    
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        outline: none;
-    }
-    
-    .aslaid{
-        width: 20%;
-        height: 970px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        outline: none;
-    
-        background: rgba(253, 253, 253, 0.95);
-        border-radius: 30px;
-    }
-    
-    
-    .aslaid__img{
-        width: 90%;
-        height: 50%;
-        margin: 0 auto;
-        margin-top: 5%;
-        position: relative;
-    
-        border-radius: 43px;
-    }
-    
-    .aslaid p{
-        font-size: 55px;
-    }
-    .aslaid span{
-        font-size: 54px;
-    }
-    .aslaid__btn{
-        font-size: 45px;
-    }
-    .aslaid__btn:hover{
-        font-size: 47px;
-    }
-    //БЛОК С ЦЕНАМИ..............//////////////////////////////////////////////////////
-    .prais{
-        background-color: rgba(253, 253, 253, 0.95);
-    }
-    .prais__h1{
-        width: 100%;
-        height: 20%;
-        top: 10%;
-        z-index: 2;
-        position: absolute;
-    }
-    .prais__h1 p{
-        margin: 0;
-        font-size: 65px;
-        line-height: 70px;
-        text-align: center;
-    }
-    .prais__h1 span{
-        font-size: 70px;
-    }
-    .prais__h1f{
-        border-bottom: 0px solid rgba(255, 255, 255, 0.95);
-    }
-    .prais__cena{
-        width: 100%;
-        height: 70%;
-        position: absolute;
-        top: 30%;
-    }
-    .cena1{
-        width: 0%;
-    }
-    .cena2{
-        width: 100%;
-        height: 100%;
-    
-        display: flex;
-        flex-direction: column;
-    
-        padding: 0 3%;
-    }
-    .cena2__txt{
-        width: 100%;
-        height: 40%;
-    
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        z-index: 2;
-    }
-    .cena2__txt1{
-        width: 48%;
-        height: 100%;
-    
-        border-radius: 50px;
-        background: rgba(255, 255, 255, 0.5);
-        border: 3px solid #FFD507;
-    
-    }
-    .txt__content{
-        font-size: 46px;
-        line-height: 51px;
-    }
-    .txt__content li{
-        margin-top: 7%;
-    }
-    .txt__content li span{
-        font-size: 43px;
-    }
-    .txt__contentline{
-        border: 2px solid #FFD507;
-    }
-
-    .txt__content2{
-        font-size: 46px;
-        line-height: 51px;
-    }
-    .txt__content2 li{
-        margin-top: 7%;
-    }
-    .txt__content2 li span{
-        font-size: 43px;
-    }
-    .txt__contentline2{
-        border: 2px solid #00A3E1;
-    }
-    .cena__animat{
-        font-size: 46px;
-        line-height: 51px;
-    }
-    .cena__animat span{
-        font-size: 43px;
-    }
-    .cena__posh1{
-        font-size: 50px;
-        padding: 10% 0;
-    }
-    .cena-posesh1{
-        font-size: 40px;
-        line-height: 45px;
-    }
-    .cena-posesh2{
-        font-size: 40px;
-        line-height: 45px;
-    }
-    .cena-posesh1 span{
-        font-size: 50px;
-    }
-    .cena-posesh2 span{
-        font-size: 50px;
-    }
-    .cena__button{
-        margin-top: -10%;
-        font-size: 55px;
-        line-height: 60px;
-    }
-    .cena__button:hover{
-        margin-top: -12%;
-    }
-    .cena2__f{
-        display: none;
-    }
-    .prais__line{
-        width: 50%;
-        height: 0;
-        top: 25%;
-        right: 25%;
-        border: 2px solid #FFD507;
-    }
-    
-    //БЛОК ЗАКАЗА..../////////////////////////////////////////////////////////////////////
-    .zakaz{
-        background-color: rgba(255, 255, 255, 0.95);
-    }
-    .zakaz__h1{
-        font-size: 60px;
-        line-height: 65px;
-        text-align: center;
-        margin-top:5%;
-        margin-bottom: 30%;
-    }
-    .zakaz__h1 p{
-        width: 100%;
-        padding:0;
-    }
-    .zakaz__h1 span{
-        font-size: 60px;
-    }
-    .zakaz__h1f{
-        border-bottom: 0px solid rgba(255, 255, 255, 0.95);
-    }
-    .zakaz__forma{
-        width: 100%;
-        height: 100%;
-        background: rgba(255, 255, 255, 0.2);
-    }
-    input[type=text],input[type=email],input[type=tel],textarea{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
-    .input{
-        width: 90%;
-        height: 200px;
-
-        font-size: 55px;
-        line-height: 60px;
-    }
-    .input:focus{
-        width: 95%;
-        outline: 0;
-        border: 3px solid #3F4D8B;
-    }
-    ::placeholder{
-        color: #3F4D8B;
-    }
-    textarea.input{
-        resize: none;
-        height: 405px;
-        padding-top: 15px;
-    }
-    select.input:focus{
-        width: 90%;
-    }
-    select, option{
-        cursor: pointer;
-    }
-    .zakaz__button{
-        width: 90%;
-        margin: 0 auto;
-        margin-top: 10%;
-    }
-    .zakaz__button1 button{
-        font-size: 55px;
-        line-height: 60px;
-    }
-    .zakaz__button2 button{
-        font-size: 55px;
-        line-height: 60px;
-    }
-    .zakaz__line{
-        width: 90%;
-        left: 5%;
-        top: 10%;
-    }
-    
-//БЛОК КОНТАКТОВ........................///////////////////////////////////////////////////
-    .kontakts{
-        background-color: rgba(255, 255, 255, 0.95);
-    }
-    .kontakts__h1{
-        z-index: 2;
-    
-        width: 100%;
-        height: 25%;
-        text-align: center;
-        font-size: 70px;
-        line-height: 85px;
-        padding: 10% 3%;
-    
-        background-color:rgba(255, 255, 255, 0.0);
-    }
-    .kontakts__h1 span{
-        font-size: 70px;
-        color: #3F4D8B;
-    }
-    .kontakst__block{
-        width: 100%;
-        height: 75%;
-        display: flex;
-        flex-direction: row;
-    
-        z-index: 3;
-    }
-    .kontakts__text{
-        width: 80%;
-        height: 80%;
-        margin-top: 0%;
-        padding-left: 3%;
-        position: absolute;
-        z-index: 5;
-    
-        display: flex;
-        flex-direction: column;
-    
-        font-family: 'Roboto';
-        font-size: 50px;
-        line-height: 59px;
-    
-        color: #3F4D8B;
-        text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
-    
-    }
-    .kontakts__text p{
-        margin-bottom: 4%;
-        z-index: 2;
-    }
-    .kontakts__call{
-        width: 65%;
-        margin: 0 auto;
-        padding: 2% 0;
-        margin: 5%;
-        text-transform: uppercase;
-        font-size: 40px;
-        text-align: center;
-    
-        color: #FFFFFF;
-        background-color: #3F4D8B;
-        border-radius: 20px;
-        box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
-        z-index: 2;
-        transition: all .3s linear;
-    }
-    .kontakts__call:hover{
-        padding: 3% 0;
-        cursor: pointer;
-        margin-top: -1%;
-        margin-bottom: 1%;
-        color: #3F4D8B;
-        background-color: #fff;
-    }
-    .kontakts__call a{
-        text-decoration: none;
-        padding: 10% 0;
-        color: #FFFFFF;
-    }
-    .kontakts__text span{
-        color: #3F4D8B;
-        font-size: 55px;
-    }
-    .kontakts__tetxf{
-        width: 40%;
-        height: 80%;
-        top: 25%;
-        left: 0;
-    
-        position: absolute;
-    
-        z-index: 1;
-        background-color:rgba(255, 255, 255, 0.0);
-    }
-    .kontakts__map{
-        width: 100%;
-        height: 100%;
-        z-index: 3;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-    }
-    .map__social{
-        width: 100%;
-        height: 60%;
-    
-        display: flex;
-        flex-direction: column;
-        position: relative;
-    }
-    .socialmap{
-        width: 20%;
-        height: 20%;
-        margin-top: 3%;
-        margin-left: 78%;
-    
-        
-        background-color: rgba(255, 255, 255, 0.8);
-        border-radius: 20px;
-        transition: all .1s linear;
-    }
-    .socialmap img{
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 10%;
-        transition:  opacity .3s linear;
-    }
-    .socialmap:hover{
-        background-color: rgba(255, 255, 255, 0.98);
-    }
-    .socialmap img:hover{
-        opacity: .5;
-    }
-    .map__map{
-        width: 100%;
-        height: 40%;
-        display: flex;
-        position: absolute;
-        bottom: 10%;
-        left: 5%;
-
-    }
-    .map__block{
-        width: 90%;
-        height: 300px;
-        margin: 0;
-        position: absolute;
-        overflow: hidden;
-    
-    
-        border-radius: 55px;
-        border: 5px solid #3F4D8B;
-        box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
-    }
-}
 @media(max-width: 1024px){
     .header__buttonp{
         font-size: 12px;
@@ -2431,8 +1509,1018 @@
         padding: 10%;
     }
 }
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media(max-width: 400px){
+    .header__burger{
+        display: flex;
+    }
+    .face__fon{
+        width: 90%;
+        height: 100%;
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        opacity: 1;
+    }
+    .header__logo{
+        display: none;
+    }
+    .header__button{
+        display: none;
+    }
+    .vuborh1{
+        width: 100%;
+        height: 10%;
+        padding: 10% 0;
 
+        font-size: 20px;
+    }
+    .vubor-href{
+        width: 100%;
+        height: 50%;
+    
+        display: flex;
+        flex-direction: column;
+        margin-top: 30%;
+    }
+    .vubor-href a{
+        width: 90%;
+    
+        padding: 2% 5%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+        font-size: 15px;
+    
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #3B1D6B;
+        border-radius: 50px;
+        color: #FFFFFF;
+        transition: all linear .5s;
+    }
+    .vubor-href a:hover{
+        width: 100%;
+        background-color: #fff;
+        border: 3px solid #3B1D6B;
+        color: #3B1D6B;
+    }
+    .vubor-button{
+        margin-top: 2%;
+    }
+    .vubor-button a{
+        font-family: 'skalalend';
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 1% 3%;
+    
+        border-radius: 50px;
+        background-color: #fff;
+        border: 3px solid #3B1D6B;
+        color: #3B1D6B;
+    
+        transition: all linear .5s;
+        text-decoration: none;
+    }
+    .vubor-button a:hover{
+        background-color: #3B1D6B;
+        color: #FFF;
+        padding: 1% 4%;
+        cursor: pointer;
+    }
+    .cloned__menu{
+        position: fixed;
+        
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        z-index: 50;
+        display: none;
+    
+        background: rgba(255, 255, 255, 0.95);
+    }
+    .cloned__show{
+        position: fixed;
+        
+        width: 90%;
+        height: 100%;
+        top:0;
+        left: 10%;
+        z-index: 50;
+        display: flex;
+        flex-direction: column;
+    
+        background: rgba(255, 255, 255, 0.95);
+    }
+    .cloned__logo{
+        width: 100%;
+        height: 15%;
+        margin-bottom: 25%;
+    }
+    .cloned__logo img {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .cloned__button{
+        width: 90%;
+        height: 10%;
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+    .cloned__buttonp{
+        position: relative;
+        width: 70%;
+        text-align: center;
+        
+        font-family: 'Impact';
+        font-size: 30px;
+        color: #EEF3ED;
+        padding-top: 2%;
+        text-shadow: 
+        -0   -1px 0   #3B1D6B,
+        0   -1px 0   #3B1D6B,
+        -0    1px 0   #3B1D6B,
+        0    1px 0   #3B1D6B,
+        -1px -0   0  #3B1D6B,
+        1px -0   0  #3B1D6B,
+        -1px  0   0  #3B1D6B,
+        1px  0   0   #3B1D6B,
+    }
+    .cloned__buttonp a{
+        text-decoration: none;
+        padding-left: 0;
+        padding-right: 15%;
+        color: #EEF3ED;
+    }
+    .cloned__button img{
+        position: absolute;
+        width: 15%;
+        height: 50%;
+        top: 25%;
+        left: 5%;
+    }
+    .cloned__img{
+        position: absolute;
+        width: 13%;
+        height: 50%;
+        top: 16%;
+        left: 82%;
+    }
+    .cloned__img img{
+        width: 100%;
+        height: 100%;
+        padding: 1%;
+    }
+    .cloned__zvonok{
+        width: 40%;
+        height: 10%;
+        position: relative;
+        margin: 5% auto;
+        background: rgba(84, 134, 76, 0.1);
+        border: 2px solid rgba(0, 0, 0, 0.2);
+        border-radius: 13px;
+        box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
+        transition: box-shadow 0.3s linear;
+        transition: translate 0.3s linear;
+        transition: opacity 0.3s linear;
+    }
+    .cloned__zvonok img{
+        width: 100%;
+        height: 100%;
+        padding: 2% 20%;
+    }
+    .cloned__zvonok:hover{
+        opacity: 0.6;
+        cursor: pointer;
+    }
+    .cloned__zvonok:active{
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+        transform: translate(3px,3px);
+        opacity: 1;
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////ВСПЛЫВАЮЩИЙ БЛОК ЗВОНКА..//////////////////////////////////////////////
+.zvonok__wrapper{
+    width: 90%;
+    height: 35%;
+
+    margin: 0 auto;
+    margin-top: 65%;
+    padding: 3% 0;
+    padding-left: 2%;
+    
+    position: relative;
+
+    border-radius: 50px;
+    background-color: #3B1D6B;
+}
+.zvonok__wrapper-h1{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2%;
+
+    color: #FFFFFF;
+    text-shadow: 
+    -0   -.5px 0   #FFFFFF,
+    0   -.5px 0   #FFFFFF,
+    -0    .5px 0   #FFFFFF,
+    0    .5px 0   #FFFFFF,
+    -.5px -0   0  #FFFFFF,
+    .5px -0   0  #FFFFFF,
+    -.5px  0   0  #FFFFFF,
+    .5px  0   0   #FFFFFF,
+    4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+.zvonok__wrapper-line{
+    width: 44%;
+    height: 0;
+    margin: 3% 0;
+    margin-left: 28%;
+
+    border: 1px solid #FFFFFF;
+}
+.zvonok__wrapper-h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'skalalend';
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.zvonok__wrapper form{
+    z-index: 8;
+    position: relative;
+    width: 70%;
+    
+    margin: 7% auto;
+}
+.zvonok__input{
+    width: 100%;
+    margin: 0 auto;
+    padding: 3% 0;
+    text-align: center;
+    background: #fff;
+    color: #111111;
+    font-size: 20px;
+    z-index: 8;
+}
+.zvonok__input:focus{
+    outline: none;
+}
+.zvonok__wrapper-fon{
+    display: none;
+}
+.zvonok__but{
+    width: 50%;
+    position: relative;
+    right: 0;
+    margin: 10% auto;
+    text-align: center;
+
+    border-radius: 50px;
+    border: 3px solid  #fff;
+    background: none;
+    z-index: 10;
+    transition: all .2s linear;
+
+    padding: 0;
+}
+.zvonok__but a{
+    width: 100%;
+    padding: 0;
+
+    font-family: 'skalalend';
+    font-size: 25px;
+    text-transform: uppercase;
+
+    text-decoration: none;
+    color: #fff;
+}
+.zvonok__but a:hover{
+    text-decoration: none;
+    color: #00A3E1;
+    padding: 25% 0;
+}
+.zvonok__but:hover{
+    padding: 4% 4%;
+    right: 4%;
+    bottom: 3%;
+    color: #00A3E1;
+    background: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.zvonok__logo{
+    display: none;
+}
+.zvonok__crest{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 10;
+    opacity: .7;
+
+    width: 10px;
+    height: 10px;
+}
+.zvonok__crest img{
+    width: 100%;
+    height: 100%;
+}
+//БЛОК ЗАГЛАВНОЙ СТРАНИЦЫ...////////////////////////////////////////////////////////////////////////////
+.face{
+    background: rgba(255, 255, 255, 0.8);
+    position: relative;
+}
+.face__h1{
+    height: 50%;
+    position: relative;
+    background: none;
+}
+.face__h1logo{
+    position: absolute;
+    width: 182px;
+    height: 120px;
+    left: 25%;
+    top: 5%;
+}
+.face__h1logo img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.face__h1txt{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 40%;
+}
+.face__h1txt p{
+    width: 100%;
+    margin: 0;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+.face__h1txt span{
+    font-size: 30px;
+}
+.face__h1phone{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 5%;
+}
+.face__h1phone p{
+    width: 100%;
+    margin: 0;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+.face__h1phone span{
+    font-size: 35px;
+}
+.face__line{
+    border: 0px solid #FFD507;
+}
+.face__h2{
+    width: 100%;
+    z-index: 3;
+    position: absolute;
+    bottom: 10%;
+}
+.face__h2 p{
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0;
+    text-align: center;
+}
+.face__h2f{
+    border-bottom: 0px solid rgba(255, 255, 255, 0.8);
+}
+//СЛАЙДЕР//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    .face__slaider{
+        width: 100%;
+        height: 35%;
+        position: absolute;
+        margin: 0;
+        z-index: 3;
+    }
+    .slaider__dot{
+        width: 30%;
+        position: absolute;
+        bottom: 10%;
+        left: 35%;
+    }
+    .sldot {
+        height: 20px;
+        width: 20px;
+    }
+    .sldot:hover {
+        background: #FFE568;
+        border: 2px solid #AC9D55;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        height: 22px;
+        width: 22px;
+    }
+    .sldot-active{
+        background: #FFE568;
+        border: 2px solid #AC9D55;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        height: 22px;
+        width: 22px;
+    }
+////////////////////////////////////////
+    .face__social{
+        width: 90%;
+        height: 5%;
+        position: absolute;
+        bottom: 1%;
+        right: 5%;
+        z-index: 3;
+    }
+
+    .social{
+        width: 15%;
+        height: 100%;
+        position: relative;
+        background: rgba(255, 255, 255, 0.7);
+        border: 1px solid rgba(164, 155, 155, 0.6);
+        border-radius: 10px;
+    }
+    .social  img{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 7%;
+    }
+    .social:hover{
+        opacity: .8;
+    }
+//БЛОК О ЦЕНТРЕ ////////////////////////////////////////////////////////////////////////////
+    .about{
+        background: rgba(255, 255, 255, 0.8);
+    }
+    .about__h1{
+        width: 100%;
+        height: 20%;
+        z-index: 3;
+    }
+    .about__h1txt{
+        width:100%;
+        height: 10%;
+        position: absolute;
+        top: 1%;
+
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .about__h1txt p{
+        width: 100%;
+        margin-top: 0;
+    }
+    .about__h1txt span{
+        font-size: 25px;
+    }
+    .about__h1txtf{
+        border-bottom: 0px solid rgba(255, 255, 255, 0.8);
+    }
+    .about__h2{
+        width: 100%;
+        height: 60%;
+        margin-top: 7%;
+    
+        display: flex;
+        flex-direction: row;
+        z-index: 3;
+        justify-content: space-between;
+    }
+    .about__slaider{
+        width: 100%;
+        height: 100%;
+    }
+    //Слайдер второй............./////////////////////////////////////////////
+    .swiper-container {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        position: absolute;
+        top: 28%;
+    
+        border-radius: 48px;
+    }
+    .swiper-wrapper{
+        width: 432px;
+        height: 293px;
+    }
+    .swiper-slide {
+        width: 100%;
+        height: 100%;
+    
+        background: rgba(255, 255, 255, 0.75);
+        border-radius: 48px;
+        position: relative;
+    }
+    .swiper-slide img{
+        width: 90%;
+        height: 85%;
+        margin: 5%;
+    
+        border-radius: 50px;
+    }
+    //////////////////////////////////////////////////////////////////////////
+
+    .about__h2txt{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        margin-top: 2%;
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+    .about__h2txt span{
+        font-size: 20px;
+    }
+    .about__h2tx1{
+        width: 95%;
+        margin: 0%;
+        margin-left: 5%
+    }
+    .about__h2tx2{
+        width: 95%;
+        margin: 0;
+        bottom: 38%;
+        text-align: right;
+        position: absolute;
+        right: 5%;
+    }
+    .about__h2txl{
+        width: 80%;
+        height: 0;
+        position: absolute;
+        top: -2%;
+        border: 2px solid #FFD507;
+        margin: 0;
+        left: 10%;
+    }
+    .about__h2txf{
+        border-bottom: 0px solid rgba(255, 255, 255, 0.8);
+    }
+    .about__h3{
+        width: 100%;
+        height: 10%;
+        margin: 0;
+        position: absolute;
+        bottom: 0%;
+    
+        background: none;
+    }
+    .about__h3txt{
+        padding: 0;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .about__h3 span{
+        font-size: 25px;
+    }
+    //БЛОК АКТИВНОСТИ............////////////////////////////////////////////////////////////////////////
+    .acktiv{
+        background-color:  rgba(255, 255, 255, 0.6);
+    }
+    .acktiv__h1{
+        width: 90%;
+        height: 20%;
+        margin-left: 5%;
+    }
+    .acktiv__h1f{
+        border-bottom: 0px solid rgba(255, 255, 255, 0.8);
+    }
+    .acktiv__h1 p{
+        margin: 0;
+        margin-top: 5%;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .acktiv__h1 span{
+        font-size: 25px;
+    }
+    .acktiv__slaider{
+        display: none;
+    }
+    .acktiv__slaider2{
+        width: 80%;
+        height: 80%;
+        z-index: 2;
+        margin: 0 auto;
+        margin-top: 25%;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        outline: none;
+    }
+    
+    .aslaid{
+        width: 20%;
+        height: 370px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        outline: none;
+    
+        background: rgba(253, 253, 253, 0.8);
+        border-radius: 30px;
+    }
+    
+    
+    .aslaid__img{
+        width: 90%;
+        height: 50%;
+        margin: 0 auto;
+        margin-top: 5%;
+        position: relative;
+    
+        background: none;
+        border-radius: 43px;
+    }
+    
+    .aslaid p{
+        font-size: 25px;
+    }
+    .aslaid span{
+        font-size: 24px;
+    }
+    .aslaid__btn{
+        font-size: 25px;
+    }
+    .aslaid__btn:hover{
+        font-size: 27px;
+    }
+    //БЛОК С ЦЕНАМИ..............//////////////////////////////////////////////////////
+    .prais{
+        background-color: rgba(253, 253, 253, 0.6);
+    }
+    .prais__h1{
+        width: 100%;
+        height: 20%;
+        top: 5%;
+        z-index: 2;
+        position: absolute;
+    }
+    .prais__h1 p{
+        margin: 0;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .prais__h1 span{
+        font-size: 25px;
+    }
+    .prais__h1f{
+        border-bottom: 0px solid rgba(255, 255, 255, 0.8);
+    }
+    .prais__cena{
+        width: 100%;
+        height: 70%;
+        position: absolute;
+        top: 30%;
+    }
+    .cena1{
+        width: 0%;
+    }
+    .cena2{
+        width: 100%;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: column;
+    
+        padding: 0 3%;
+    }
+    .cena2__txt{
+        width: 100%;
+        height: 40%;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        z-index: 2;
+    }
+    .cena2__txt1{
+        width: 48%;
+        height: 100%;
+    
+        border-radius: 50px;
+        background: rgba(255, 255, 255, 0.5);
+        border: 3px solid #FFD507;
+    
+    }
+    .txt__content{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .txt__content li{
+        margin-top: 7%;
+    }
+    .txt__content li span{
+        font-size: 13px;
+    }
+    .txt__contentline{
+        border: 2px solid #FFD507;
+    }
+
+    .txt__content2{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .txt__content2 li{
+        margin-top: 7%;
+    }
+    .txt__content2 li span{
+        font-size: 13px;
+    }
+    .txt__contentline2{
+        border: 2px solid #00A3E1;
+    }
+    .cena__animat{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .cena__animat span{
+        font-size: 13px;
+    }
+    .cena__button{
+        margin-top: -5%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .cena__button:hover{
+        margin-top: -8%;
+    }
+    .cena2__f{
+        display: none;
+    }
+    .prais__line{
+        width: 90%;
+        height: 0;
+        top: 20%;
+        border: 2px solid #FFD507;
+    }
+    
+//БЛОК ЗАКАЗА..../////////////////////////////////////////////////////////////////////
+    .zakaz{
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    .zakaz__h1{
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        margin-top:5%;
+        margin-bottom: 5%;
+    }
+    .zakaz__h1 p{
+        width: 100%;
+        padding:0;
+    }
+    .zakaz__h1 span{
+        font-size: 30px;
+    }
+    .zakaz__h1f{
+        border-bottom: 0px solid rgba(255, 255, 255, 0.8);
+    }
+    .zakaz__forma{
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.2);
+    }
+    input[type=text],input[type=email],input[type=tel],textarea{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+    .input{
+        width: 90%;
+        height: 40px;
+
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .input:focus{
+        width: 95%;
+        outline: 0;
+        border: 3px solid #00A3E1;
+    }
+    ::placeholder{
+        color: #3F4D8B;
+    }
+    textarea.input{
+        resize: none;
+        height: 305px;
+        padding-top: 15px;
+    }
+    select.input:focus{
+        width: 90%;
+    }
+    select, option{
+        cursor: pointer;
+    }
+    .zakaz__button{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    .zakaz__button1 button{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .zakaz__button2 button{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .zakaz__line{
+        width: 90%;
+        left: 5%;
+        top: 12%;
+    }
+    
+//БЛОК КОНТАКТОВ........................///////////////////////////////////////////////////
+.kontakts{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+.kontakts__h1{
+    z-index: 2;
+
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    font-family: 'skalalend';
+    font-size: 25px;
+    line-height: 30px;
+    padding: 5% 3%;
+    margin-bottom: 5%;
+
+    color: #3F4D8B;
+
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+
+    background-color:rgba(255, 255, 255, 0);
+}
+.kontakts__h1 span{
+    font-size: 25px;
+    color: #3F4D8B;
+}
+.kontakst__block{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+
+    z-index: 3;
+}
+.kontakts__text{
+    width: 70%;
+    height: 80%;
+    padding-left: 3%;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #3F4D8B;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
+
+}
+.kontakts__text p{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    z-index: 2;
+}
+.kontakts__text span{
+    color: #3F4D8B;
+    font-weight: normal;
+    font-size: 20px;
+}
+.kontakts__call{
+    width: 65%;
+    margin:  0 auto;
+    padding: 2% 0;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: #3F4D8B;
+
+    border-radius: 20px;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+    transition: all .3s linear;
+}
+.kontakts__call:hover{
+    padding: 3% 0;
+    cursor: pointer;
+    background-color: #5d70c5;
+}
+.kontakts__call a{
+    text-decoration: none;
+    padding: 10% 0;
+    color: #FFFFFF;
+}
+
+.kontakts__tetxf{
+    width: 40%;
+    height: 80%;
+    top: 25%;
+    left: 0;
+
+    position: absolute;
+
+    z-index: 1;
+    background-color:rgba(255, 255, 255, 0);
+}
+.kontakts__map{
+    width: 60%;
+    height: 80%;
+    z-index: 3;
+
+    display: flex;
+    flex-direction: column;
+}
+.map__social{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.socialmap{
+    width: 35%;
+    height: 10%;
+    margin-top: 20%;
+    margin-left: 45%;
+
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    transition: all .1s linear;
+}
+.socialmap img{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 10%;
+    transition:  opacity .3s linear;
+}
+.socialmap:hover{
+    background-color: rgba(255, 255, 255, 0.98);
+}
+.socialmap img:hover{
+    opacity: .5;
+}
+.map__map{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    position: absolute;
+    bottom: 2%;
+    left: 0%;
+}
+.map__block{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+
+
+    border-radius: 55px;
+    border: 5px solid #3F4D8B;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
+}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media(max-width: 380px){
     //БЛОК ЗАГЛАВНОЙ СТРАНИЦЫ...////////////////////////////////////////////////////////////////////////////
     .face{
