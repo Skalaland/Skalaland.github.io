@@ -29,19 +29,7 @@ crest.on("click", function(event){
     event.preventDefault();
     zvonok.toggleClass("show");
 });
-//Выбор центра.........................................
-let vubcrest = $("#vubcrest");
-let vubor = $("#vubor");
-let vuborbut = $("#vuborbut");
 
-vuborbut.on("click", function(event){
-  event.preventDefault();
-  vubor.toggleClass("show");
-});
-vubcrest.on("click", function(event){
-  event.preventDefault();
-  vubor.toggleClass("show");
-});
 //Вологда..............................................
 let tc = $("#tc");
 let plant = $("#plant");
@@ -242,5 +230,22 @@ $('.acktiv__slaider2').slick({
   autoplay: true,
   autoplaySpeed: 3000,
 });
+//Выбор центра.........................................
+let vubcrest = $("#vubcrest");
+let vubor = $("#vubor");
+let vuborbut = $("#vuborbut");
+let vuborbutcln = $("#vuborbutcln");
 
+vuborbut.on("click", function(event){
+  event.preventDefault();
+  vubor.toggleClass("show");
+});
+vuborbutcln.on("click", function(event){
+  event.preventDefault();
+  vubor.toggleClass("show");
+});
+vubcrest.on("click", function(event){
+  event.preventDefault();
+  vubor.toggleClass("show");
+});
 
