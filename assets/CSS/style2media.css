@@ -1091,7 +1091,7 @@
     }
     100% {
       opacity: 1;
-      top: 35%;
+      top: 50%;
     }
   }
   @keyframes mount2 {
@@ -1105,7 +1105,7 @@
     }
     100% {
       opacity: 1;
-      top: 35%;
+      top: 50%;
     }
   }
   .parallax__mount1 {
@@ -1126,7 +1126,7 @@
     }
     100% {
       opacity: 1;
-      bottom: 16%;
+      bottom: 13%;
     }
   }
   @keyframes mount1 {
@@ -1140,7 +1140,7 @@
     }
     100% {
       opacity: 1;
-      bottom: 16%;
+      bottom: 13%;
     }
   }
   .parallax__hill1 {
@@ -1349,7 +1349,7 @@
   }
   .parallax__longboard img {
     width: 623px;
-    height: 2000px;
+    height: 2200px;
   }
   @-webkit-keyframes longbord {
     0% {
