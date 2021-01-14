@@ -168,7 +168,7 @@
     }
     .parallax__hill1 img{
         width: 1808px;
-        height: 262px;
+        height: 562px;
     }
     @keyframes hill1{
         0%{
@@ -180,7 +180,7 @@
             bottom: 10%;   
         }
         100%{
-            bottom: -2%;
+            bottom: -5%;
             opacity: 1;
     
         }
@@ -188,7 +188,7 @@
 //Холм 2//////////////////////////////////////////////////////////////
     .parallax__hill2 img{
         width: 902px;
-        height: 223px;
+        height: 323px;
     }
     @keyframes hill2{
         0%{
@@ -200,7 +200,7 @@
             bottom: 20%;   
         }
         100%{
-            bottom: 7%;
+            bottom: 10%;
             opacity: 1;
         }
     }
@@ -221,7 +221,7 @@
             bottom: -7%;
         }
         100%{
-            bottom: 3%;
+            bottom: 12%;
             opacity: 1;
         }
     }
@@ -242,7 +242,7 @@
             bottom: -12%;
         }
         100%{
-            bottom: 8%;
+            bottom: 15%;
             opacity: 1;
         }
     }
