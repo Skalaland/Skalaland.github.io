@@ -1,0 +1,437 @@
+@media(max-width:1380px){
+    //МЕНЮ НАВИГАЦИИ/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    .header__buttonp{
+        margin-top: -18%;
+        font-size: 15px;
+        text-shadow: 
+        -0   -1px 0   #3F4D8B,
+        0   -1px 0   #3F4D8B,
+        -0    1px 0   #3F4D8B,
+        0    1px 0   #3F4D8B,
+        -1px -0   0  #3F4D8B,
+        1px -0   0  #3F4D8B,
+        -1px  0   0  #3F4D8B,
+        1px  0   0   #3F4D8B,
+        2px 2px 2px rgba(0, 0, 0, 0.25);
+    }
+    .header__button img{
+        width: 100%;
+        padding: 2% 10% 10% 10%;
+        opacity: .9;
+        z-index: 1;
+    }
+    //Всплывающий блок обратной связи.////////////////////////////////////////
+    .zvonok__wrapper{
+        height: 50%;
+    }
+    .zvonok__wrapper-h1{
+        font-size: 30px;
+    }
+    .zvonok__wrapper-line{
+        width: 55%;
+        border: 2px solid #FFFFFF;
+    }
+    .zvonok__wrapper-h2{
+        width: 60%;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .zvonok__input{
+        margin-top: 5%;
+        background: none;
+        color: #111111;
+        font-size: 30px;
+        width: 60%;
+    
+        z-index: 8;
+        padding-left: 2%;
+    }
+    .zvonok__input:focus{
+        outline: none;
+    }
+    .zvonok__wrapper-fon{
+        position: absolute;
+        bottom: 5%;
+        width: 60%;
+        border-bottom: 75px solid #FFFFFF;
+        border-right: 100px solid transparent;
+    
+        z-index: 1;
+    }
+    .zvonok__wrapper button{
+        position: absolute;
+        right: 5%;
+        bottom: 5%;
+    
+        padding: 3% 3%;
+        border-radius: 50px;
+        border: 2px solid  #fff;
+    
+        font-family: 'skalalend';
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #fff;
+    
+        background: none;
+        z-index: 10;
+        transition: all .2s linear;
+    }
+    .zvonok__wrapper button:hover{
+        padding: 4% 4%;
+        right: 4%;
+        bottom: 3%;
+        color: #00A3E1;
+        background: none;
+        background-color: #FFFFFF;
+        cursor: pointer;
+    }
+    .zvonok__logo{
+        position: absolute;
+        right: 5%;
+        bottom: 40%;
+    
+        width: 110px;
+        height: 110px;
+    
+        background-color: #FFFFFF;
+    }
+    .zvonok__logo img{
+        width: 95%;
+        height: 90%;
+        margin: 5% 2.5%;
+    }
+    .zvonok__crest{
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        z-index: 10;
+        opacity: .7;
+    
+        width: 50px;
+        height: 50px;
+    }
+    .zvonok__crest:hover{
+        cursor: pointer;
+        opacity: .5;
+    }
+    .wrapper h1{
+        margin: 1% 2%;
+        font-size: 65px;
+    }
+    .wrapper span{
+        font-size: 65px;
+    }
+    /* Slider */
+    .slick-slide{
+        height: 270px;
+    }
+    .slick-active{
+        height: 350px;
+    }
+
+///////////////////////////////////////////////////////////////////////////////////////////
+    .content{
+        height: 100%;
+    }
+    .content__wrapper{
+        margin-top: 1%;
+        height: 400px;
+    }
+    .content__wrapper-txt h1{
+        padding-left: 2%;
+        padding-top: 5%;
+        font-size: 35px;
+    }
+    .content__wrapper-txt-line{
+        top: 24%;
+        width: 30%;
+    }
+    .content__wrapper-txt p{
+        font-size: 20px;
+        line-height: 25px;
+
+        height: 10%;
+    }
+/////////////////////////////////////////////////////////////////////////////////////////////////
+    .content__wrapper2-txt h1{
+        padding-right: 10%;
+        padding-top: 5%;
+        font-size: 35px;
+    }
+    .content__wrapper2-txt-line{
+        top: 24%;
+        width: 30%;
+    }
+    .content__wrapper2-txt p{
+        font-size: 20px;
+        line-height: 25px;
+
+        height: 10%;
+    }
+}
+@media(max-width: 800px){
+//МЕНЮ НАВИГАЦИИ/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    .header__buttonp{
+        margin-top: 10%;
+        font-size: 8px;
+    }
+    .header__button img{
+        width: 100%;
+        padding-top: 20%;
+    }
+//Всплывающий блок обратной связи.////////////////////////////////////////
+        .zvonok__wrapper{
+            height: 35%;
+        }
+        .zvonok__wrapper-h1{
+            font-size: 30px;
+        }
+        .zvonok__wrapper-line{
+            width: 55%;
+            border: 2px solid #FFFFFF;
+        }
+        .zvonok__wrapper-h2{
+            width: 60%;
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .zvonok__wrapper form{
+            width: 50%;
+            padding: 0;
+            margin: 0;
+        }
+        .zvonok__input{
+            margin-top: 5%;
+            background: none;
+            color: #111111;
+            font-size: 20px;
+            width: 60%;
+        
+            z-index: 8;
+            padding-left: 2%;
+        }
+        .zvonok__input:focus{
+            outline: none;
+        }
+        .zvonok__wrapper-fon{
+            position: absolute;
+            bottom: 5%;
+            width: 60%;
+            border-bottom: 45px solid #FFFFFF;
+            border-right: 50px solid transparent;
+        
+            z-index: 1;
+        }
+        .zvonok__wrapper button{
+            position: absolute;
+            right: 5%;
+            bottom: 5%;
+        
+            padding: 3% 3%;
+            border-radius: 50px;
+            border: 2px solid  #fff;
+        
+            font-family: 'skalalend';
+            font-size: 20px;
+            text-transform: uppercase;
+            color: #fff;
+        
+            background: none;
+            z-index: 10;
+            transition: all .2s linear;
+        }
+        .zvonok__wrapper button:hover{
+            padding: 4% 4%;
+            right: 4%;
+            bottom: 3%;
+            color: #00A3E1;
+            background: none;
+            background-color: #FFFFFF;
+            cursor: pointer;
+        }
+        .zvonok__logo{
+            position: absolute;
+            right: 10%;
+            bottom: 40%;
+        
+            width: 50px;
+            height: 50px;
+        
+            background-color: #FFFFFF;
+        }
+        .zvonok__logo img{
+            width: 95%;
+            height: 90%;
+            margin: 5% 2.5%;
+        }
+        .zvonok__crest{
+            position: absolute;
+            right: 20%;
+            top: 7%;
+            z-index: 10;
+            opacity: .7;
+        
+            width: 10px;
+            height: 10px;
+        }
+        .zvonok__crest:hover{
+            cursor: pointer;
+            opacity: .5;
+        }
+        .content{
+            height: 550%;
+        }
+        .wrapper h1{
+            margin: 1% 2%;
+            font-size: 65px;
+        }
+        .wrapper span{
+            font-size: 70px;
+        }
+    /* Slider */
+    .slick-list{
+        margin-top: 5%;
+    }
+    .slick-slide{
+        height: 200px;
+        position: relative;
+    }
+    .slick-slide img{
+        width: 70%;
+        height: 50%;
+
+        margin-top: 15%;
+        margin-left: 15%;
+    }
+
+    .slick-active{
+        height: 250px;
+    }
+    .slick-active img{
+        width: 70%;
+        height: 70%;
+
+        margin-top: 15%;
+        margin-left: 15%;
+    }
+    
+    ///////////////////////////////////////////////////////////////////////////////////////////
+        .content{
+            height: 550%;
+        }
+        .content__wrapper{
+            width: 100%;
+            height: 350px;
+        }
+        .content__wrapper-txt h1{
+            margin: 3% 5%;
+            font-size: 30px;
+        }
+        .content__wrapper-txt-line{
+            top: 20%;
+            border: 2px solid #FFD507;
+        }
+        .content__wrapper-txt p{
+            font-size: 15px;
+            line-height: 20px;
+        }
+    /////////////////////////////////////////////////////////////////////////////////////////////////
+        .content__wrapper2-txt h1{
+            margin: 3%;
+            margin-right: 15%;
+            font-size: 30px;
+        }
+        .content__wrapper2-txt-line{
+            top: 20%;
+            border: 2px solid #FFD507;
+        }
+        .content__wrapper2-txt p{
+            font-size: 15px;
+            line-height: 20px;
+        }
+}
+@media(max-width: 380px){
+    .header__burger{
+        display: flex;
+    }
+    .header__logo{
+        display: none;
+    }
+    .header__button{
+        display: none;
+    }
+    .content{
+        height: 550%;
+    }
+    .wrapper h1{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .wrapper span{
+        font-size: 25px;
+    }
+    .content__h1f{
+        border-bottom: 70px solid rgba(255, 255, 255, 0.8);
+    }
+    /* Slider */
+    .slick-list{
+        margin-top: 40%;
+    }
+    .slick-slide{
+        height: 50px;
+        position: relative;
+    }
+    .slick-slide img{
+        width: 70%;
+        height: 50%;
+
+        margin-top: 15%;
+        margin-left: 15%;
+    }
+
+    .slick-active{
+        height: 100px;
+    }
+    .slick-active img{
+        width: 70%;
+        height: 70%;
+
+        margin-top: 15%;
+        margin-left: 15%;
+    }
+    
+    ///////////////////////////////////////////////////////////////////////////////////////////
+        .content{
+            height: 400%;
+        }
+        .content__wrapper{
+            width: 100%;
+            height: 350px;
+        }
+        .content__wrapper-txt h1{
+            margin: 3% 5%;
+            font-size: 20px;
+        }
+        .content__wrapper-txt-line{
+            top: 10%;
+            border: 2px solid #FFD507;
+        }
+        .content__wrapper-txt p{
+            font-size: 10px;
+            line-height: 15px;
+        }
+    /////////////////////////////////////////////////////////////////////////////////////////////////
+        .content__wrapper2-txt h1{
+            margin: 3% 0;
+            padding-right: 4%;
+            font-size: 20px;
+        }
+        .content__wrapper2-txt-line{
+            top: 10%;
+            border: 2px solid #FFD507;
+        }
+        .content__wrapper2-txt p{
+            font-size: 10px;
+            line-height: 15px;
+        }
+}
