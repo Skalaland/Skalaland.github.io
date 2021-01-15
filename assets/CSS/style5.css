@@ -140,14 +140,14 @@ html, body {
   text-align: center;
   font-family: 'Impact';
   font-size: 15px;
-  color: #6E7097;
+  color: #EEF3ED;
   text-shadow: 0 -1px 0 #3B1D6B, 0 -1px 0 #3B1D6B, 0 1px 0 #3B1D6B, 0 1px 0 #3B1D6B, -1px 0 0 #3B1D6B, 1px 0 0 #3B1D6B, -1px 0 0 #3B1D6B, 1px 0 0 #3B1D6B;
 }
 
 .cloned__buttonp a {
   text-decoration: none;
   padding-left: -50px;
-  color: #6E7097;
+  color: #EEF3ED;
 }
 
 .cloned__button:hover {
@@ -209,8 +209,8 @@ html, body {
   margin-top: -10%;
   width: 100%;
   font-family: 'Impact';
-  font-size: 20px;
-  color: #6E7097;
+  font-size: 23px;
+  color: #EEF3ED;
   text-align: center;
   text-shadow: 0 -1px 0 #3B1D6B, 0 -1px 0 #3B1D6B, 0 1px 0 #3B1D6B, 0 1px 0 #3B1D6B, -1px 0 0 #3B1D6B, 1px 0 0 #3B1D6B, -1px 0 0 #3B1D6B, 1px 0 0 #3B1D6B;
 }
@@ -218,7 +218,7 @@ html, body {
 .header__button a {
   padding-top: 100%;
   text-decoration: none;
-  color: #6E7097;
+  color: #EEF3ED;
 }
 
 .header__button:hover {
@@ -256,128 +256,6 @@ html, body {
   background: rgba(255, 255, 255, 0.8);
 }
 
-.zvonok__wrapper {
-  width: 50%;
-  height: 50%;
-  margin: 0 auto;
-  padding: 3% 0;
-  padding-left: 2%;
-  margin-top: 10%;
-  position: relative;
-  border-radius: 50px;
-  background-color: #00A3E1;
-}
-
-.zvonok__wrapper-h1 {
-  width: 100%;
-  font-family: 'skalalend';
-  font-size: 50px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  text-shadow: 0 -0.5px 0 #FFFFFF, 0 -0.5px 0 #FFFFFF, 0 0.5px 0 #FFFFFF, 0 0.5px 0 #FFFFFF, -0.5px 0 0 #FFFFFF, 0.5px 0 0 #FFFFFF, -0.5px 0 0 #FFFFFF, 0.5px 0 0 #FFFFFF, 4px 4px 2px rgba(0, 0, 0, 0.25);
-}
-
-.zvonok__wrapper-line {
-  width: 65%;
-  height: 0;
-  margin: 3% 0;
-  border: 3px solid #FFFFFF;
-}
-
-.zvonok__wrapper-h2 {
-  width: 70%;
-  font-family: 'skalalend';
-  font-size: 45px;
-  line-height: 55px;
-  color: #FFFFFF;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.zvonok__wrapper form {
-  z-index: 8;
-  position: relative;
-}
-
-.zvonok__input {
-  margin-top: 5%;
-  background: none;
-  color: #111111;
-  font-size: 50px;
-  width: 60%;
-  z-index: 8;
-  padding-left: 2%;
-}
-
-.zvonok__input:focus {
-  outline: none;
-}
-
-.zvonok__wrapper-fon {
-  position: absolute;
-  bottom: 5%;
-  width: 60%;
-  border-bottom: 105px solid #FFFFFF;
-  border-right: 100px solid transparent;
-  z-index: 1;
-}
-
-.zvonok__wrapper button {
-  position: absolute;
-  right: 5%;
-  bottom: 5%;
-  padding: 3% 3%;
-  border-radius: 50px;
-  border: 3px solid  #fff;
-  font-family: 'skalalend';
-  font-size: 45px;
-  text-transform: uppercase;
-  color: #fff;
-  background: none;
-  z-index: 10;
-  -webkit-transition: all .2s linear;
-  transition: all .2s linear;
-}
-
-.zvonok__wrapper button:hover {
-  padding: 4% 4%;
-  right: 4%;
-  bottom: 3%;
-  color: #00A3E1;
-  background: none;
-  background-color: #FFFFFF;
-  cursor: pointer;
-}
-
-.zvonok__logo {
-  position: absolute;
-  right: 10%;
-  bottom: 45%;
-  width: 130px;
-  height: 130px;
-  background-color: #FFFFFF;
-}
-
-.zvonok__logo img {
-  width: 95%;
-  height: 90%;
-  margin: 5% 2.5%;
-}
-
-.zvonok__crest {
-  position: absolute;
-  right: 5%;
-  top: 5%;
-  z-index: 10;
-  opacity: .7;
-  width: 50px;
-  height: 50px;
-}
-
-.zvonok__crest:hover {
-  cursor: pointer;
-  opacity: .5;
-}
-
 .content {
   width: 90%;
   height: 550%;
@@ -385,7 +263,7 @@ html, body {
   background-color: #00A3E1;
   background-attachment: fixed;
   background-position: center;
-  background-image: url(D:/skalalalnd/assets/IMG/foncont/fon3.png);
+  background-image: url("assets/IMG/fon.png");
   background-size: cover;
 }
 
