@@ -36,6 +36,7 @@ if (animItems.length > 0) {
     
 }
 
+/////////////////////////////////////////////////////////////
 $('.faq-content').slick({
     dots: true
 });
@@ -69,7 +70,7 @@ burbut.on("click", function(event){
     event.preventDefault();
     burger.toggleClass("show");
 });
-
+/*--
 //Меню навигации..................................
 $(function(){
     let navbar = $("#navbar");
@@ -86,4 +87,4 @@ $(window).on("scroll", function() {
         navbar.removeClass("sticky");
     }
     });
-});
+}); -*/
