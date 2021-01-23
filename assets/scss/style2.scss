@@ -1,0 +1,1580 @@
+*,*:before,*:after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    background-color:rgba(0, 161, 225, 0.493);
+}
+.content{
+    overflow: hidden;
+}
+
+.page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 360px;
+}
+
+.parallax{
+    flex: 1 0 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.parallax__list{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+.parallax__list li{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    list-style-type: none;
+}
+//Гора Левая//////////////////////
+.parallax__mount2{
+    position: absolute;
+    top: 5%;
+    left: -10%;
+    z-index: 1;
+    opacity: 0;
+    animation: mount2 2s ease 0.5s forwards;
+}
+.parallax__mount2 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__mount2 img{
+    width: 1557px;
+    height: 918px;
+}
+//Гора Правая/////////////////////////////////////
+.parallax__mount1{
+    position: absolute;
+    bottom: 0%;
+    right: -20%;
+    z-index: 1;
+    opacity: 0;
+    animation: mount1 2s ease 0.5s forwards;
+}
+.parallax__mount1 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__mount1 img{
+    width: 2007px;
+    height: 1155px;
+}
+//Холм левый/////////////////////////////////////
+.parallax__hill1{
+    position: absolute;
+    bottom: -9%;
+    left: -2%;
+    z-index: 1;
+    opacity: 0;
+    animation: hill1 2s ease 1.5s forwards;
+}
+.parallax__hill1 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__hill1 img{
+    width: 1480px;
+    height: 350px;
+}
+//Холм правый/////////////////////////////////////
+.parallax__hill2{
+    position: absolute;
+    bottom: -2%;
+    right: -2%;
+    z-index: 1;
+    opacity: 0;
+    animation: hill2 2s ease 2s forwards;
+}
+.parallax__hill2 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__hill2 img{
+    width: 1145px;
+    height: 356px;
+}
+//Лес левый/////////////////////////////////////
+.parallax__forest1{
+    position: absolute;
+    bottom: -5%;
+    left: 30%;
+    z-index: 1;
+    opacity: 0;
+    animation: forest1 2s ease 1.7s forwards;
+}
+.parallax__forest1 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__forest1 img{
+    width: 620px;
+    height: 743px;
+}
+//Лес правый/////////////////////////////////////
+.parallax__forest2{
+    position: absolute;
+    bottom: 2%;
+    right: 7%;
+    z-index: 1;
+    opacity: 0;
+    animation: forest2 2s ease 2.2s forwards;
+}
+.parallax__forest2 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__forest2 img{
+    width: 546px;
+    height: 341px;
+}
+//Доска франшиза/////////////////////////////////////
+.parallax__board{
+    position: absolute;
+    bottom: -2%;
+    right: 2%;
+    z-index: 1;
+    opacity: 0;
+    animation: board 2s ease 2.7s forwards;
+}
+.parallax__board span{
+    display: flex;
+    width: 440px;
+    left: 0%;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__board img{
+    width: 440px;
+    height: 630px;
+}
+.parallax__board a {
+    position: absolute;
+    width: 100%;
+
+    top: 25%;
+    left: 0%;
+    transform: rotate(0.5deg);
+
+    text-align: center;
+
+    text-decoration: none;
+    font-family: 'skalalend';
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 61px;
+    
+    text-shadow: 
+    -0   -3px 0   #705733,
+    0   -3px 0   #705733,
+    -0    3px 0   #705733,
+    0    3px 0   #705733,
+    -3px -0   0   #705733,
+    3px -0   0   #705733,
+    -3px  0   0   #705733,
+    3px  0   0   #705733,
+    -1px -3px 0   #705733,
+    1px -3px 0   #705733,
+    -1px  3px 0   #705733,
+    1px  3px 0   #705733,
+    -3px -1px 0   #705733,
+    3px -1px 0   #705733,
+    -3px  1px 0   #705733,
+    3px  1px 0   #705733,
+    -2px -3px 0   #705733,
+    2px -3px 0   #705733,
+    -2px  3px 0   #705733,
+    2px  3px 0   #705733,
+    -3px -2px 0   #705733,
+    3px -2px 0   #705733,
+    -3px  2px 0   #705733,
+    3px  2px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+.parallax__board a:hover{
+    animation: boardhov 1s linear 0.1s infinite alternate-reverse forwards;
+}
+//Доска основа/////////////////////////////////////
+.parallax__longboard{
+    position: absolute;
+    bottom: -20%;
+    left: 8.1%;
+    z-index: 1;
+    opacity: 0;
+    animation: longbord 1s ease 2.5s forwards;
+}
+.parallax__longboard span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__longboard p {
+    position: absolute;
+    margin: 0 auto;
+    top: 6%;
+    left: -21%;
+
+    text-align: left;
+    font-family: 'skalalend';
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 61px;
+    
+    text-shadow: 
+    -0   -3px 0   #705733,
+    0   -3px 0   #705733,
+    -0    3px 0   #705733,
+    0    3px 0   #705733,
+    -3px -0   0   #705733,
+    3px -0   0   #705733,
+    -3px  0   0   #705733,
+    3px  0   0   #705733,
+    -1px -3px 0   #705733,
+    1px -3px 0   #705733,
+    -1px  3px 0   #705733,
+    1px  3px 0   #705733,
+    -3px -1px 0   #705733,
+    3px -1px 0   #705733,
+    -3px  1px 0   #705733,
+    3px  1px 0   #705733,
+    -2px -3px 0   #705733,
+    2px -3px 0   #705733,
+    -2px  3px 0   #705733,
+    2px  3px 0   #705733,
+    -3px -2px 0   #705733,
+    3px -2px 0   #705733,
+    -3px  2px 0   #705733,
+    3px  2px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+.parallax__longboard img{
+    width: 623px;
+    height: 1167px;
+}
+//Доска Город1/////////////////////////////////////
+.parallax__plant1{
+    position: absolute;
+    top: 31%;
+    left: 14.3%;
+    z-index: 2;
+    opacity: 0;
+    animation: plant1 0.5s ease 3.7s forwards;
+}
+.parallax__plant1 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__plant1 a {
+    position: absolute;
+    margin: 0 auto;
+    top: 10%;
+    left: -50%;
+    text-decoration: none;
+
+    text-align: left;
+    font-family: 'skalalend';
+    font-size: 55px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 61px;
+    
+    text-shadow: 
+    -0   -3px 0   #705733,
+    0   -3px 0   #705733,
+    -0    3px 0   #705733,
+    0    3px 0   #705733,
+    -3px -0   0   #705733,
+    3px -0   0   #705733,
+    -3px  0   0   #705733,
+    3px  0   0   #705733,
+    -1px -3px 0   #705733,
+    1px -3px 0   #705733,
+    -1px  3px 0   #705733,
+    1px  3px 0   #705733,
+    -3px -1px 0   #705733,
+    3px -1px 0   #705733,
+    -3px  1px 0   #705733,
+    3px  1px 0   #705733,
+    -2px -3px 0   #705733,
+    2px -3px 0   #705733,
+    -2px  3px 0   #705733,
+    2px  3px 0   #705733,
+    -3px -2px 0   #705733,
+    3px -2px 0   #705733,
+    -3px  2px 0   #705733,
+    3px  2px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+.parallax__plant1 img{
+    width: 352px;
+    height: 83px;
+}
+.parallax__plant1h{
+    position: absolute;
+    top: 31%;
+    left: 14.3%;
+    z-index: 2;
+    opacity: 0;
+    animation: plant1h 0.5s ease 3.7s forwards;
+}
+.parallax__plant1h span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__plant1h a {
+    position: absolute;
+    margin: 0 auto;
+    top: 10%;
+    left: -50%;
+    text-decoration: none;
+
+    text-align: left;
+    font-family: 'skalalend';
+    font-size: 55px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 61px;
+    
+    text-shadow: 
+    -0   -3px 0   #705733,
+    0   -3px 0   #705733,
+    -0    3px 0   #705733,
+    0    3px 0   #705733,
+    -3px -0   0   #705733,
+    3px -0   0   #705733,
+    -3px  0   0   #705733,
+    3px  0   0   #705733,
+    -1px -3px 0   #705733,
+    1px -3px 0   #705733,
+    -1px  3px 0   #705733,
+    1px  3px 0   #705733,
+    -3px -1px 0   #705733,
+    3px -1px 0   #705733,
+    -3px  1px 0   #705733,
+    3px  1px 0   #705733,
+    -2px -3px 0   #705733,
+    2px -3px 0   #705733,
+    -2px  3px 0   #705733,
+    2px  3px 0   #705733,
+    -3px -2px 0   #705733,
+    3px -2px 0   #705733,
+    -3px  2px 0   #705733,
+    3px  2px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+.parallax__plant1h:hover{
+    animation: planthov 0.1s linear 0s 2 alternate-reverse forwards;
+    cursor: pointer;
+}
+//Доска Город2/////////////////////////////////////
+.parallax__plant2{
+    position: absolute;
+    top: 44.6%;
+    left: 14.3%;
+    z-index: 2;
+    opacity: 0;
+    animation: plant2 0.5s ease 3.5s forwards;
+}
+.parallax__plant2 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__plant2 a {
+    position: absolute;
+    margin: 0 auto;
+    top: 10%;
+    left: -50%;
+    text-decoration: none;
+
+    text-align: left;
+    font-family: 'skalalend';
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 61px;
+    
+    text-shadow: 
+    -0   -3px 0   #705733,
+    0   -3px 0   #705733,
+    -0    3px 0   #705733,
+    0    3px 0   #705733,
+    -3px -0   0   #705733,
+    3px -0   0   #705733,
+    -3px  0   0   #705733,
+    3px  0   0   #705733,
+    -1px -3px 0   #705733,
+    1px -3px 0   #705733,
+    -1px  3px 0   #705733,
+    1px  3px 0   #705733,
+    -3px -1px 0   #705733,
+    3px -1px 0   #705733,
+    -3px  1px 0   #705733,
+    3px  1px 0   #705733,
+    -2px -3px 0   #705733,
+    2px -3px 0   #705733,
+    -2px  3px 0   #705733,
+    2px  3px 0   #705733,
+    -3px -2px 0   #705733,
+    3px -2px 0   #705733,
+    -3px  2px 0   #705733,
+    3px  2px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+.parallax__plant2 img{
+    width: 352px;
+    height: 83px;
+}
+.parallax__plant2h{
+    position: absolute;
+    top: 44.6%;
+    left: 14.3%;
+    z-index: 2;
+    opacity: 0;
+    animation: planth 0.5s ease 3.5s forwards;
+}
+.parallax__plant2h span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__plant2h a {
+    position: absolute;
+    margin: 0 auto;
+    top: 10%;
+    left: -50%;
+    text-decoration: none;
+
+    text-align: left;
+    font-family: 'skalalend';
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 61px;
+    
+    text-shadow: 
+    -0   -3px 0   #705733,
+    0   -3px 0   #705733,
+    -0    3px 0   #705733,
+    0    3px 0   #705733,
+    -3px -0   0   #705733,
+    3px -0   0   #705733,
+    -3px  0   0   #705733,
+    3px  0   0   #705733,
+    -1px -3px 0   #705733,
+    1px -3px 0   #705733,
+    -1px  3px 0   #705733,
+    1px  3px 0   #705733,
+    -3px -1px 0   #705733,
+    3px -1px 0   #705733,
+    -3px  1px 0   #705733,
+    3px  1px 0   #705733,
+    -2px -3px 0   #705733,
+    2px -3px 0   #705733,
+    -2px  3px 0   #705733,
+    2px  3px 0   #705733,
+    -3px -2px 0   #705733,
+    3px -2px 0   #705733,
+    -3px  2px 0   #705733,
+    3px  2px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+.parallax__plant2h img{
+    width: 352px;
+    height: 83px;
+}
+.parallax__plant2h:hover{
+    animation: planthov 0.1s linear 0s 2 alternate-reverse forwards;
+    cursor: pointer;
+}
+//Доска Город3/////////////////////////////////////
+.parallax__plant3{
+    position: absolute;
+    top: 57.5%;
+    left: 14.3%;
+    z-index: 2;
+    opacity: 0;
+    animation: plant3 0.5s ease 3.3s forwards;
+}
+.parallax__plant3 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__plant3 a {
+    position: absolute;
+    margin: 0 auto;
+    top: 10%;
+    left: -50%;
+    text-decoration: none;
+
+    text-align: left;
+    font-family: 'skalalend';
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 61px;
+    
+    text-shadow: 
+    -0   -3px 0   #705733,
+    0   -3px 0   #705733,
+    -0    3px 0   #705733,
+    0    3px 0   #705733,
+    -3px -0   0   #705733,
+    3px -0   0   #705733,
+    -3px  0   0   #705733,
+    3px  0   0   #705733,
+    -1px -3px 0   #705733,
+    1px -3px 0   #705733,
+    -1px  3px 0   #705733,
+    1px  3px 0   #705733,
+    -3px -1px 0   #705733,
+    3px -1px 0   #705733,
+    -3px  1px 0   #705733,
+    3px  1px 0   #705733,
+    -2px -3px 0   #705733,
+    2px -3px 0   #705733,
+    -2px  3px 0   #705733,
+    2px  3px 0   #705733,
+    -3px -2px 0   #705733,
+    3px -2px 0   #705733,
+    -3px  2px 0   #705733,
+    3px  2px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+.parallax__plant3 img{
+    width: 352px;
+    height: 83px;
+}
+.parallax__plant3h{
+    position: absolute;
+    top: 57.5%;
+    left: 14.3%;
+    z-index: 2;
+    opacity: 0;
+    animation: planth 0.5s ease 3.3s forwards;
+}
+.parallax__plant3h span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__plant3h a {
+    position: absolute;
+    margin: 0 auto;
+    top: 10%;
+    left: -50%;
+    text-decoration: none;
+
+    text-align: left;
+    font-family: 'skalalend';
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 61px;
+    
+    text-shadow: 
+    -0   -3px 0   #705733,
+    0   -3px 0   #705733,
+    -0    3px 0   #705733,
+    0    3px 0   #705733,
+    -3px -0   0   #705733,
+    3px -0   0   #705733,
+    -3px  0   0   #705733,
+    3px  0   0   #705733,
+    -1px -3px 0   #705733,
+    1px -3px 0   #705733,
+    -1px  3px 0   #705733,
+    1px  3px 0   #705733,
+    -3px -1px 0   #705733,
+    3px -1px 0   #705733,
+    -3px  1px 0   #705733,
+    3px  1px 0   #705733,
+    -2px -3px 0   #705733,
+    2px -3px 0   #705733,
+    -2px  3px 0   #705733,
+    2px  3px 0   #705733,
+    -3px -2px 0   #705733,
+    3px -2px 0   #705733,
+    -3px  2px 0   #705733,
+    3px  2px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+.parallax__plant3h img{
+    width: 352px;
+    height: 83px;
+}
+.parallax__plant3h:hover{
+    animation: planthov 0.1s linear 0s 2 alternate-reverse forwards;
+    cursor: pointer;
+}
+//Доска Город4/////////////////////////////////////
+.parallax__plant4{
+    position: absolute;
+    top: 70.4%;
+    left: 14.3%;
+    z-index: 2;
+    opacity: 0;
+    animation: plant4 0.5s ease 3.1s forwards;
+}
+.parallax__plant4 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__plant4 a {
+    position: absolute;
+    margin: 0 auto;
+    top: 10%;
+    left: -50%;
+    text-decoration: none;
+
+    text-align: left;
+    font-family: 'skalalend';
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 61px;
+    
+    text-shadow: 
+    -0   -3px 0   #705733,
+    0   -3px 0   #705733,
+    -0    3px 0   #705733,
+    0    3px 0   #705733,
+    -3px -0   0   #705733,
+    3px -0   0   #705733,
+    -3px  0   0   #705733,
+    3px  0   0   #705733,
+    -1px -3px 0   #705733,
+    1px -3px 0   #705733,
+    -1px  3px 0   #705733,
+    1px  3px 0   #705733,
+    -3px -1px 0   #705733,
+    3px -1px 0   #705733,
+    -3px  1px 0   #705733,
+    3px  1px 0   #705733,
+    -2px -3px 0   #705733,
+    2px -3px 0   #705733,
+    -2px  3px 0   #705733,
+    2px  3px 0   #705733,
+    -3px -2px 0   #705733,
+    3px -2px 0   #705733,
+    -3px  2px 0   #705733,
+    3px  2px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+.parallax__plant4 img{
+    width: 352px;
+    height: 83px;
+}
+.parallax__plant4h{
+    position: absolute;
+    top: 70.4%;
+    left: 14.3%;
+    z-index: 2;
+    opacity: 0;
+    animation: planth 0.5s ease 3.1s forwards;
+}
+.parallax__plant4h span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__plant4h a {
+    position: absolute;
+    margin: 0 auto;
+    top: 10%;
+    left: -50%;
+    text-decoration: none;
+
+    text-align: left;
+    font-family: 'skalalend';
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 61px;
+    
+    text-shadow: 
+    -0   -3px 0   #705733,
+    0   -3px 0   #705733,
+    -0    3px 0   #705733,
+    0    3px 0   #705733,
+    -3px -0   0   #705733,
+    3px -0   0   #705733,
+    -3px  0   0   #705733,
+    3px  0   0   #705733,
+    -1px -3px 0   #705733,
+    1px -3px 0   #705733,
+    -1px  3px 0   #705733,
+    1px  3px 0   #705733,
+    -3px -1px 0   #705733,
+    3px -1px 0   #705733,
+    -3px  1px 0   #705733,
+    3px  1px 0   #705733,
+    -2px -3px 0   #705733,
+    2px -3px 0   #705733,
+    -2px  3px 0   #705733,
+    2px  3px 0   #705733,
+    -3px -2px 0   #705733,
+    3px -2px 0   #705733,
+    -3px  2px 0   #705733,
+    3px  2px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+.parallax__plant4h img{
+    width: 352px;
+    height: 83px;
+}
+.parallax__plant4h:hover{
+    animation: planthov 0.1s linear 0s 2 alternate-reverse forwards;
+    cursor: pointer;
+}
+//Доска Город5/////////////////////////////////////
+.parallax__plant5{
+    position: absolute;
+    top: 83.3%;
+    left: 14.3%;
+    z-index: 2;
+    opacity: 0;
+    animation: plant5 0.5s ease 2.9s forwards;
+}
+.parallax__plant5 span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__plant5 a {
+    position: absolute;
+    margin: 0 auto;
+    top: 10%;
+    left: -50%;
+    text-decoration: none;
+
+    text-align: left;
+    font-family: 'skalalend';
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 61px;
+    
+    text-shadow: 
+    -0   -3px 0   #705733,
+    0   -3px 0   #705733,
+    -0    3px 0   #705733,
+    0    3px 0   #705733,
+    -3px -0   0   #705733,
+    3px -0   0   #705733,
+    -3px  0   0   #705733,
+    3px  0   0   #705733,
+    -1px -3px 0   #705733,
+    1px -3px 0   #705733,
+    -1px  3px 0   #705733,
+    1px  3px 0   #705733,
+    -3px -1px 0   #705733,
+    3px -1px 0   #705733,
+    -3px  1px 0   #705733,
+    3px  1px 0   #705733,
+    -2px -3px 0   #705733,
+    2px -3px 0   #705733,
+    -2px  3px 0   #705733,
+    2px  3px 0   #705733,
+    -3px -2px 0   #705733,
+    3px -2px 0   #705733,
+    -3px  2px 0   #705733,
+    3px  2px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+.parallax__plant5 img{
+    width: 352px;
+    height: 83px;
+}
+.parallax__plant5h{
+    position: absolute;
+    top: 83.3%;
+    left: 14.3%;
+    z-index: 2;
+    opacity: 0;
+    animation: planth 0.5s ease 2.9s forwards;
+}
+.parallax__plant5h span{
+    display: inline-block;
+    transform-origin: 50% 0;
+    margin: 0px 0px 0px -140px;
+}
+.parallax__plant5h a {
+    position: absolute;
+    margin: 0 auto;
+    top: 10%;
+    left: -50%;
+    text-decoration: none;
+
+    text-align: left;
+    font-family: 'skalalend';
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 61px;
+    
+    text-shadow: 
+    -0   -3px 0   #705733,
+    0   -3px 0   #705733,
+    -0    3px 0   #705733,
+    0    3px 0   #705733,
+    -3px -0   0   #705733,
+    3px -0   0   #705733,
+    -3px  0   0   #705733,
+    3px  0   0   #705733,
+    -1px -3px 0   #705733,
+    1px -3px 0   #705733,
+    -1px  3px 0   #705733,
+    1px  3px 0   #705733,
+    -3px -1px 0   #705733,
+    3px -1px 0   #705733,
+    -3px  1px 0   #705733,
+    3px  1px 0   #705733,
+    -2px -3px 0   #705733,
+    2px -3px 0   #705733,
+    -2px  3px 0   #705733,
+    2px  3px 0   #705733,
+    -3px -2px 0   #705733,
+    3px -2px 0   #705733,
+    -3px  2px 0   #705733,
+    3px  2px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    -3px -3px 0   #705733,
+    3px -3px 0   #705733,
+    -3px  3px 0   #705733,
+    3px  3px 0   #705733,
+    5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+.parallax__plant5h img{
+    width: 352px;
+    height: 83px;
+}
+.parallax__plant5h:hover{
+    animation: planthov 0.1s linear 0s 2 alternate-reverse forwards;
+    cursor: pointer;
+}
+//Всплывашка.......////////////////////////////////////////////////////////////////////////
+.parallax__tc{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    background: rgba(255, 255, 255, 0.753);
+}
+.tc__fon{
+    display: flex;
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    left:5%;
+    overflow: hidden;
+
+    background: rgba(0, 161, 225, 0.507);
+    border-radius: 123px;
+}
+.parallax__tc.show{
+    display: flex;
+    animation: show 1s linear 0s forwards;
+}
+.tc__name{
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 5%;
+    opacity: 0;
+    animation: tc__name 1s ease 0s forwards;
+
+    font-family: 'Skalalend';
+    font-size: 60px;
+    line-height: 74px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.tc1 {
+    position: absolute;
+    width: 60%;
+    height: 110px;
+    left: -2%;
+    top: 15%;
+    opacity: 0;
+    animation: tc 1s ease 1s forwards;
+    transition: width linear 1s;
+}
+.tc1:hover{
+    width: 100%;
+}
+.tc1 span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transform: skew(20deg);
+    background: #FFD507;
+}
+.tc1 a{
+    position: absolute;
+    z-index: 3;
+    width: 80%;
+    height: 20%;
+    left: 7%;
+    top: 25%;
+
+    font-family: 'Skalalend';
+    font-size: 50px;
+    line-height: 61px;
+    text-decoration: none;
+    color: #000000;
+}
+.tc1ch{
+    position: absolute;
+    width: 80%;
+    height: 110px;
+    left: -2%;
+    top: 15%;
+    opacity: 0;
+    animation: tc 1s ease 1s forwards;
+    transition: width linear 1s;
+}
+.tc1ch:hover{
+    width: 100%;
+}
+.tc1ch span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transform: skew(20deg);
+    background: #FFD507;
+}
+.tc1ch a{
+    position: absolute;
+    z-index: 3;
+    width: 80%;
+    height: 20%;
+    left: 7%;
+    top: 25%;
+
+    font-family: 'Skalalend';
+    font-size: 30px;
+    line-height: 61px;
+    text-decoration: none;
+    color: #000000;
+}
+.tc1ya{
+    position: absolute;
+    width: 80%;
+    height: 110px;
+    left: -2%;
+    top: 15%;
+    opacity: 0;
+    animation: tc 1s ease 1s forwards;
+    transition: width linear 1s;
+}
+.tc1ya:hover{
+    width: 100%;
+}
+.tc1ya span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transform: skew(20deg);
+    background: #FFD507;
+}
+.tc1ya a{
+    position: absolute;
+    z-index: 3;
+    width: 80%;
+    height: 20%;
+    left: 7%;
+    top: 25%;
+
+    font-family: 'Skalalend';
+    font-size: 30px;
+    line-height: 61px;
+    text-decoration: none;
+    color: #000000;
+}
+.tc2 {
+    position: absolute;
+    width: 65%;
+    height: 110px;
+    left: -2%;
+    top: 30%;
+    opacity: 0;
+    animation: tc 1s ease 1.2s forwards;
+    transition: width linear 1s;
+}
+.tc2:hover{
+    width: 100%;
+}
+.tc2 span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transform: skew(20deg);
+    background: #FFD507;
+}
+.tc2 a{
+    position: absolute;
+    z-index: 3;
+    width: 80%;
+    height: 20%;
+    left: 7%;
+    top: 25%;
+
+    font-family: 'Skalalend';
+    font-size: 50px;
+    line-height: 61px;
+    text-decoration: none;
+
+    color: #000000;
+}
+.tc2ch {
+    position: absolute;
+    width: 85%;
+    height: 110px;
+    left: -2%;
+    top: 30%;
+    opacity: 0;
+    animation: tc 1s ease 1.2s forwards;
+    transition: width linear 1s;
+}
+.tc2ch:hover{
+    width: 100%;
+}
+.tc2ch span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transform: skew(20deg);
+    background: #FFD507;
+}
+.tc2ch a{
+    position: absolute;
+    z-index: 3;
+    width: 80%;
+    height: 20%;
+    left: 7%;
+    top: 25%;
+
+    font-family: 'Skalalend';
+    font-size: 30px;
+    line-height: 61px;
+    text-decoration: none;
+
+    color: #000000;
+}
+.tc3 {
+    position: absolute;
+    width: 75%;
+    height: 110px;
+    left: -2%;
+    top: 45%;
+    opacity: 0;
+    animation: tc 1s ease 1.4s forwards;
+    transition: width linear 1s;
+}
+.tc3:hover{
+    width: 100%;
+}
+.tc3 span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transform: skew(20deg);
+    background: #FFD507;
+}
+.tc3 a{
+    position: absolute;
+    z-index: 3;
+    width: 80%;
+    height: 20%;
+    left: 6%;
+    top: 25%;
+
+    font-family: 'Skalalend';
+    font-size: 50px;
+    line-height: 61px;
+    text-decoration: none;
+
+    color: #000000;
+}
+.tc4 {
+    position: absolute;
+    width: 93%;
+    height: 110px;
+    left: -2%;
+    top: 60%;
+    opacity: 0;
+    animation: tc 1s ease 1.6s forwards;
+    transition: width linear 1s;
+}
+.tc4:hover{
+    width: 100%;
+}
+.tc4 span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transform: skew(20deg);
+    background: #FFD507;
+}
+.tc4 a{
+    position: absolute;
+    z-index: 3;
+    width: 80%;
+    height: 20%;
+    left: 5%;
+    top: 25%;
+
+    font-family: 'Skalalend';
+    font-size: 50px;
+    line-height: 61px;
+    text-decoration: none;
+
+    color: #000000;
+}
+.tc5 {
+    position: absolute;
+    width: 95%;
+    height: 110px;
+    left: -2%;
+    top: 75%;
+    opacity: 0;
+    animation: tc 1s ease 1.8s forwards;
+    transition: width linear 1s;
+}
+.tc5:hover{
+    width: 100%;
+}
+.tc5 span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transform: skew(20deg);
+    background: #FFD507;
+}
+.tc5 a{
+    position: absolute;
+    z-index: 3;
+    width: 80%;
+    height: 20%;
+    left: 5%;
+    top: 25%;
+
+    font-family: 'Skalalend';
+    font-size: 50px;
+    line-height: 61px;
+    text-decoration: none;
+
+    color: #000000;
+}
+.tc__btn{
+    position: absolute;
+    bottom: 2%;
+    left: 30%;
+    width: 40%;
+    padding: 10px 0;
+    opacity: 0;
+
+    text-align: center;
+    font-family: 'Skalalend';
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 30px;
+
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #00A3E1;
+    transition: background-color linear 0.2s;
+    transition: font-size linear 0.3s;
+    animation: tc__btn 1s ease 2s forwards;
+}
+.tc__btn:hover{
+    font-size: 51px;
+    background-color: #39aad6;
+    cursor: pointer;
+}
+//Анимация///////////////////////////////////
+@keyframes mount1{
+    0%{
+        opacity: 1;
+        bottom: -100%;
+    }
+    50%{
+        opacity: 1;
+        bottom: 5%;
+    }
+    100%{
+        opacity: 1;
+        bottom: 0%;
+    }
+}
+@keyframes mount2{
+    0%{
+        opacity: 1;
+        top: 200%;
+    }
+    50%{
+        opacity: 1;
+        top: 5%;
+    }
+    100%{
+        opacity: 1;
+        top: 20%;
+    }
+}
+@keyframes hill1{
+    0%{
+        opacity: 1;
+        bottom: -100%;
+    }
+    50%{
+        opacity: 1;
+        bottom: 2%;
+    }
+    100%{
+        opacity: 1;
+        bottom: -9%;
+    }
+}
+@keyframes hill2{
+    0%{
+        opacity: 1;
+        bottom: -100%;
+    }
+    50%{
+        opacity: 1;
+        bottom: 10%;
+    }
+    100%{
+        opacity: 1;
+        bottom: -2%;
+    }
+}
+@keyframes forest1{
+    0%{
+        opacity: 1;
+        bottom: 150%;
+    }
+    50%{
+        opacity: 1;
+        bottom: -10%;
+    }
+    100%{
+        opacity: 1;
+        bottom: -5%;
+    }
+}
+@keyframes forest2{
+    0%{
+        opacity: 1;
+        bottom: 150%;
+    }
+    50%{
+        opacity: 1;
+        bottom: -5%;
+    }
+    100%{
+        opacity: 1;
+        bottom: 2%;
+    }
+}
+@keyframes longbord{
+    0%{
+        opacity: 1;
+        bottom: 150%;
+    }
+    50%{
+        opacity: 1;
+        bottom: -35%;
+    }
+    100%{
+        opacity: 1;
+        bottom: -20%;
+    }
+}
+@keyframes board{
+    0%{
+        opacity: 1;
+        transform: translate3d(50%,0%,0) rotateZ(10deg);
+    }
+    70%{
+        transform: translate3d(-15%,2%,0) rotateZ(-5deg);
+    }
+    100%{
+        opacity: 1;
+        transform: translate3d(-15%,2%,0) rotateZ(0deg);
+    }
+}
+@keyframes planthov{
+    0%{
+        left: 14%;
+        opacity: 1;
+
+    }
+    100%{
+        left: 14.3%;
+        opacity: 1;
+    }
+}
+@keyframes plant1{
+    0%{
+        opacity: 0;
+        top: 11%;
+    }
+    100%{
+        opacity: 1;
+        top: 31%;
+    }
+}
+@keyframes planth{
+    0%{
+        opacity: 0;
+    }
+    99%{
+        opacity: 0;
+    }
+    100%{
+        z-index: 5;
+        opacity: 1;
+    }
+}
+@keyframes plant2{
+    0%{
+        opacity: 0;
+        top: 11%;
+    }
+    100%{
+        opacity: 1;
+        top: 44.6%;
+    }
+}
+@keyframes plant3{
+    0%{
+        opacity: 0;
+        top: 11%;
+    }
+    100%{
+        opacity: 1;
+        top: 57.5%;
+    }
+}
+@keyframes plant4{
+    0%{
+        opacity: 0;
+        top: 11%;
+    }
+    100%{
+        opacity: 1;
+        top: 70.4%;
+    }
+}
+@keyframes plant5{
+    0%{
+        opacity: 0;
+        top: 11%;
+    }
+    100%{
+        opacity: 1;
+        top: 83.3%;
+    }
+}
+@keyframes show{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes boardhov{
+    0%{
+        opacity: 1;
+        transform: rotateZ(0deg);
+    }
+    20%{
+        opacity: 1;
+        transform: rotateZ(2deg);
+    }
+    40%{
+        opacity: 1;
+        transform: rotateZ(0deg);
+    }
+    60%{
+        opacity: 1;
+        transform: rotateZ(-2deg);
+    }
+    80%{
+        opacity: 1;
+        transform: rotateZ(0deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateZ(2deg);
+    }
+}
+@keyframes tc {
+    0%{
+        left:-100%;
+        opacity: 1;
+    }
+    70%{
+        left:10%;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        left: -2%;
+    }
+}
+@keyframes tc__name{
+    0%{
+        opacity: 1;
+        top: -100%;
+    }
+    100%{
+        opacity: 1;
+        top: 5%;
+    }
+}
+@keyframes tc__btn{
+    0%{
+        opacity: 1;
+        bottom: -100%;
+    }
+    70%{
+        bottom: 5%;
+    }
+    100%{
+        opacity: 1;
+        bottom: 2%;
+    }
+}
