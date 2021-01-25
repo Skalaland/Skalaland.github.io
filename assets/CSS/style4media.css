@@ -1,7 +1,14 @@
 @media (max-width: 1600px) {
   .header__buttonp {
     font-size: 15px;
-    text-shadow: -0   -1px 0   #45268d, 0   -1px 0   #45268d, -0    1px 0   #45268d, 0    1px 0   #45268d, -1px -0   0  #45268d, 1px -0   0  #45268d, -1px  0   0  #45268d, 1px  0   0   #45268d;
+    text-shadow: -0   -1px 0   #45268d,
+ 0   -1px 0   #45268d,
+ -0    1px 0   #45268d,
+ 0    1px 0   #45268d,
+ -1px -0   0  #45268d,
+ 1px -0   0  #45268d,
+ -1px  0   0  #45268d,
+ 1px  0   0   #45268d;
   }
   .zvonok__wrapper-h2 {
     font-size: 40px;
@@ -1441,7 +1448,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .header__burger {
     display: -webkit-box;
     display: -ms-flexbox;
