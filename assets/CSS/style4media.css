@@ -1,14 +1,7 @@
 @media (max-width: 1600px) {
   .header__buttonp {
     font-size: 15px;
-    text-shadow: -0   -1px 0   #45268d,
- 0   -1px 0   #45268d,
- -0    1px 0   #45268d,
- 0    1px 0   #45268d,
- -1px -0   0  #45268d,
- 1px -0   0  #45268d,
- -1px  0   0  #45268d,
- 1px  0   0   #45268d;
+    text-shadow: -0   -1px 0   #45268d, 0   -1px 0   #45268d, -0    1px 0   #45268d, 0    1px 0   #45268d, -1px -0   0  #45268d, 1px -0   0  #45268d, -1px  0   0  #45268d, 1px  0   0   #45268d;
   }
   .zvonok__wrapper-h2 {
     font-size: 40px;
@@ -345,6 +338,307 @@
   }
   .kontakts__tetxf {
     top: 20%;
+  }
+}
+
+@media (max-width: 1405px) {
+  .header__buttonp {
+    margin-top: -15%;
+    font-size: 15px;
+  }
+  .zvonok__wrapper-h1 {
+    font-size: 40px;
+  }
+  .zvonok__wrapper-h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .zvonok__input {
+    margin-top: 11%;
+    font-size: 30px;
+    width: 50%;
+  }
+  .zvonok__but a {
+    font-size: 35px;
+  }
+  .zvonok__crest {
+    right: 7%;
+    top: 7%;
+    width: 10px;
+    height: 10px;
+  }
+  .zvonok__wrapper-fon {
+    border-bottom: 80px solid #FFFFFF;
+  }
+  .face__h1txt {
+    width: 50%;
+    height: 100%;
+  }
+  .face__h1phone {
+    width: 30%;
+    height: 100%;
+  }
+  .face__h1phone p {
+    margin-top: 25%;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .face__h1phone span {
+    font-size: 25px;
+  }
+  .face__h1txt p {
+    margin-top: 10%;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .face__h1txt span {
+    font-size: 25px;
+  }
+  .face__h2 p {
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 4%;
+  }
+  .face__h1logo {
+    width: 35%;
+    height: 100%;
+  }
+  .face__line {
+    width: 40%;
+    top: 24%;
+  }
+  .face__h2f {
+    width: 55%;
+    margin-top: -3.5%;
+  }
+  .social img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 8%;
+  }
+  .slaider__content {
+    height: 75%;
+  }
+  .slaider__content img {
+    width: 100%;
+    height: 100%;
+    padding: 3% 5%;
+    border-radius: 50px;
+  }
+  .vubor-href a {
+    padding: 1% 5%;
+    font-size: 15px;
+  }
+  .about__h1txt {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .about__h1txt span {
+    font-size: 30px;
+  }
+  .about__h1txtf {
+    border-bottom: 150px solid rgba(255, 255, 255, 0.95);
+  }
+  .about__h2txt {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .about__h2txt span {
+    font-size: 25px;
+  }
+  .about__h2txl {
+    width: 90%;
+    height: 0;
+    border: 2px solid #FFD507;
+    z-index: 3;
+    margin-top: 5%;
+    margin-left: 15%;
+  }
+  .about__h2txf {
+    border-bottom: 490px solid rgba(255, 255, 255, 0.95);
+    margin-top: -9%;
+  }
+  .about__h3txt {
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .about__h3 span {
+    font-size: 30px;
+  }
+  .acktiv__h1f {
+    width: 100%;
+    border-bottom: 180px solid rgba(255, 255, 255, 0.95);
+    border-left: 200px solid transparent;
+  }
+  .acktiv__h1 p {
+    margin-top: 2%;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .acktiv__h1 span {
+    font-size: 30px;
+  }
+  .aslaid {
+    width: 20%;
+    height: 270px;
+  }
+  .aslaid p {
+    font-size: 20px;
+  }
+  .aslaid span {
+    font-size: 20px;
+  }
+  .aslaid__btn {
+    margin-top: 20%;
+    font-size: 20px;
+  }
+  .aslaid__btn:hover {
+    margin-top: 18%;
+    font-size: 22px;
+  }
+  .prais__h1 p {
+    font-size: 35px;
+  }
+  .prais__h1 span {
+    font-size: 35px;
+  }
+  .prais__h1f {
+    border-bottom: 120px solid rgba(255, 255, 255, 0.95);
+    border-left: 150px solid transparent;
+  }
+  .prais__line {
+    width: 40%;
+    height: 0;
+    border: 2px solid #FFD507;
+  }
+  .txt__content {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .txt__content li span {
+    font-size: 15px;
+  }
+  .txt__content2 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .txt__content2 li span {
+    font-size: 15px;
+  }
+  .cena__animat {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .cena__animat span {
+    font-size: 20px;
+  }
+  .cena__button {
+    width: 50%;
+    padding: 1% 0;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .cena__button a {
+    padding: 1% 0;
+  }
+  .cena__button:hover {
+    width: 51%;
+    padding: 2% 0;
+  }
+  .cena__posh1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+  }
+  .cena-posesh1 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .cena-posesh2 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .cena-posesh1 span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .cena-posesh2 span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .cena2__f {
+    top: 17%;
+  }
+  .zakaz__h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .zakaz__h1 span {
+    font-size: 35px;
+  }
+  .zakaz__h1f {
+    width: 64.5%;
+    border-bottom: 130px solid rgba(255, 255, 255, 0.95);
+  }
+  .zakaz__button {
+    margin-top: 3%;
+  }
+  .zakaz__button1 button {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .zakaz__button2 button {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .input {
+    margin-top: 3%;
+    height: 50px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  textarea.input {
+    resize: none;
+    height: 150px;
+    padding-top: 15px;
+  }
+  .zakaz__line {
+    width: 40%;
+    top: 17%;
+    border: 2px solid #FFD507;
+  }
+  .kontakts__h1 {
+    height: 20%;
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .kontakts__h1 span {
+    font-size: 40px;
+  }
+  .kontakst__block {
+    height: 80%;
+  }
+  .kontakts__text {
+    margin-top: 5%;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .kontakts__call {
+    font-size: 20px;
+  }
+  .kontakts__text span {
+    font-size: 30px;
+  }
+  .kontakts__tetxf {
+    top: 20%;
+  }
+  .map__block {
+    height: 200px;
   }
 }
 
@@ -1448,7 +1742,7 @@
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 400px) {
   .header__burger {
     display: -webkit-box;
     display: -ms-flexbox;
