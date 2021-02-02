@@ -17,6 +17,7 @@
 </head>
 <body>
     <div class="container">
+        <!--Всплывающий блок звонка-->
         <div class="header__zvonok" id="zvonok">
             <div class="zvonok__wrapper">
                 <div class="zvonok__wrapper-h1">Заказать звонок</div>
@@ -37,6 +38,48 @@
                 </div>
             </div>
         </div>
+        <!--Всплывающий блок оплаты-->
+        <div class="header__oplata" id="oplata">
+            <div class="oplata-wrapper">
+                <h1>Заказать услугу</h1>
+                <span></span>
+                <form action="#" class="oplata-inp">
+                    <input type="text" placeholder="Ваше Имя">
+                    <input type="text" placeholder="Ваш номер телефона">
+                    <select >
+                        <option selected disabled hidden>Выбрать услугу</option>
+                        <option>1 ЧАС</option>
+                        <option>1,5 ЧАСА</option>
+                        <option>2 ЧАСА</option>
+                        <option>3 ЧАСА</option>
+                    </select>
+                    <input type="text" placeholder="Комментарий">
+                    <input type="text" placeholder="К оплате">
+                </form>
+                <button> Оплатить </button>
+                <div class="vubor-crest" id="oplcrest">
+                    <img src="assets/IMG/cross.png" alt="#">
+                </div>
+            </div>
+        </div>
+        <!--Всплывающий блок обратной связи-->
+        <div class="header__email" id="eml">
+            <div class="oplata-wrapper">
+                <h1>Свяжитесь с нами</h1>
+                <span></span>
+                <form action="#" class="oplata-inp">
+                    <input type="text" placeholder="Ваше Имя">
+                    <input type="text" placeholder="Ваш номер телефона">
+                    <input type="text" placeholder="Ваш E-mail">
+                    <input type="text" placeholder="Ваше сообщение">
+                </form>
+                <button> Отправить </button>
+                <div class="vubor-crest" id="emlcrest">
+                    <img src="assets/IMG/cross.png" alt="#">
+                </div>
+            </div>
+        </div>
+        <!--Всплывающий блок выбора центра-->
         <div class="header__vubor" id="vubor">
             <div class="vuborh1">
                 <h1>Выберете игровой центр</h1>
@@ -55,11 +98,13 @@
                 <img src="assets/IMG/cross.png" alt="#">
             </div>
         </div>
+        <!--Основное меню-->
         <div class="header">
-            <div class="header__logo">
-                <a href="#">
-                    <img src="assets/IMG/vollog1.png" alt="#" id="vuborbut">
-                </a>
+            <div class="header__button" id="vuborbut">
+                <a href="#"><img src="assets/IMG/menusico/logo.png"></a>
+                <div class="header__buttonplog">
+                    <a href="#secondSection"> Выбрать другой центр</a>
+                </div>
             </div>
             <div class="header__button">
                 <a href="#secondSection"><img src="assets/IMG/menusico/ico1.png"></a>
@@ -80,13 +125,16 @@
                 </div>
             </div>
             <div class="header__button">
-                <a href="#sixedSection"><img src="assets/IMG/menusico/ico4.png"></a>
+                <a href="#fifthSection"><img src="assets/IMG/menusico/ico4.png"></a>
                 <div class="header__buttonp">
-                    <a href="#sixedSection">КОНТАКТЫ</a>
+                    <a href="#fifthSection">КОНТАКТЫ</a>
                 </div>
             </div>
-            <div class="header__button" id="zvonokbtn">
-                <img src="assets/IMG/menusico/ico7.png">
+            <div class="header__button" id="oplat">
+                <a href="#"><img src="assets/IMG/ICO/opl.png"></a>
+                <div class="header__buttonp">
+                    <a href="#">ОПЛАТА</a>
+                </div>
             </div>
             <div class="header__burger" id="burger">
                 <div class="header__burger-container">
@@ -96,6 +144,7 @@
                 </div>
             </div>
         </div>
+        <!--Основное меню (мобильный телефон)-->
         <div class="cloned__menu" id="cloned">
             <div class="cloned__logo">
                 <a href="#">
@@ -142,7 +191,9 @@
                 <img src="assets/IMG/menusico/ico7.png">
             </div>
         </div>
+        <!--Основной контент страницы-->
         <div class="content" id="fullpage">
+            <!-- Заглавная страница -->
             <section class="vertical-scrolling">
                 <img src="assets/IMG/foncont/fon1.png">
                 <div class="face__fon">
@@ -188,9 +239,6 @@
                     <!--/////CЛАЙДЕР-->
                     <div class="face__social">
                         <div class="social">
-                            <a href="index4.html#fifthSection"><img src="assets/IMG/ICO/opl.png"></a>
-                        </div>
-                        <div class="social">
                             <a href="index.html"><img src="assets/IMG/ICO/vk.png"></a>
                         </div>
                         <div class="social">
@@ -202,6 +250,7 @@
                     </div>
                 </div>
             </section>
+            <!-- О Центре -->
             <section class="vertical-scrolling">
                 <img src="assets/IMG/foncont/fon2.png">
                 <div class="face__fon">
@@ -244,6 +293,7 @@
                     </div>
                 </div>
             </section>
+            <!-- Активности -->
             <section class="vertical-scrolling">
                 <img src="assets/IMG/foncont/fon3.png">
                 <div class="face__fon">
@@ -371,117 +421,52 @@
                         </div>
                     </div>
                 </div>
-            </section> 
-            <section class="vertical-scrolling">
-                <img src="assets/IMG/foncont/fon4.png">
-                <div class="face__fon">
-                    <img src="assets/IMG/foncont/fon4.1.png" alt="#">
-                </div>
-                <div class="prais">
-                    <div class="prais__h1">
-                    <p>Прайс-лист <span>для проведения детских</span> праздников</p>
-                    <div class="prais__h1f"></div>
-                    </div>
-                    <div class="prais__line"></div>
-                    <div class="prais__cena">
-                    <div class="cena1"></div>
-                    <div class="cena2">
-                        <div class="cena2__txt">
-                            <div class="cena2__txt1">
-                            <div class="txt__content">
-                                <ul class="txt__content">
-                                    <li>Будни</li>
-                                    <div class="txt__contentline"></div>
-                                    <li>1 <span>час</span> - 3000 <span>руб</span></li>
-                                    <li>1.5 <span>час</span> - 4000 <span>руб</span></li>
-                                    <li>2 <span>час</span> - 5000 <span>руб</span></li>
-                                    <li>3 <span>час</span> - 6500 <span>руб</span></li>
-                                </ul>
-                            </div>
-                            </div>
-                            <div class="cena2__txt1">
-                            <div class="txt__content2">
-                                <ul class="txt__content2">
-                                    <li>Выходной</li>
-                                    <div class="txt__contentline2"></div>
-                                    <li>1 <span>час</span> - 3500 <span>руб</span></li>
-                                    <li>1.5 <span>час</span> - 4500 <span>руб</span></li>
-                                    <li>2 <span>час</span> - 6000 <span>руб</span></li>
-                                    <li>3 <span>час</span> - 8000 <span>руб</span></li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="cena__animat">АНИМАТОР <span>НА</span> ВАШ <span>ВЫБОР</span> - 2000 <span>РУБ</span></div>
-                        <div class="cena__posh1">ПОСЕЩЕНИЕ ЦЕНТРА</div>
-                        <div class="cena-posesh">
-                            <div class="cena-posesh1">
-                                <ul>
-                                    <li><span>Будни</span></li>
-                                    <div class="cena-posline"></div>
-                                    <li>15 минут - 200 руб</li>
-                                    <li>30 минут - 300 руб</li>
-                                    <li>1 час - 400 руб</li>
-                                    <li>Безлимит - 500 руб</li>
-                                </ul>
-                            </div>
-                            <div class="cena-posesh2">
-                                <ul>
-                                    <li><span>Выходной</span></li>
-                                    <div class="cena-posline2"></div>
-                                    <li>15 минут - 250 руб</li>
-                                    <li>30 минут - 350 руб</li>
-                                    <li>1 час - 450 руб</li>
-                                    <li>Безлимит - 700 руб</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="cena__button"><a href="#fifthSection">ЗАКАЗАТЬ ПРАЗДНИК</a></div>
-                        <div class="cena2__f"></div>
-                    </div>
-                    </div>
-                </div>
             </section>
+            <!-- Праздники --> 
             <section class="vertical-scrolling">
                 <img src="assets/IMG/foncont/fon5.png">
                 <div class="face__fon">
                     <img src="assets/IMG/foncont/fon5.1.png" alt="#">
                 </div>
-                <div class="zakaz">
-                    <div class="zakaz__h1">
-                    <p>Закажите <span>праздник</span> не выходя <span>из дома</span></p>
-                    <div class="zakaz__h1f"></div>
-                    </div>
-                    <div class="zakaz__line"></div>
-                    <form action="#" class="zakaz__forma">
-                    <div class="forma1">
-                        <input autocomplete="off" type="text" name="form[]" class="input" placeholder="Как к вам обратиться?"/>
-                    </div>
-                    <div class="forma1">
-                        <input autocomplete="off" type="text" name="form[]" class="input" placeholder="Телефон/E-mail/Город"/>
-                    </div>
-                    <div class="forma1">
-                        <select name="form[]" class="input" placeholder="Выбрать услугу">
-                            <option>1 ЧАС</option>
-                            <option>1,5 ЧАСА</option>
-                            <option>2 ЧАСА</option>
-                            <option>3 ЧАСА</option>
-                        </select>
-                    </div>
-                    <div class="forma1">
-                        <textarea autocomplete="off" type="text" name="form[]" class="input" placeholder="Сообщение"></textarea>
-                    </div>
-                    <div class="zakaz__button">
-                        <div class="zakaz__button1">
-                            <button type="submit">Оставить заявку</button>
+                <div class="prais">
+                    <h1>Прайс-лист центра</h1>
+                    <span></span>
+                    <div class="prais-slider">
+                        <div class="pslide">
+                            gfdg
                         </div>
-                        <div class="zakaz__button2">
-                            <button type="submit">Оплатить праздник</button>
+                        <div class="pslide">
+                            gfdgsa
+                        </div>
+                        <div class="pslide">
+                            gfdgasaa
                         </div>
                     </div>
-                    </form>
+                    <div class="prais-posesh">
+                        <div class="prais-posesh-1">
+                            <h1>Будние</h1>
+                            <span></span>
+                            <h2>1 час - 100 руб</h2>
+                            <h2>1 час - 100 руб</h2>
+                            <h2>1 час - 100 руб</h2>
+                            <h2>1 час - 100 руб</h2>
+                        </div>
+                        <div class="prais-posesh-but">
+                            <h1>Прайс-лист на посещение центра</h1>
+                            <button id="oplbut">Заказать праздник</button>
+                        </div>
+                        <div class="prais-posesh-2">
+                            <h1>Выходные</h1>
+                            <span></span>
+                            <h2>1 час - 100 руб</h2>
+                            <h2>1 час - 100 руб</h2>
+                            <h2>1 час - 100 руб</h2>
+                            <h2>1 час - 100 руб</h2>
+                        </div>
+                    </div>
                 </div>
             </section>
+            <!-- Контакты -->
             <section class="vertical-scrolling">
                 <img src="assets/IMG/foncont/fon6.png">
                 <div class="face__fon">
@@ -489,7 +474,7 @@
                 </div>
                 <div class="kontakts">
                     <div class="kontakts__h1">
-                    <p>Остались вопросы<span>?</span> <br> Мы с <span>радостью</span> на них ответим</p>
+                    <p>Остались вопросы?<br> Мы с радостью на них ответим</p>
                     </div>
                     <div class="kontakst__block">
                     <div class="kontakts__text">
@@ -499,8 +484,8 @@
                         </div>
                         <p>Режим работы центров:<br> <span>ежедневно с 10.00 до 21.00</span></p>
                         <p>E-mail: <span>office@skalalend.ru</span></p>
-                        <div class="kontakts__call">
-                            <a href="#fifthSection">Написать письмо</a>
+                        <div class="kontakts__call" id="emlsnd">
+                            <a href="#">Написать письмо</a>
                         </div>
                         <div class="kontakts__tetxf"></div>
                     </div>
