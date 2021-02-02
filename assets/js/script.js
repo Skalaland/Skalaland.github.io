@@ -29,6 +29,55 @@ crest.on("click", function(event){
     event.preventDefault();
     zvonok.toggleClass("show");
 });
+//Выбор центра.........................................
+let vubcrest = $("#vubcrest");
+let vubor = $("#vubor");
+let vuborbut = $("#vuborbut");
+let vuborbutcln = $("#vuborbutcln");
+
+vuborbut.on("click", function(event){
+  event.preventDefault();
+  vubor.toggleClass("show");
+});
+vuborbutcln.on("click", function(event){
+  event.preventDefault();
+  vubor.toggleClass("show");
+});
+vubcrest.on("click", function(event){
+  event.preventDefault();
+  vubor.toggleClass("show");
+});
+//Оплата.........................................
+let oplat = $("#oplat");
+let oplata = $("#oplata");
+let oplcrest = $("#oplcrest");
+let oplbut = $("#oplbut");
+
+oplat.on("click", function(event){
+  event.preventDefault();
+  oplata.toggleClass("show");
+});
+oplcrest.on("click", function(event){
+  event.preventDefault();
+  oplata.toggleClass("show");
+});
+oplbut.on("click", function(event){
+  event.preventDefault();
+  oplata.toggleClass("show");
+});
+//Сообщение.........................................
+let emlsnd = $("#emlsnd");
+let eml = $("#eml");
+let emlcrest = $("#emlcrest");
+
+emlsnd.on("click", function(event){
+  event.preventDefault();
+  eml.toggleClass("show");
+});
+emlcrest.on("click", function(event){
+  event.preventDefault();
+  eml.toggleClass("show");
+});
 
 //Вологда..............................................
 let tc = $("#tc");
@@ -197,7 +246,8 @@ function showSlides(n) {
 ////////////////////////////////////////////////////////
 var swiper = new Swiper('.swiper-container', {
   effect: 'cube',
-  grabCursor: true,
+  grabCursor: false,
+  allowTouchMove: false,
   direction: 'vertical',
   slidesPerView: 'auto',
   autoplay: true,
@@ -230,22 +280,12 @@ $('.acktiv__slaider2').slick({
   autoplay: true,
   autoplaySpeed: 3000,
 });
-//Выбор центра.........................................
-let vubcrest = $("#vubcrest");
-let vubor = $("#vubor");
-let vuborbut = $("#vuborbut");
-let vuborbutcln = $("#vuborbutcln");
+$('.prais-slider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+});
 
-vuborbut.on("click", function(event){
-  event.preventDefault();
-  vubor.toggleClass("show");
-});
-vuborbutcln.on("click", function(event){
-  event.preventDefault();
-  vubor.toggleClass("show");
-});
-vubcrest.on("click", function(event){
-  event.preventDefault();
-  vubor.toggleClass("show");
-});
 
