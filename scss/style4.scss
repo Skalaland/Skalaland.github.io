@@ -8,319 +8,20 @@ html,body{
     width: 100%;
     height: 100%;
 }
-
 .container{
     width: 100%;
     height: 100%;
-
     display: flex;
 }
 
-//МЕНЮ НАВИГАЦИИ/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-.header{
-    width: 10%;
-    height: 100%;
-    position: fixed;
-    top: 0%;
-    display: flex;
-    flex-direction: column;
-}
-.header__vubor{
-    width: 100%;
-    height: 100%;
-    display: none;
-    flex-direction: column;
-    font-family: 'skalalend';
 
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 50;
-
-    background-color: #ffffffcc;
-    text-align: center;
-    align-content: center;
-}
-.vuborh1{
-    width: 100%;
-    height: 10%;
-    padding: 3% 0;
-    margin-bottom: 2%;
-
-    text-transform: uppercase;
-}
-.vubor-href{
-    width: 100%;
-    height: 70%;
-
-    display: flex;
-    flex-direction: column;
-}
-.vubor-href a{
-    width: 50%;
-
-    padding: 2% 5%;
-    margin: 0 auto;
-    margin-bottom: 2%;
-    font-size: 25px;
-
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: #3B1D6B;
-    border-radius: 50px;
-    color: #FFFFFF;
-    transition: all linear .5s;
-}
-.vubor-href a:hover{
-    width: 100%;
-    background-color: #fff;
-    border: 3px solid #3B1D6B;
-    color: #3B1D6B;
-}
-.vubor-button{
-    margin-top: 2%;
-}
-.vubor-button a{
-    font-family: 'skalalend';
-    font-size: 25px;
-    text-transform: uppercase;
-    padding: 1% 3%;
-
-    border-radius: 50px;
-    background-color: #fff;
-    border: 3px solid #3B1D6B;
-    color: #3B1D6B;
-
-    transition: all linear .5s;
-    text-decoration: none;
-}
-.vubor-button a:hover{
-    background-color: #3B1D6B;
-    color: #FFF;
-    padding: 1% 4%;
-    cursor: pointer;
-}
-.vubor-crest{
-    position: absolute;
-    top:3%;
-    right: 5%;
-
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    background: transparent;
-    transition: all linear .5s;
-}
-.vubor-crest:hover{
-    cursor: pointer;
-    box-shadow: 0px 0px 7px 4px rgba(80, 77, 146, 0.25);
-}
-.vubor-crest img{
-    width: 100%;
-    padding: 5%;
-}
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-.header__burger{
-    width: 100%;
-    height: 100%;
-    display: none;
-
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index:10;
-
-    background: #FFFFFF;
-}
-.header__burger-container{
-    width: 100%;
-    height: 50%;
-    position: relative;
-    top: 50%;
-    
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-}
-.burger-line{
-    width: 80%;
-    height: 0;
-    margin: 0 auto;
-    margin-bottom: 8%;
-    border: 10px solid #00638a;
-    border-radius: 20px;
-}
-.cloned__menu{
-    position: absolute;
-    display: none;
-    width: 90%;
-    height: 100%;
-    top:0;
-    left: 10%;
-    z-index: 50;
-
-    background: rgba(255, 255, 255, 0.8);
-}
-.cloned__show{
-    position: fixed;
-    width: 90%;
-    height: 100%;
-    top:0;
-    left: 10%;
-    z-index: 50;
-    display: block;
-
-    background: rgba(255, 255, 255, 0.8);
-}
-.cloned__logo{
-    width: 100%;
-    height: 15%;
-    transition: opacity .3s linear;
-}
-.cloned__logo:hover{
-    opacity: .5;
-}
-.cloned__logo img {
-    width: 30%;
-    margin: 5%;
-}
-.cloned__button{
-    width: 70%;
-    height: 13%;
-    margin: 0 auto;
-    margin-bottom: 20%;
-    position: relative;
-
-    background: rgba(84, 134, 76, 0.1);
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    border-radius: 13px;
-    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 0.3s linear;
-    transition: translate 0.3s linear;
-    transition: opacity 0.3s linear;
-}
-.cloned__buttonp{
-    position: relative;
-    width: 30%;
-    text-align: center;
-    
-    font-family: 'Impact';
-    font-size: 15px;
-    color: #6E7097;
-
-    text-shadow: 
-    -0   -1px 0   #3B1D6B,
-    0   -1px 0   #3B1D6B,
-    -0    1px 0   #3B1D6B,
-    0    1px 0   #3B1D6B,
-    -1px -0   0  #3B1D6B,
-    1px -0   0  #3B1D6B,
-    -1px  0   0  #3B1D6B,
-    1px  0   0   #3B1D6B,
-}
-.cloned__buttonp a{
-    text-decoration: none;
-    padding-left: -50px;
-    color: #6E7097;
-}
-.cloned__button:hover{
-    opacity: 0.6;
-    cursor: pointer;
-}
-.cloned__button:active{
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-    transform: translate(3px,3px);
-    opacity: 1;
-}
-//////////////////////////////////////////////////////////////////////////////////////////
-.header__logo{
-    width: 100%;
-    height: 15%;
-    transition: opacity .3s linear;
-}
-.header__logo:hover{
-    opacity: .5;
-}
-.header__logo img {
-    width: 100%;
-    height: 100%;
-    padding: 1%;
-}
-.header__button{
-    width: 70%;
-    height: 13%;
-    margin: 0 auto;
-    margin-bottom: 20%;
-    position: relative;
-
-    background: rgba(84, 134, 76, 0.1);
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    border-radius: 13px;
-    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 0.3s linear;
-    transition: translate 0.3s linear;
-    transition: opacity 0.3s linear;
-}
-
-.header__button img{
-    width: 100%;
-    padding: 3%;
-    opacity: .9;
-    z-index: 1;
-}
-
-.header__buttonp{
-    margin-top: -10%;
-    width: 100%;
-    height: 100%;
-    font-family: 'Impact';
-    font-size: 23px;
-    color: #EEF3ED;
-    text-align: center;
-
-    text-shadow: 
-    -0   -1px 0   #45268d,
-    0   -1px 0   #45268d,
-    -0    1px 0   #45268d,
-    0    1px 0   #45268d,
-    -1px -0   0  #45268d,
-    1px -0   0  #45268d,
-    -1px  0   0  #45268d,
-    1px  0   0   #45268d;
-}
-.header__button a{
-    padding-top: 100%;
-    z-index: 20;
-    text-decoration: none;
-    color: #EEF3ED
-}
-.header__button:hover{
-    opacity: 0.6;
-    cursor: pointer;
-}
-.header__button:active{
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-    transform: translate(3px,3px);
-    opacity: 1;
-}
+///Всплывающий блок звонка/////////////////////////////////////////////////
 .header__zvonok{
     position: fixed;
     width: 100%;
     height: 100%;
     
-
     display: none;
-    left: 0;
-    top: 0;
-    z-index: 500;
-    background: rgba(255, 255, 255, 0.8);
-}
-.show{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-
-    display: block;
     left: 0;
     top: 0;
     z-index: 500;
@@ -465,6 +166,396 @@ html,body{
     cursor: pointer;
     opacity: .5;
 }
+////////////////////////////////////////////////////////////////////////////////////
+
+//Всплывающий блок оплаты//////////////////////////////////////////////////////////
+.header__oplata{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+
+    background: rgba(255, 255, 255, 0.99);
+}
+.oplata-wrapper{
+    width: 100%;
+    height: 100%;
+
+
+    display: flex;
+    flex-direction: column;
+}
+.oplata-wrapper h1{
+    padding-top: 2%;
+
+    font-family: 'Skalalend';
+    font-size: 50px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+.oplata-wrapper span{
+    width: 20%;
+    height: 0;
+    margin: 1% auto;
+
+    border: 1px solid #111111;
+}
+.oplata-wrapper form{
+    width: 100%;
+    margin: 5% 0;
+
+    display: flex;
+    flex-direction: column;
+}
+.oplata-wrapper input{
+    width: 50%;
+    font-family: 'Skalalend';
+    font-size: 20px;
+
+    padding: 1%;
+    margin: 1% auto;
+
+    border: 0.5px solid #1111119c;
+}
+.oplata-wrapper select{
+    width: 50%;
+    font-family: 'Skalalend';
+    font-size: 20px;
+
+    padding: 1%;
+    margin: 1% auto;
+    
+
+    border: 0.5px solid #1111119c;
+}
+.oplata-wrapper button{
+    width: 20%;
+
+    font-family: 'Skalalend';
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 1%;
+
+    text-transform: uppercase;
+
+    background: none;
+    border: 1px solid #111111;
+    color: #111111;
+    transition: all linear .5s;
+}
+.oplata-wrapper button:hover{
+    width: 21%;
+    
+    font-size: 32px;
+    border: 2px solid #111111;
+    border-radius: 50px;
+    cursor: pointer;
+}
+/////////////////////////////////////////////////////////////////////////////////
+
+//Всплывающий блок обратной связи///////////////////////////////////////////////
+.header__email{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+
+    background: rgba(255, 255, 255, 0.99);
+}
+/////////////////////////////////////////////////////////////////////////////////
+
+//Всплывающий блок выбора центра/////////////////////////////////////////////////
+.header__vubor{
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    font-family: 'skalalend';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+
+    background-color: #ffffffcc;
+    text-align: center;
+    align-content: center;
+}
+.vuborh1{
+    width: 100%;
+    height: 10%;
+    padding: 3% 0;
+    margin-bottom: 2%;
+
+    text-transform: uppercase;
+}
+.vubor-href{
+    width: 100%;
+    height: 70%;
+
+    display: flex;
+    flex-direction: column;
+}
+.vubor-href a{
+    width: 50%;
+
+    padding: 1% 5%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    font-size: 25px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #3B1D6B;
+    border-radius: 50px;
+    color: #FFFFFF;
+    transition: all linear .5s;
+}
+.vubor-href a:hover{
+    width: 55%;
+    background-color: #fff;
+    border: 3px solid #3B1D6B;
+    color: #3B1D6B;
+}
+.vubor-button{
+    margin-top: 2%;
+}
+.vubor-button a{
+    font-family: 'skalalend';
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 1% 3%;
+
+    border-radius: 50px;
+    background-color: #fff;
+    border: 3px solid #3B1D6B;
+    color: #3B1D6B;
+
+    transition: all linear .5s;
+    text-decoration: none;
+}
+.vubor-button a:hover{
+    background-color: #3B1D6B;
+    color: #FFF;
+    padding: 1% 4%;
+    cursor: pointer;
+}
+.vubor-crest{
+    position: absolute;
+    top:3%;
+    right: 5%;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: transparent;
+    transition: all linear .5s;
+}
+.vubor-crest:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 4px rgba(80, 77, 146, 0.25);
+}
+.vubor-crest img{
+    width: 100%;
+    padding: 5%;
+}
+//////////////////////////////////////////////////////////////////
+
+//Основное меню//////////////////////////////////////////////////
+.header{
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+}
+.header__button{
+    width: 70%;
+    height: 13%;
+    margin: 0 auto;
+    margin-bottom: 20%;
+    position: relative;
+
+    background: rgba(84, 134, 76, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 13px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s linear;
+    transition: translate 0.3s linear;
+    transition: opacity 0.3s linear;
+}
+.header__button img{
+    width: 100%;
+    padding: 3%;
+    opacity: .9;
+    z-index: 1;
+}
+.header__buttonplog{
+    margin-top: -20%;
+    width: 100%;
+    height: 100%;
+    padding: 0 1%;
+    font-family: 'skalalend';
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #111111;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header__buttonp{
+    margin-top: -6%;
+    width: 100%;
+    height: 100%;
+    font-family: 'skalalend';
+    font-size: 18px;
+    color: #111111;
+    text-align: center;
+}
+.header__button a{
+    padding-top: 100%;
+    z-index: 20;
+    text-decoration: none;
+    color: #111111;
+}
+.header__button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.header__button:active{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    transform: translate(3px,3px);
+    opacity: 1;
+}
+.header__burger{
+    width: 100%;
+    height: 100%;
+    display: none;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index:10;
+
+    background: #FFFFFF;
+}
+.header__burger-container{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    top: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.burger-line{
+    width: 80%;
+    height: 0;
+    margin: 0 auto;
+    margin-bottom: 8%;
+    border: 10px solid #00638a;
+    border-radius: 20px;
+}
+//////////////////////////////////////////////////////////////////////////
+
+//Основное меню (мобильный телефон)//////////////////////////////////////
+.cloned__menu{
+    position: absolute;
+    display: none;
+    width: 90%;
+    height: 100%;
+    top:0;
+    left: 10%;
+    z-index: 50;
+
+    background: rgba(255, 255, 255, 0.8);
+}
+.cloned__show{
+    position: fixed;
+    width: 90%;
+    height: 100%;
+    top:0;
+    left: 10%;
+    z-index: 50;
+    display: block;
+
+    background: rgba(255, 255, 255, 0.8);
+}
+.cloned__logo{
+    width: 100%;
+    height: 15%;
+    transition: opacity .3s linear;
+}
+.cloned__logo:hover{
+    opacity: .5;
+}
+.cloned__logo img {
+    width: 30%;
+    margin: 5%;
+}
+.cloned__button{
+    width: 70%;
+    height: 13%;
+    margin: 0 auto;
+    margin-bottom: 20%;
+    position: relative;
+
+    background: rgba(84, 134, 76, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 13px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s linear;
+    transition: translate 0.3s linear;
+    transition: opacity 0.3s linear;
+}
+.cloned__buttonp{
+    position: relative;
+    width: 30%;
+    text-align: center;
+    
+    font-family: 'Impact';
+    font-size: 15px;
+    color: #6E7097;
+
+    text-shadow: 
+    -0   -1px 0   #3B1D6B,
+    0   -1px 0   #3B1D6B,
+    -0    1px 0   #3B1D6B,
+    0    1px 0   #3B1D6B,
+    -1px -0   0  #3B1D6B,
+    1px -0   0  #3B1D6B,
+    -1px  0   0  #3B1D6B,
+    1px  0   0   #3B1D6B,
+}
+.cloned__buttonp a{
+    text-decoration: none;
+    padding-left: -50px;
+    color: #6E7097;
+}
+.cloned__button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.cloned__button:active{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    transform: translate(3px,3px);
+    opacity: 1;
+}
+//////////////////////////////////////////////////////////////////////////////////////////
+
+//Основной контент страницы//////////////////////////////////////////////////////////////////////
 .content{
     width: 90%;
     margin-left: 10%;
@@ -473,7 +564,6 @@ html,body{
     flex-direction: column;
     background-color: #00A3E1;
 }
-//БЛОК ЗАГЛАВНОЙ СТРАНИЦЫ...////////////////////////////////////////////////////////////////////////////
 .vertical-scrolling{
     width: 100%;
     min-height: 100vh;
@@ -490,6 +580,8 @@ html,body{
     left: 0;
     z-index: 1;
 }
+
+////////////////////////////Заглавная страница////////////////////////////////////////////////////////////////
 .face__fon{
     display: none;
     opacity: 0;
@@ -513,7 +605,7 @@ html,body{
     background: rgba(255, 255, 255, .95);
 }
 .face__h1txt{
-    width: 50%;
+    width: 40%;
     height: 100%;
 }
 .face__h1phone{
@@ -527,33 +619,33 @@ html,body{
 
     font-family: 'skalalend';
     font-size: 35px;
-    line-height: 43px;
+    line-height: 40px;
     text-transform: uppercase;
     text-align: center;
 
-    color: #3F4D8B;
+    color: #111111;
 
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
 }
 .face__h1phone span{
-    font-size: 40px;
-    color: #3F4D8B;
+    font-size: 35px;
+    color: #111111;
 }
 .face__h1txt p{
     width: 100%;
     margin-top: 7%;
     margin-left: 5%;
     font-family: 'skalalend';
-    font-size: 35px;
-    line-height: 43px;
+    font-size: 40px;
+    line-height: 45px;
     text-transform: uppercase;
 
-    color: #3F4D8B;
+    color: #111111;
 
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
 }
 .face__h1txt span{
-    color: #3F4D8B;
+    color: #111111;
     font-size: 40px;
 }
 .face__h1logo{
@@ -577,11 +669,11 @@ html,body{
     position: relative;
     font-family: 'skalalend';
     font-size: 25px;
-    line-height: 31px;
+    line-height: 30px;
 
-    margin-left: 5%;
+    margin-left: 4%;
     margin-top: 1.6%;
-    color: #3F4D8B;
+    color: #111111;
     z-index: 3;
 
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
@@ -632,15 +724,15 @@ html,body{
 }
 .slaider__prew img:hover{
     opacity: .8;
-    height: 12%;
-    top: 34%;
+    height: 10%;
+    top: 35%;
 
     cursor: pointer;
 }
 .slaider__next img:hover{
     opacity: .8;
-    height: 12%;
-    top: 34%;
+    height: 10%;
+    top: 35%;
 
     cursor: pointer;
 }
@@ -658,7 +750,9 @@ html,body{
 .slaider__content  img{
     width: 100%;
     height: 100%;
-    padding: 1% 2%;
+    padding: 2% 10%;
+
+    border-radius: 50px;
 }
 .slaider__dot{
 
@@ -675,7 +769,7 @@ html,body{
 }
 .sldot {
     cursor: pointer;
-
+    display: none;
     height: 30px;
     width: 30px;
     margin: 0 2px;
@@ -720,8 +814,8 @@ html,body{
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 .face__social{
-    width: 20%;
-    height: 5%;
+    width: 15%;
+    height: 7%;
 
     display: flex;
     flex-direction: row;
@@ -738,15 +832,14 @@ html,body{
 
     position: absolute;
     left: 2%;
-    top: 23%;
+    top: 24%;
     z-index: 3;
 
-    border: 3px solid #FFD507;
+    border: 1px solid #111111;
     border-radius: 10px;
-    box-shadow: 2px 1px 2px rgba(0, 163, 225, 0.8);
 }
 .social{
-    width: 15%;
+    width: 25%;
     height: 100%;
     position: relative;
     background: rgba(255, 255, 255, 0.95);
@@ -762,8 +855,8 @@ html,body{
 .social:hover{
     opacity: .8;
 }
-//БЛОК О ЦЕНТРЕ ////////////////////////////////////////////////////////////////////////////
 
+////////////////////////////О Центре////////////////////////////////////////////////////////////////////////////
 .about{
     position: absolute;
     top: 0;
@@ -794,7 +887,7 @@ html,body{
     text-align: right;
     text-transform: uppercase;
 
-    color: #3F4D8B;
+    color: #111111;
 
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
 }
@@ -806,8 +899,8 @@ html,body{
     margin-top: 2%;
 }
 .about__h1txt span{
-    color: #3F4D8B;
-    font-size: 45px;
+    color: #111111;
+    font-size: 40px;
 }
 .about__h1txtf{
     position: absolute;
@@ -874,13 +967,13 @@ html,body{
     font-size: 30px;
     line-height: 45px;
 
-    color: #3F4D8B;
+    color: #111111;
 
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
 }
 .about__h2txt span{
-    font-size: 35px;
-    color: #3F4D8B;
+    font-size: 30px;
+    color: #111111;
 }
 .about__h2tx1{
     z-index: 3;
@@ -897,7 +990,7 @@ html,body{
 .about__h2txl{
     width: 90%;
     height: 0;
-    border: 2px solid #FFD507;
+    border: 2px solid #111111;
     z-index: 3;
     margin-top: 5%;
     margin-left: 15%;
@@ -929,15 +1022,16 @@ html,body{
     font-size: 40px;
     line-height: 49px;
 
-    color: #3F4D8B;
+    color: #111111;
 
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
 }
 .about__h3 span{
-    font-size: 45px;
-    color: #3F4D8B;
+    font-size: 40px;
+    color: #111111;
 }
-//БЛОК АКТИВНОСТИ............////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////Активности////////////////////////////////////////////////////////////////////////
 .acktiv{
     position: absolute;
     top: 0;
@@ -976,18 +1070,18 @@ html,body{
     margin-right: 3%;
     font-family: 'skalalend';
     font-size: 35px;
-    line-height: 43px;
+    line-height: 40px;
     z-index: 2;
     position: relative;
 
-    color: #3F4D8B;
+    color: #111111;
     text-align: right;
 
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
 }
 .acktiv__h1 span{
-    font-size: 40px;
-    color: #3F4D8B;
+    font-size: 35px;
+    color: #111111;
 }
 .acktiv__slaider{
     width: 80%;
@@ -1050,41 +1144,21 @@ html,body{
 
     text-align: center;
     font-family: 'skalalend';
-    font-size: 30px;
+    font-size: 27px;
 
-    color: #EEF3ED;
+    color: #111111;
     text-transform: uppercase;
-    text-shadow: 
-    -0   -1px 0   #3F4D8B,
-    0   -1px 0   #3F4D8B,
-    -0    1px 0   #3F4D8B,
-    0    1px 0   #3F4D8B,
-    -1px -0   0  #3F4D8B,
-    1px -0   0  #3F4D8B,
-    -1px  0   0  #3F4D8B,
-    1px  0   0   #3F4D8B,
-    2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 .aslaid span{
-    color: #EEF3ED;
-    font-size: 31px;
-    text-shadow: 
-    -0   -1px 0   #3F4D8B,
-    0   -1px 0   #3F4D8B,
-    -0    1px 0   #3F4D8B,
-    0    1px 0   #3F4D8B,
-    -1px -0   0  #3F4D8B,
-    1px -0   0  #3F4D8B,
-    -1px  0   0  #3F4D8B,
-    1px  0   0   #3F4D8B,
-    2px 2px 2px rgba(0, 0, 0, 0.25);
+    color: #111111;
+    font-size: 27px;
 }
 
 .aslaid__btn{
     width: 75%;
 
     margin: 0 auto;
-    margin-top: 20%;
+    margin-top: 15%;
 
     font-family: 'skalalend';
     font-size: 30px;
@@ -1093,40 +1167,29 @@ html,body{
     text-align: center;
     padding: 3% 0%;
     
-    color: #ffffff;
-    background-color: #3F4D8B;
-    border-radius: 10px;
-    text-shadow: 
-    -0   -1px 0   #ffffff,
-    0   -1px 0   #ffffff,
-    -0    1px 0   #ffffff,
-    0    1px 0   #ffffff,
-    -1px -0   0  #ffffff,
-    1px -0   0  #ffffff,
-    -1px  0   0  #ffffff,
-    1px  0   0   #ffffff,
-    2px 2px 2px rgba(0, 0, 0, 0.25);
+    color: #111111;
+    border: 1px solid #111111;
     transition: all 0.3s linear;
 }
 .aslaid__btn a{
     text-decoration: none;
-    color: #ffffff;
+    color: #111111;
     padding: 3% 0;
 }
 .aslaid__btn:hover{
     width: 80%;
 
-    margin-top: 18%;
+    margin-top: 13%;
     font-size: 32px;
     padding: 4% 0;
-    background-color: #7580ac;
+    border-radius: 50px;
     cursor: pointer;
 }
 .aslaid__btn a:focus{
     outline: none;
 }
 
-//БЛОК С ЦЕНАМИ..............//////////////////////////////////////////////////////
+////////////////////////////////////////////////Праздники//////////////////////////////////////////////////////
 .prais{
     position: absolute;
     top: 0;
@@ -1135,527 +1198,152 @@ html,body{
     width: 100%;
     height: 100%;
     z-index: 2;
-}
-.prais img{
-    width: 90%;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-}
-.prais__h1{
-    width: 100%;
-    height: 20%;
-    z-index: 2;
-}
-.prais__h1 p{
-    margin-top: 3%;
-    margin-right: 3%;
-    font-family: 'skalalend';
-    font-size: 50px;
-    line-height: 43px;
-    z-index: 3;
-    position: relative;
-
-    color: #3F4D8B;
-    text-align: right;
-    text-transform: uppercase;
-
-    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
-}
-.prais__h1 span{
-    color: #3F4D8B;
-    font-size: 45px;
-}
-.prais__h1f{
-    width: 95%;
-    border-bottom: 150px solid rgba(255, 255, 255, 0.95);
-    border-left: 200px solid transparent;
-    transform: scale(1,-1);
-
-    position: absolute;
-    top: 0;
-    right: 0;
-
-    z-index: 2;
-}
-.prais__cena{
-    width: 100%;
-    height: 70%;
-
-    display: flex;
-    flex-direction: row;
-    z-index: 2;
-}
-.cena1{
-    width: 50%;
-    height: 100%;
-
-    display: block;
-}
-.cena2{
-    width: 50%;
-    height: 100%;
-
     display: flex;
     flex-direction: column;
 
-    padding: 0 3%;
+    background: rgba(253, 253, 253, 0.7);
 }
-.cena2__txt{
+.prais h1{
     width: 100%;
-    height: 35%;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    z-index: 2;
-}
-.cena2__txt1{
-    width: 45%;
-    height: 100%;
-    margin-top: -7%;
-    padding-bottom: 10%;
-
-    border-radius: 50px;
-    background: rgba(255, 255, 255, 0.5);
-    border: 3px solid #FFD507;
-
-}
-.txt__content{
-    list-style: none;
-    width: 100%;
-    height: 100%;
-
-    text-align: center;
-
-    font-family: 'skalalend';
-    font-size: 25px;
-    line-height: 30px;
-    text-transform: uppercase;
-
-    color: #3F4D8B;
-
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-}
-.txt__contentline{
-    width: 50%;
-    height: 0;
-    border: 3px solid #3F4D8B;
-
-    margin: 0 auto;
-    margin-top: 2%;
-
-    box-shadow: 2px 1px 2px rgba(0, 163, 225, 0.8);
-}
-.txt__content li{
-    margin-top: 3%;
-}
-.txt__content li span{
-    font-size: 25px;
-    color: #3F4D8B;
-}
-.txt__content2{
-    
-    list-style: none;
-    width: 100%;
-    height: 100%;
-
-    text-align: center;
-
-    font-family: 'skalalend';
-    font-size: 25px;
-    line-height: 30px;
-    text-transform: uppercase;
-
-    color: #3F4D8B;
-
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-}
-.txt__content2 li{
-    margin-top: 3%;
-}
-.txt__content2 li span{
-    font-size: 25px;
-    color: #3F4D8B;
-}
-.txt__contentline2{
-    width: 50%;
-    height: 0;
-    border: 3px solid #3F4D8B;
-
-    margin: 0 auto;
-    margin-top: 2%;
-
-    box-shadow: 2px 1px 2px rgba(255, 213, 7, 0.8);
-}
-.cena__animat{
-    width: 100%;
-    padding: 2% 0;
-    z-index: 2;
-
-    font-family: 'skalalend';
-    font-size: 30px;
-    line-height: 35px;
-    margin-top: -5%;
-    margin-bottom: 5%;
-
-    color: #3F4D8B;
-    text-align: center;
-    
-
-    border-radius: 50px;
-    background: rgba(255, 255, 255, 0.5);
-    border: 3px solid #FFD507;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-}
-.cena__animat span{
-    font-size: 30px;
-    color: #3F4D8B;
-}
-.cena__posh1{
-    width: 100%;
-    padding: 2% 0;
-    z-index: 2;
-
-    font-family: 'skalalend';
-    font-size: 30px;
-    line-height: 35px;
-    margin-top: 1%;
-    margin-bottom: 2%;
-
-    color: #3F4D8B;
-    text-align: center;
-    
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-}
-.cena-posesh{
-    width: 100%;
-    height: 35%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    z-index: 5;
-}
-.cena-posesh1{
-    width: 45%;
-    height: 100%;
+    height: 5%;
 
     text-align: left;
 
-    font-family: 'skalalend';
-    font-size: 20px;
-    line-height: 25px;
-    text-transform: uppercase;
-
-    color: #3F4D8B;
-
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-}
-.cena-posesh1 ul{
-    list-style: none;
-}
-.cena-posesh1 li{
-    padding: 2% 0;
-}
-.cena-posesh2{
-    width: 45%;
-    height: 100%;
-
-    text-align: right;
-
-    font-family: 'skalalend';
-    font-size: 20px;
-    line-height: 25px;
-    text-transform: uppercase;
-
-    color: #3F4D8B;
-
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-}
-.cena-posesh2 ul{
-    list-style: none;
-}
-.cena-posesh2 li{
-    padding: 2% 0;
-}
-.cena-posesh1 span{
-    font-size: 25px;
-    font-weight: bold;
-}
-.cena-posesh2 span{
-    font-size: 25px;
-    font-weight: bold;
-}
-.cena-posline{
-    width: 40%;
-    height: 0;
-    border: 1px solid #3F4D8B;
-
-    margin: 2% 0;
-
-    box-shadow: 2px 1px 2px rgba(255, 213, 7, 0.8);
-}
-.cena-posline2{
-    width: 40%;
-    height: 0;
-    border: 1px solid #3F4D8B;
-
-    margin: 2% 0;
-    margin-left: 60%;
-
-    box-shadow: 2px 1px 2px rgba(255, 213, 7, 0.8);
-}
-.cena__button{
-    width: 70%;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 3%;
-    padding: 3% 0;
-    z-index: 2;
-
-    font-family: 'skalalend';
-    font-size: 40px;
-    line-height: 37px;
-
-    color: #FFFFFF;
-    text-shadow: 
-    -0   -1px 0   #ffffff,
-    0   -1px 0   #ffffff,
-    -0    1px 0   #ffffff,
-    0    1px 0   #ffffff,
-    -1px -0   0  #ffffff,
-    1px -0   0  #ffffff,
-    -1px  0   0  #ffffff,
-    1px  0   0   #ffffff,
-    2px 2px 2px rgba(0, 0, 0, 0.25);
-
-    background: #3F4D8B;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-    transition: all .3s linear;
-}
-.cena__button a{
-    text-decoration: none;
-    color: #FFFFFF;
-    padding: 3% 0;
-}
-.cena__button:hover{
-    width: 71%;
-    opacity: .7;
-    padding: 4% 0;
-    margin-top: 1%;
-    cursor: pointer;
-}
-.cena2__f{
-    width: 50%;
-    height: 90%;
-
-    position: absolute;
-    z-index: 1;
-    right: 0;
-    top: 14.9%;
-    background: rgba(255, 255, 255, 0.95);
-}
-.prais__line{
-    width: 40%;
-    height: 0;
-
-    border: 5px solid #FFD507;
-    box-shadow: 2px 1px 2px rgba(0, 163, 225, 0.8);
-    position: absolute;
-    top: 15%;
-    right: 2%;
-    z-index: 3;
-}
-
-//БЛОК ЗАКАЗА..../////////////////////////////////////////////////////////////////////
-.zakaz{
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-}
-.zakaz img{
-    width: 90%;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-}
-.zakaz__h1{
-    width: 100%;
-    z-index: 3;
-
-    font-family: 'skalalend';
+    font-family: 'Skalalend';
     font-size: 50px;
-    line-height: 59px;
-
-    color: #3F4D8B;
+    font-weight: bold;
+    color: #111111;
     text-transform: uppercase;
 
-    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
+    padding: 1% 2%;
 }
-.zakaz__h1 p{
-    width: 50%;
-    padding: 2% 3%;
-    z-index: 3;
+.prais span{
+    width: 30%;
+    height: 0;
+
+    border: 1px solid #111111;
+
+    margin: 3% 2%;
+}
+.prais-slider{
+    width: 100%;
+    height: 500px;
+
+    background: rgba(253, 253, 253, 0.9);
+}
+.pslide{
+    width: 100%;
+    height: 500px;
+
+    display: block;
+    border-radius: 0px;
+    background: transparent;
+}
+.pslide:focus{
+    outline: none;
+}
+.pslide:active{
+    outline: none;
+}
+.prais-posesh{
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.prais-posesh h1{
+    padding: 1% 5%;
+    margin: 5% 0;
+
+
+    font-size: 30px;
+    line-height: 35px;
+}
+.prais-posesh h2{
+    padding: 1% 5%;
+
+    font-family: 'skalalend';
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.prais-posesh span{
+    width: 10%;
+
     position: relative;
+    left: 5%;
 }
-.zakaz__h1 span{
-    font-size: 55px;
-    color: #3F4D8B;
-
-}
-.zakaz__h1f{
-    width: 60.7%;
-    border-bottom: 191px solid rgba(255, 255, 255, 0.95);
-    border-right: 185px solid transparent;
-    transform: scale(1,-1);
-
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    z-index: 2;
-}
-.zakaz__forma{
-    width: 50%;
+.prais-posesh-1{
+    width: 33%;
     height: 100%;
-    z-index: 3;
 
     display: flex;
     flex-direction: column;
-
-    background: rgba(255, 255, 255, 0.95);
+    text-align: left;
 }
+.prais-posesh-but{
+    width: 33%;
+    height: 100%;
 
-input[type=text],input[type=email],input[type=tel],textarea{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
-.input{
-    border-radius: 0;
-    width: 90%;
-    height: 75px;
-
-    margin-top: 2%;
-    margin-left: 2%;
-
-    font-family: 'skalalend';
-    font-size: 25px;
-    line-height: 59px;
-
-    color: #3F4D8B;
-
-    text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.25);
-
-    background: none;
-    padding: 0px 20px;
-    border-radius: 20px;
-    transition: width 0.5s linear;
-
-    border: 3px solid #FFD507;
-}
-.input:focus{
-    width: 95%;
-    outline: 0;
-    border: 3px solid #00A3E1;
-}
-::placeholder{
-    color: #3F4D8B;
-}
-textarea.input{
-    resize: none;
-    height: 305px;
-    padding-top: 15px;
-}
-select.input:focus{
-    width: 90%;
-}
-select, option{
-    cursor: pointer;
-}
-.zakaz__button{
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 5%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+.prais-posesh-but h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.prais-posesh-but button{
+    width: 70%;
 
-    justify-content: space-between;
-}
-.zakaz__button1{
-    width: 45%;
-}
-.zakaz__button1 button{
+    margin: 15% auto;
+    padding: 1% 3%;
+
     font-family: 'skalalend';
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 35px;
     text-transform: uppercase;
-    padding: 2%;
 
-    color: #FFFFFF;
-    background-color: #3F4D8B;
-    border-radius: 20px;
-    box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.25);
-    transition: all .3s linear;
-}
-.zakaz__button1 button:active{
-    outline: none;
-}
-.zakaz__button1 button:focus{
-    outline: none;
-}
+    border: 1px solid #111111;
+    background: transparent;
 
-.zakaz__button2{
-    width: 45%;
+    transition: all linear .5s;
 }
-.zakaz__button2 button{
-    font-family: 'skalalend';
-    font-size: 35px;
-    line-height: 40px;
-    text-transform: uppercase;
-    padding: 2%;
+.prais-posesh-but button:hover{
+    width: 73%;
+    font-size: 33px;
+    line-height: 38px;
+    margin: 14% auto;
+    padding: 2% 4%;
 
-    color: #FFFFFF;
-    background-color: #3F4D8B;
-    border-radius: 20px;
-    box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.25);
-
-    transition: all .3s linear;
-}
-.zakaz__button2 button:active{
-    outline: none;
-}
-.zakaz__button2 button:focus{
-    outline: none;
-}
-.zakaz__button1 button:hover{
-    padding: 3% 4%;
-    margin-top: -1%;
-    opacity: .8;
-
+    border-radius: 50px;
+    background: rgba(253, 253, 253, 0.9);
     cursor: pointer;
 }
-.zakaz__button2 button:hover{
-    padding: 3% 4%;
-    margin-top: -1%;
-    opacity: .8;
-
-    cursor: pointer;
+.prais-posesh-but button:focus{
+    outline: none;
 }
-.zakaz__line{
-    width: 30%;
-    height: 0;
-    position: absolute;
-    left: 1%;
-    top: 18%;
-    z-index: 5;
-    border: 3px solid #FFD507;
-    box-shadow: 2px 1px 2px rgba(0, 163, 225, 0.8);
+.prais-posesh-but button:active{
+    outline: none;
+}
+.prais-posesh-2{
+    width: 33%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.prais-posesh-2 h1{
+    text-align: right;
+}
+.prais-posesh-2 span{
+    position: relative;
+    left: 80%;
 }
 
-//БЛОК КОНТАКТОВ........................///////////////////////////////////////////////////
+////////////////////////////////////////////////////Контакты///////////////////////////////////////////////////
 .kontakts{
     position: absolute;
     top: 0;
@@ -1681,7 +1369,7 @@ select, option{
     line-height: 86px;
     padding: 1% 3%;
 
-    color: #3F4D8B;
+    color: #111111;
 
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
     text-transform: uppercase;
@@ -1690,7 +1378,7 @@ select, option{
 }
 .kontakts__h1 span{
     font-size: 75px;
-    color: #3F4D8B;
+    color: #111111;
 }
 .kontakst__block{
     width: 100%;
@@ -1713,7 +1401,7 @@ select, option{
     font-size: 40px;
     line-height: 45px;
 
-    color: #3F4D8B;
+    color: #111111;
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
 
 }
@@ -1723,7 +1411,7 @@ select, option{
     z-index: 2;
 }
 .kontakts__text span{
-    color: #3F4D8B;
+    color: #111111;
     font-weight: normal;
     font-size: 35px;
 }
@@ -1736,23 +1424,26 @@ select, option{
     font-weight: normal;
     text-align: center;
 
-    color: #FFFFFF;
-    background-color: #3F4D8B;
+    color: #111111;
+    background-color: transparent;
 
-    border-radius: 20px;
+    border: 1px solid #111111;
     box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
     z-index: 2;
     transition: all .3s linear;
 }
 .kontakts__call:hover{
     padding: 3% 0;
+    width: 67%;
+
+    border-radius: 50px;
     cursor: pointer;
-    background-color: #5d70c5;
+    background-color: none;
 }
 .kontakts__call a{
     text-decoration: none;
     padding: 10% 0;
-    color: #FFFFFF;
+    color: #111111;
 }
 
 .kontakts__tetxf{
@@ -1821,6 +1512,22 @@ select, option{
 
 
     border-radius: 55px;
-    border: 5px solid #3F4D8B;
+    border: 5px solid #111111;
     box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+//////Вспомогательный блок/////////
+.show{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    display: block;
+    left: 0;
+    top: 0;
+    z-index: 500;
+    background: rgba(255, 255, 255, 0.8);
 }
