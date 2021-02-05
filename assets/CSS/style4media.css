@@ -3,22 +3,26 @@
     border: 1px solid #FFFFFF;
   }
   .zvonok__wrapper-h2 {
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 35px;
   }
   .zvonok__input {
-    margin-top: 10%;
+    margin-top: 8%;
     font-size: 40px;
+  }
+  .oplata-wrapper form {
+    margin: 3% 0;
   }
   .vubor-href a {
     font-size: 20px;
   }
   .header__buttonplog {
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 10px;
+    line-height: 15px;
   }
   .header__buttonp {
-    font-size: 15px;
+    margin-top: -12%;
+    font-size: 13px;
   }
   .face__h1txt p {
     margin-top: 10%;
@@ -46,7 +50,7 @@
   }
   .about__h1txtf {
     width: 70%;
-    border-bottom: 250px solid rgba(255, 255, 255, 0.95);
+    border-bottom: 180px solid rgba(255, 255, 255, 0.95);
   }
   .about__h2txt {
     font-size: 27px;
@@ -64,8 +68,8 @@
     border: 1px solid #111111;
   }
   .about__h2txf {
-    border-bottom: 558px solid rgba(255, 255, 255, 0.95);
-    margin-top: -0.5%;
+    border-bottom: 520px solid rgba(255, 255, 255, 0.95);
+    margin-top: -7.5%;
   }
   .about__h3 {
     padding-bottom: 5%;
@@ -77,6 +81,9 @@
   }
   .acktiv__h1 span {
     font-size: 28px;
+  }
+  .aslaid {
+    height: 320px;
   }
   .aslaid p {
     font-size: 23px;
@@ -92,13 +99,16 @@
     margin-top: 17%;
     font-size: 22px;
   }
+  .prais-slider {
+    height: 400px;
+  }
   .prais-posesh-but button {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 23px;
+    line-height: 28px;
   }
   .prais-posesh-but button:hover {
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 25px;
+    line-height: 30px;
   }
   .kontakts__h1 {
     font-size: 60px;
@@ -109,6 +119,9 @@
   }
   .kontakts__call {
     font-size: 20px;
+  }
+  .map__block {
+    height: 250px;
   }
   .show {
     position: absolute;
