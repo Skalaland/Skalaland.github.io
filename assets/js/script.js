@@ -52,6 +52,8 @@ let oplat = $("#oplat");
 let oplata = $("#oplata");
 let oplcrest = $("#oplcrest");
 let oplbut = $("#oplbut");
+let clonopbut = $("#clonopbut");
+
 
 oplat.on("click", function(event){
   event.preventDefault();
@@ -62,6 +64,10 @@ oplcrest.on("click", function(event){
   oplata.toggleClass("show");
 });
 oplbut.on("click", function(event){
+  event.preventDefault();
+  oplata.toggleClass("show");
+});
+clonopbut.on("click", function(event){
   event.preventDefault();
   oplata.toggleClass("show");
 });
