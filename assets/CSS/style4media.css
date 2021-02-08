@@ -181,10 +181,9 @@
     margin-top: -3.35%;
   }
   .social img {
-    width: 30px;
-    height: 30px;
-    margin: 8%;
-    margin-top: 15%;
+    width: 100%;
+    height: 100%;
+    padding: 15% 10%;
   }
   .about__h1txt p {
     width: 90%;
@@ -214,8 +213,11 @@
   .acktiv__h1 span {
     font-size: 35px;
   }
+  .aslaid {
+    height: 370px;
+  }
   .aslaid p {
-    font-size: 30px;
+    font-size: 25px;
   }
   .aslaid span {
     font-size: 25px;
@@ -307,17 +309,20 @@
   }
   .kontakts__text {
     margin-top: 5%;
-    font-size: 40px;
-    line-height: 45px;
+    font-size: 35px;
+    line-height: 40px;
   }
   .kontakts__call {
     font-size: 30px;
   }
   .kontakts__text span {
-    font-size: 45px;
+    font-size: 25px;
   }
   .kontakts__tetxf {
     top: 20%;
+  }
+  .map__block {
+    height: 300px;
   }
 }
 
@@ -530,8 +535,7 @@
 
 @media (max-width: 1024px) {
   .header__buttonp {
-    font-size: 12px;
-    text-shadow: 0 -0.5px 0 #3B1D6B, 0 -0.5px 0 #3B1D6B, 0 0.5px 0 #3B1D6B, 0 0.5px 0 #3B1D6B, -0.5px 0 0 #3B1D6B, 0.5px 0 0 #3B1D6B, -0.5px 0 0 #3B1D6B, 0.5px 0 0 #3B1D6B;
+    font-size: 10px;
   }
   .zvonok__wrapper {
     width: 60%;
@@ -569,7 +573,7 @@
     font-size: 20px;
   }
   .face__h1phone span {
-    font-size: 25px;
+    font-size: 20px;
   }
   .face__h1txt p {
     margin-top: 9%;
@@ -577,7 +581,7 @@
     line-height: 25px;
   }
   .face__h1txt span {
-    font-size: 25px;
+    font-size: 20px;
   }
   .face__h1logo {
     width: 40%;
@@ -587,9 +591,13 @@
     width: 40%;
     top: 18%;
   }
+  .face__h2 p {
+    font-size: 20px;
+    line-height: 25px;
+  }
   .face__h2f {
     width: 55%;
-    margin-top: -7.6%;
+    margin-top: -4%;
   }
   .slaider__dot {
     bottom: 3%;
@@ -607,24 +615,23 @@
     width: 32px;
   }
   .social img {
-    width: 20px;
-    height: 20px;
-    margin: 12%;
-    margin-top: 30%;
+    width: 100%;
+    height: 100%;
+    padding: 20% 10%;
   }
   .about__h1txt {
     font-size: 30px;
     line-height: 35px;
   }
   .about__h1txt span {
-    font-size: 35px;
+    font-size: 30px;
   }
   .about__h1txt p {
     width: 90%;
   }
   .about__h1txtf {
     width: 95%;
-    border-bottom: 160px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 160px solid rgba(255, 255, 255, 0.95);
     border-left: 200px solid transparent;
   }
   .about__h2txt {
@@ -632,10 +639,10 @@
     line-height: 30px;
   }
   .about__h2txt span {
-    font-size: 25px;
+    font-size: 20px;
   }
   .about__h2txf {
-    border-bottom: 537px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 537px solid rgba(255, 255, 255, 0.95);
     border-left: 80px solid transparent;
     margin-top: -9.5%;
   }
@@ -648,7 +655,7 @@
     line-height: 35px;
   }
   .about__h3 span {
-    font-size: 35px;
+    font-size: 30px;
   }
   .swiper-container {
     width: 80%;
@@ -662,7 +669,7 @@
   }
   .acktiv__h1f {
     width: 100%;
-    border-bottom: 150px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 150px solid rgba(255, 255, 255, 0.95);
     border-left: 200px solid transparent;
   }
   .acktiv__h1 p {
@@ -671,13 +678,13 @@
     line-height: 27px;
   }
   .acktiv__h1 span {
-    font-size: 27px;
+    font-size: 22px;
   }
   .aslaid p {
     font-size: 22px;
   }
   .aslaid span {
-    font-size: 18px;
+    font-size: 22px;
   }
   .aslaid__btn {
     margin-top: 30%;
@@ -699,10 +706,10 @@
     font-size: 30px;
   }
   .prais__h1 span {
-    font-size: 25px;
+    font-size: 30px;
   }
   .prais__h1f {
-    border-bottom: 118px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 118px solid rgba(255, 255, 255, 0.95);
     border-left: 80px solid transparent;
   }
   .txt__content {
@@ -710,14 +717,14 @@
     line-height: 27px;
   }
   .txt__content li span {
-    font-size: 17px;
+    font-size: 22px;
   }
   .txt__content2 {
     font-size: 22px;
     line-height: 27px;
   }
   .txt__content2 li span {
-    font-size: 17px;
+    font-size: 22px;
   }
   .cena__animat {
     font-size: 20px;
@@ -735,11 +742,11 @@
     line-height: 35px;
   }
   .zakaz__h1 span {
-    font-size: 35px;
+    font-size: 30px;
   }
   .zakaz__h1f {
     width: 70%;
-    border-bottom: 111px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 111px solid rgba(255, 255, 255, 0.95);
   }
   input[type=text], input[type=email], input[type=tel], textarea {
     -webkit-appearance: none;
@@ -779,18 +786,18 @@
     line-height: 50px;
   }
   .kontakts__h1 span {
-    font-size: 50px;
+    font-size: 45px;
   }
   .kontakst__block {
     height: 80%;
   }
   .kontakts__text {
     margin-top: 2%;
-    font-size: 32px;
-    line-height: 37px;
+    font-size: 25px;
+    line-height: 30px;
   }
   .kontakts__text span {
-    font-size: 25px;
+    font-size: 20px;
   }
   .kontakts__call {
     font-size: 20px;
@@ -822,15 +829,60 @@
   .header__button {
     display: none;
   }
-  .cloned__menu {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 50;
-    display: none;
-    background: rgba(255, 255, 255, 0.8);
+  .oplata-wrapper h1 {
+    padding-top: 2%;
+    font-size: 30px;
+  }
+  .oplata-wrapper span {
+    width: 40%;
+    margin: 1% auto;
+  }
+  .oplata-wrapper form {
+    margin: 0;
+    margin-bottom: 2%;
+  }
+  .oplata-wrapper input {
+    width: 70%;
+    font-size: 15px;
+    padding: 1%;
+    margin: 0.5% auto;
+  }
+  .oplata-wrapper select {
+    width: 70%;
+    font-size: 15px;
+    padding: 1%;
+    margin: 0.5% auto;
+  }
+  .oplata-wrapper button {
+    width: 50%;
+    font-size: 20px;
+  }
+  .oplata-wrapper button:hover {
+    width: 51%;
+    font-size: 22px;
+  }
+  .vuborh1 {
+    height: 15%;
+    padding: 2% 0;
+  }
+  .vubor-href {
+    height: 50%;
+  }
+  .vubor-href a {
+    width: 90%;
+    padding: 1% 5%;
+    margin-bottom: 2%;
+    font-size: 15px;
+  }
+  .vubor-href a:hover {
+    width: 95%;
+  }
+  .vubor-button {
+    margin-top: 10%;
+  }
+  .vubor-button a {
+    font-size: 15px;
+    padding: 1% 3%;
   }
   .cloned__show {
     position: fixed;
@@ -840,14 +892,7 @@
     left: 10%;
     z-index: 50;
     display: block;
-    background: rgba(255, 255, 255, 0.8);
-  }
-  .cloned__logo {
-    width: 40%;
-    height: 15%;
-    margin-bottom: 5%;
-    -webkit-transition: opacity .3s linear;
-    transition: opacity .3s linear;
+    background: rgba(255, 255, 255, 0.9);
   }
   .cloned__button {
     width: 70%;
@@ -871,6 +916,23 @@
     padding-top: 1.5%;
     padding-left: 2%;
   }
+  .cloned__buttonph1 {
+    position: absolute;
+    width: 60%;
+    right: 0;
+    left: 20%;
+    top: 20%;
+    text-align: center;
+    font-family: 'Skalalend';
+    font-size: 20px;
+    color: #111;
+    text-transform: uppercase;
+    padding-top: 1%;
+  }
+  .cloned__buttonph1 a {
+    text-decoration: none;
+    color: #111;
+  }
   .cloned__buttonp {
     position: absolute;
     width: 60%;
@@ -878,10 +940,13 @@
     left: 20%;
     top: 20%;
     text-align: center;
-    font-family: 'Impact';
+    font-family: 'Skalalend';
     font-size: 30px;
-    color: #6E7097;
-    text-shadow: 0 -1px 0 #3B1D6B, 0 -1px 0 #3B1D6B, 0 1px 0 #3B1D6B, 0 1px 0 #3B1D6B, -1px 0 0 #3B1D6B, 1px 0 0 #3B1D6B, -1px 0 0 #3B1D6B, 1px 0 0 #3B1D6B;
+    color: #111;
+  }
+  .cloned__buttonp a {
+    text-decoration: none;
+    color: #111;
   }
   .cloned__zvonok {
     width: 20%;
@@ -963,7 +1028,7 @@
     font-size: 15px;
   }
   .face__h1phone span {
-    font-size: 20px;
+    font-size: 15px;
   }
   .face__h1txt p {
     margin-top: 9%;
@@ -971,7 +1036,7 @@
     line-height: 20px;
   }
   .face__h1txt span {
-    font-size: 20px;
+    font-size: 15px;
   }
   .face__h1logo {
     width: 40%;
@@ -980,12 +1045,12 @@
   .face__line {
     width: 50%;
     top: 28%;
-    border: 1px solid #FFD507;
+    border: 1px solid #111;
   }
   .face__h2f {
     width: 60%;
     margin-top: -2.7%;
-    border-bottom: 30px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 30px solid rgba(255, 255, 255, 0.9);
   }
   .face__h2 p {
     font-size: 15px;
@@ -1026,18 +1091,18 @@
     padding: 10%;
   }
   .about__h1txt {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 23px;
   }
   .about__h1txt span {
-    font-size: 25px;
+    font-size: 18px;
   }
   .about__h1txt p {
     width: 90%;
   }
   .about__h1txtf {
     width: 95%;
-    border-bottom: 110px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 110px solid rgba(255, 255, 255, 0.95);
     border-left: 200px solid transparent;
   }
   .about__h2txt {
@@ -1045,10 +1110,10 @@
     line-height: 16px;
   }
   .about__h2txt span {
-    font-size: 16px;
+    font-size: 14px;
   }
   .about__h2txf {
-    border-bottom: 227px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 227px solid rgba(255, 255, 255, 0.95);
     border-left: 50px solid transparent;
     margin-top: -.5%;
   }
@@ -1061,7 +1126,7 @@
     line-height: 25px;
   }
   .about__h3 span {
-    font-size: 25px;
+    font-size: 20px;
   }
   .swiper-container {
     width: 80%;
@@ -1075,7 +1140,7 @@
   }
   .acktiv__h1f {
     width: 100%;
-    border-bottom: 100px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 100px solid rgba(255, 255, 255, 0.95);
     border-left: 150px solid transparent;
   }
   .acktiv__h1 p {
@@ -1084,143 +1149,135 @@
     line-height: 22px;
   }
   .acktiv__h1 span {
-    font-size: 22px;
+    font-size: 17px;
   }
   .acktiv__slaider {
     width: 85%;
     height: 100%;
   }
   .aslaid {
-    height: 200px;
+    height: 170px;
   }
   .aslaid__img {
     height: 45%;
   }
   .aslaid p {
-    font-size: 15px;
+    font-size: 12px;
   }
   .aslaid span {
     font-size: 12px;
   }
   .aslaid__btn {
     width: 80%;
-    margin-top: 30%;
-    font-size: 15px;
+    margin-top: 20%;
+    font-size: 12px;
   }
   .aslaid__btn:hover {
     width: 85%;
-    margin-top: 28%;
-    font-size: 17px;
+    margin-top: 18%;
+    font-size: 14px;
   }
-  .prais__h1 p {
-    margin-top: 2%;
-    font-size: 25px;
+  .prais h1 {
+    height: 10%;
+    text-align: left;
+    font-size: 30px;
   }
-  .prais__h1 span {
-    font-size: 20px;
+  .prais span {
+    margin: 3% 3%;
   }
-  .prais__h1f {
+  .prais-slider {
+    height: 150px;
+  }
+  .pslide {
+    height: 150px;
+  }
+  .prais-posesh h1 {
+    padding: 1% 5%;
+    margin: 5% 0;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .prais-posesh h2 {
+    padding: 1% 5%;
+    font-family: 'skalalend';
+    font-size: 10px;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+  .prais-posesh span {
+    width: 10%;
+    position: relative;
+    left: 5%;
+  }
+  .prais-posesh-1 {
+    width: 33%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: left;
+  }
+  .prais-posesh-but {
+    width: 33%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .prais-posesh-but h1 {
+    text-align: center;
+    margin-bottom: 25%;
+  }
+  .prais-posesh-but button {
     width: 100%;
-    border-bottom: 70px solid rgba(255, 255, 255, 0.8);
-    border-left: 80px solid transparent;
+    margin: 1% auto;
+    padding: 1% 3%;
+    font-family: 'skalalend';
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #111111;
+    background: transparent;
+    -webkit-transition: all linear .5s;
+    transition: all linear .5s;
   }
-  .cena2__txt1 {
-    border-radius: 30px;
-  }
-  .prais__line {
-    border: 2px solid #FFD507;
-  }
-  .txt__content {
-    font-size: 18px;
-    line-height: 23px;
-  }
-  .txt__contentline {
-    border: 1px solid #FFD507;
-  }
-  .txt__content li {
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-  .txt__content li span {
-    font-size: 13px;
-  }
-  .txt__content2 {
-    font-size: 18px;
-    line-height: 23px;
-  }
-  .txt__contentline2 {
-    border: 1px solid #00A3E1;
-  }
-  .txt__content2 li {
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-  .txt__content2 li span {
-    font-size: 13px;
-  }
-  .cena__animat {
-    font-size: 18px;
-    line-height: 23px;
-  }
-  .cena__animat span {
-    font-size: 13px;
-  }
-  .cena2__f {
-    height: 82%;
-    top: 18.7%;
-  }
-  .cena__button {
-    margin-top: 5%;
-    font-size: 20px;
-    line-height: 25px;
-  }
-  .cena__button:hover {
-    margin-top: 3%;
-  }
-  .zakaz__h1 {
-    font-size: 18px;
-    line-height: 23px;
-  }
-  .zakaz__h1 span {
-    font-size: 23px;
-  }
-  .zakaz__h1f {
-    width: 75%;
-    border-bottom: 79px solid rgba(255, 255, 255, 0.8);
-  }
-  input[type=text], input[type=email], input[type=tel], textarea {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
-  .input {
-    height: 35px;
+  .prais-posesh-but button:hover {
+    width: 100%;
     font-size: 15px;
     line-height: 20px;
+    margin: 1% auto;
+    padding: 2% 4%;
+    border-radius: 20px;
+    background: rgba(253, 253, 253, 0.9);
+    cursor: pointer;
   }
-  textarea.input {
-    padding-top: 5px;
-    height: 70px;
+  .prais-posesh-2 {
+    width: 33%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: right;
   }
-  .zakaz__button {
-    margin-top: 3%;
+  .prais-posesh-2 h1 {
+    text-align: right;
   }
-  .zakaz__button1 button {
-    font-size: 15px;
-    line-height: 20px;
-  }
-  .zakaz__button2 button {
-    font-size: 15px;
-    line-height: 20px;
-  }
-  .input {
-    margin-top: 3%;
-    line-height: 30px;
-  }
-  .zakaz__line {
-    width: 40%;
-    top: 20%;
-    border: 1px solid #FFD507;
+  .prais-posesh-2 span {
+    position: relative;
+    left: 80%;
   }
   .kontakts__h1 {
     font-size: 20px;
@@ -1292,65 +1349,60 @@
   .header__button {
     display: none;
   }
-  .vuborh1 {
-    width: 100%;
-    height: 10%;
-    padding: 10% 0;
+  .oplata-wrapper h1 {
+    padding-top: 30%;
+    font-size: 30px;
+  }
+  .oplata-wrapper span {
+    width: 40%;
+    margin: 10% auto;
+  }
+  .oplata-wrapper form {
+    margin: 0;
+    margin-bottom: 10%;
+  }
+  .oplata-wrapper input {
+    width: 70%;
+    font-size: 15px;
+    padding: 2%;
+    margin: 2% auto;
+  }
+  .oplata-wrapper select {
+    width: 70%;
+    font-size: 15px;
+    padding: 2%;
+    margin: 2% auto;
+  }
+  .oplata-wrapper button {
+    width: 50%;
     font-size: 20px;
   }
+  .oplata-wrapper button:hover {
+    width: 51%;
+    font-size: 22px;
+  }
+  .vuborh1 {
+    height: 30%;
+    padding: 30% 0;
+  }
   .vubor-href {
-    width: 100%;
     height: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-top: 30%;
   }
   .vubor-href a {
     width: 90%;
-    padding: 2% 5%;
-    margin: 0 auto;
+    padding: 3% 5%;
     margin-bottom: 5%;
-    font-size: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: #3B1D6B;
-    border-radius: 50px;
-    color: #FFFFFF;
-    -webkit-transition: all linear .5s;
-    transition: all linear .5s;
+    font-size: 10px;
   }
   .vubor-href a:hover {
-    width: 100%;
-    background-color: #fff;
-    border: 3px solid #3B1D6B;
-    color: #3B1D6B;
+    width: 95%;
   }
   .vubor-button {
     margin-top: 2%;
   }
   .vubor-button a {
-    font-family: 'skalalend';
     font-size: 15px;
-    text-transform: uppercase;
     padding: 1% 3%;
-    border-radius: 50px;
-    background-color: #fff;
-    border: 3px solid #3B1D6B;
-    color: #3B1D6B;
-    -webkit-transition: all linear .5s;
-    transition: all linear .5s;
-    text-decoration: none;
-  }
-  .vubor-button a:hover {
-    background-color: #3B1D6B;
-    color: #FFF;
-    padding: 1% 4%;
-    cursor: pointer;
   }
   .cloned__menu {
     position: fixed;
@@ -1360,6 +1412,7 @@
     left: 0;
     z-index: 50;
     display: none;
+    padding-top: 50%;
     background: rgba(255, 255, 255, 0.95);
   }
   .cloned__show {
@@ -1394,21 +1447,39 @@
     margin: 0 auto;
     margin-bottom: 5%;
   }
-  .cloned__buttonp {
-    position: relative;
-    width: 70%;
+  .cloned__buttonph1 {
+    position: absolute;
+    width: 60%;
+    right: 0;
+    left: 20%;
+    top: 35%;
     text-align: center;
-    font-family: 'Impact';
-    font-size: 30px;
-    color: #EEF3ED;
-    padding-top: 2%;
-    text-shadow: 0 -1px 0 #3B1D6B, 0 -1px 0 #3B1D6B, 0 1px 0 #3B1D6B, 0 1px 0 #3B1D6B, -1px 0 0 #3B1D6B, 1px 0 0 #3B1D6B, -1px 0 0 #3B1D6B, 1px 0 0 #3B1D6B;
+    font-family: 'Skalalend';
+    font-size: 15px;
+    color: #111;
+    text-transform: uppercase;
+    padding-top: 0;
+  }
+  .cloned__buttonph1 a {
+    text-decoration: none;
+    color: #111;
+  }
+  .cloned__buttonp {
+    position: absolute;
+    width: 60%;
+    right: 0;
+    left: 20%;
+    top: 35%;
+    text-align: center;
+    font-family: 'Skalalend';
+    font-size: 20px;
+    color: #111;
+    text-transform: uppercase;
+    padding-top: 0;
   }
   .cloned__buttonp a {
     text-decoration: none;
-    padding-left: 0;
-    padding-right: 15%;
-    color: #EEF3ED;
+    color: #111;
   }
   .cloned__button img {
     position: absolute;
@@ -1610,7 +1681,7 @@
     text-align: center;
   }
   .face__h1txt span {
-    font-size: 30px;
+    font-size: 25px;
   }
   .face__h1phone {
     width: 100%;
@@ -1626,7 +1697,7 @@
     text-align: center;
   }
   .face__h1phone span {
-    font-size: 35px;
+    font-size: 30px;
   }
   .face__line {
     border: 0px solid #FFD507;
@@ -1726,7 +1797,7 @@
     margin-top: 0;
   }
   .about__h1txt span {
-    font-size: 25px;
+    font-size: 20px;
   }
   .about__h1txtf {
     border-bottom: 0px solid rgba(255, 255, 255, 0.8);
@@ -1781,11 +1852,11 @@
     height: 100%;
     position: absolute;
     margin-top: 2%;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 17px;
+    line-height: 22px;
   }
   .about__h2txt span {
-    font-size: 20px;
+    font-size: 17px;
   }
   .about__h2tx1 {
     width: 95%;
@@ -1805,7 +1876,7 @@
     height: 0;
     position: absolute;
     top: -2%;
-    border: 2px solid #FFD507;
+    border: 1px solid #111;
     margin: 0;
     left: 10%;
   }
@@ -1827,7 +1898,7 @@
     text-align: center;
   }
   .about__h3 span {
-    font-size: 25px;
+    font-size: 20px;
   }
   .acktiv {
     background-color: rgba(255, 255, 255, 0.6);
@@ -1907,39 +1978,40 @@
   .aslaid__btn:hover {
     font-size: 27px;
   }
-  .prais {
-    background-color: rgba(253, 253, 253, 0.6);
-  }
-  .prais__h1 {
-    width: 100%;
-    height: 20%;
-    top: 5%;
-    z-index: 2;
-    position: absolute;
-  }
-  .prais__h1 p {
-    margin: 0;
-    font-size: 25px;
-    line-height: 30px;
+  .prais h1 {
+    height: 10%;
     text-align: center;
+    font-size: 30px;
   }
-  .prais__h1 span {
-    font-size: 25px;
+  .prais span {
+    margin: 5% auto;
   }
-  .prais__h1f {
-    border-bottom: 0px solid rgba(255, 255, 255, 0.8);
+  .prais-slider {
+    height: 450px;
   }
-  .prais__cena {
-    width: 100%;
-    height: 70%;
-    position: absolute;
-    top: 30%;
+  .pslide {
+    height: 450px;
   }
-  .cena1 {
-    width: 0%;
+  .prais-posesh h1 {
+    padding: 1% 5%;
+    margin: 5% 0;
+    font-size: 15px;
+    line-height: 20px;
   }
-  .cena2 {
-    width: 100%;
+  .prais-posesh h2 {
+    padding: 1% 5%;
+    font-family: 'skalalend';
+    font-size: 10px;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+  .prais-posesh span {
+    width: 10%;
+    position: relative;
+    left: -40%;
+  }
+  .prais-posesh-1 {
+    width: 33%;
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1948,161 +2020,65 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 0 3%;
+    text-align: left;
   }
-  .cena2__txt {
-    width: 100%;
-    height: 40%;
+  .prais-posesh-but {
+    width: 33%;
+    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    z-index: 2;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .cena2__txt1 {
-    width: 48%;
-    height: 100%;
-    border-radius: 50px;
-    background: rgba(255, 255, 255, 0.5);
-    border: 3px solid #FFD507;
-  }
-  .txt__content {
-    font-size: 16px;
-    line-height: 21px;
-  }
-  .txt__content li {
-    margin-top: 7%;
-  }
-  .txt__content li span {
-    font-size: 13px;
-  }
-  .txt__contentline {
-    border: 2px solid #FFD507;
-  }
-  .txt__content2 {
-    font-size: 16px;
-    line-height: 21px;
-  }
-  .txt__content2 li {
-    margin-top: 7%;
-  }
-  .txt__content2 li span {
-    font-size: 13px;
-  }
-  .txt__contentline2 {
-    border: 2px solid #00A3E1;
-  }
-  .cena__animat {
-    font-size: 16px;
-    line-height: 21px;
-  }
-  .cena__animat span {
-    font-size: 13px;
-  }
-  .cena__button {
-    margin-top: -5%;
-    font-size: 15px;
-    line-height: 20px;
-  }
-  .cena__button:hover {
-    margin-top: -8%;
-  }
-  .cena2__f {
-    display: none;
-  }
-  .prais__line {
-    width: 90%;
-    height: 0;
-    top: 20%;
-    border: 2px solid #FFD507;
-  }
-  .zakaz {
-    background-color: rgba(255, 255, 255, 0.8);
-  }
-  .zakaz__h1 {
-    font-size: 30px;
-    line-height: 35px;
+  .prais-posesh-but h1 {
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 100%;
   }
-  .zakaz__h1 p {
+  .prais-posesh-but button {
     width: 100%;
-    padding: 0;
+    margin: 15% auto;
+    padding: 1% 3%;
+    font-family: 'skalalend';
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #111111;
+    background: transparent;
+    -webkit-transition: all linear .5s;
+    transition: all linear .5s;
   }
-  .zakaz__h1 span {
-    font-size: 30px;
-  }
-  .zakaz__h1f {
-    border-bottom: 0px solid rgba(255, 255, 255, 0.8);
-  }
-  .zakaz__forma {
+  .prais-posesh-but button:hover {
     width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.2);
-  }
-  input[type=text], input[type=email], input[type=tel], textarea {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
-  .input {
-    width: 90%;
-    height: 40px;
     font-size: 15px;
     line-height: 20px;
-  }
-  .input:focus {
-    width: 95%;
-    outline: 0;
-    border: 3px solid #00A3E1;
-  }
-  ::-webkit-input-placeholder {
-    color: #3F4D8B;
-  }
-  :-ms-input-placeholder {
-    color: #3F4D8B;
-  }
-  ::-ms-input-placeholder {
-    color: #3F4D8B;
-  }
-  ::placeholder {
-    color: #3F4D8B;
-  }
-  textarea.input {
-    resize: none;
-    height: 305px;
-    padding-top: 15px;
-  }
-  select.input:focus {
-    width: 90%;
-  }
-  select, option {
+    margin: 14% auto;
+    padding: 2% 4%;
+    border-radius: 20px;
+    background: rgba(253, 253, 253, 0.9);
     cursor: pointer;
   }
-  .zakaz__button {
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 10%;
+  .prais-posesh-2 {
+    width: 33%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: right;
   }
-  .zakaz__button1 button {
-    font-size: 15px;
-    line-height: 20px;
+  .prais-posesh-2 h1 {
+    text-align: right;
   }
-  .zakaz__button2 button {
-    font-size: 15px;
-    line-height: 20px;
-  }
-  .zakaz__line {
-    width: 90%;
-    left: 5%;
-    top: 12%;
+  .prais-posesh-2 span {
+    position: relative;
+    left: 40%;
   }
   .kontakts {
     position: absolute;
@@ -2123,14 +2099,14 @@
     line-height: 30px;
     padding: 5% 3%;
     margin-bottom: 5%;
-    color: #3F4D8B;
+    color: #111;
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, 0);
   }
   .kontakts__h1 span {
     font-size: 25px;
-    color: #3F4D8B;
+    color: #111;
   }
   .kontakst__block {
     width: 100%;
@@ -2159,7 +2135,7 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 25px;
-    color: #3F4D8B;
+    color: #111;
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
   }
   .kontakts__text p {
@@ -2168,7 +2144,7 @@
     z-index: 2;
   }
   .kontakts__text span {
-    color: #3F4D8B;
+    color: #111;
     font-weight: normal;
     font-size: 20px;
   }
@@ -2180,9 +2156,10 @@
     font-size: 10px;
     font-weight: normal;
     text-align: center;
-    color: #FFFFFF;
-    background-color: #3F4D8B;
+    color: #111;
+    background-color: none;
     border-radius: 20px;
+    border: 1px solid #111;
     -webkit-box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
             box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
     z-index: 2;
@@ -2192,12 +2169,12 @@
   .kontakts__call:hover {
     padding: 3% 0;
     cursor: pointer;
-    background-color: #5d70c5;
+    background-color: #fff;
   }
   .kontakts__call a {
     text-decoration: none;
     padding: 10% 0;
-    color: #FFFFFF;
+    color: #111;
   }
   .kontakts__tetxf {
     width: 40%;
@@ -2274,15 +2251,343 @@
     position: relative;
     overflow: hidden;
     border-radius: 55px;
-    border: 5px solid #3F4D8B;
+    border: 5px solid #111;
     -webkit-box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
             box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
   }
+  .show {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    z-index: 500;
+    background: rgba(255, 255, 255, 0.8);
+  }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 370px) {
+  .header__burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .face__fon {
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 1;
+  }
+  .header__logo {
+    display: none;
+  }
+  .header__button {
+    display: none;
+  }
+  .oplata-wrapper h1 {
+    padding-top: 30%;
+    font-size: 30px;
+  }
+  .oplata-wrapper span {
+    width: 40%;
+    margin: 10% auto;
+  }
+  .oplata-wrapper form {
+    margin: 0;
+    margin-bottom: 10%;
+  }
+  .oplata-wrapper input {
+    width: 70%;
+    font-size: 15px;
+    padding: 2%;
+    margin: 2% auto;
+  }
+  .oplata-wrapper select {
+    width: 70%;
+    font-size: 15px;
+    padding: 2%;
+    margin: 2% auto;
+  }
+  .oplata-wrapper button {
+    width: 50%;
+    font-size: 20px;
+  }
+  .oplata-wrapper button:hover {
+    width: 51%;
+    font-size: 22px;
+  }
+  .vuborh1 {
+    height: 30%;
+    padding: 30% 0;
+  }
+  .vubor-href {
+    height: 50%;
+  }
+  .vubor-href a {
+    width: 90%;
+    padding: 3% 5%;
+    margin-bottom: 5%;
+    font-size: 10px;
+  }
+  .vubor-href a:hover {
+    width: 95%;
+  }
+  .vubor-button {
+    margin-top: 2%;
+  }
+  .vubor-button a {
+    font-size: 15px;
+    padding: 1% 3%;
+  }
+  .cloned__menu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    display: none;
+    padding-top: 50%;
+    background: rgba(255, 255, 255, 0.95);
+  }
+  .cloned__show {
+    position: fixed;
+    width: 90%;
+    height: 100%;
+    top: 0;
+    left: 10%;
+    z-index: 50;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: rgba(255, 255, 255, 0.95);
+  }
+  .cloned__logo {
+    width: 100%;
+    height: 15%;
+    margin-bottom: 25%;
+  }
+  .cloned__logo img {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .cloned__button {
+    width: 90%;
+    height: 10%;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 5%;
+  }
+  .cloned__buttonph1 {
+    position: absolute;
+    width: 60%;
+    right: 0;
+    left: 20%;
+    top: 35%;
+    text-align: center;
+    font-family: 'Skalalend';
+    font-size: 15px;
+    color: #111;
+    text-transform: uppercase;
+    padding-top: 0;
+  }
+  .cloned__buttonph1 a {
+    text-decoration: none;
+    color: #111;
+  }
+  .cloned__buttonp {
+    position: absolute;
+    width: 60%;
+    right: 0;
+    left: 20%;
+    top: 35%;
+    text-align: center;
+    font-family: 'Skalalend';
+    font-size: 20px;
+    color: #111;
+    text-transform: uppercase;
+    padding-top: 0;
+  }
+  .cloned__buttonp a {
+    text-decoration: none;
+    color: #111;
+  }
+  .cloned__button img {
+    position: absolute;
+    width: 15%;
+    height: 50%;
+    top: 25%;
+    left: 5%;
+  }
+  .cloned__img {
+    position: absolute;
+    width: 13%;
+    height: 50%;
+    top: 16%;
+    left: 82%;
+  }
+  .cloned__img img {
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+  }
+  .cloned__zvonok {
+    width: 40%;
+    height: 10%;
+    position: relative;
+    margin: 5% auto;
+    background: rgba(84, 134, 76, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 13px;
+    -webkit-box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
+            box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
+    -webkit-transition: -webkit-box-shadow 0.3s linear;
+    transition: -webkit-box-shadow 0.3s linear;
+    transition: box-shadow 0.3s linear;
+    transition: box-shadow 0.3s linear, -webkit-box-shadow 0.3s linear;
+    -webkit-transition: translate 0.3s linear;
+    transition: translate 0.3s linear;
+    -webkit-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
+  }
+  .cloned__zvonok img {
+    width: 100%;
+    height: 100%;
+    padding: 2% 20%;
+  }
+  .cloned__zvonok:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  .cloned__zvonok:active {
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    -webkit-transform: translate(3px, 3px);
+            transform: translate(3px, 3px);
+    opacity: 1;
+  }
+  .zvonok__wrapper {
+    width: 90%;
+    height: 35%;
+    margin: 0 auto;
+    margin-top: 65%;
+    padding: 3% 0;
+    padding-left: 2%;
+    position: relative;
+    border-radius: 50px;
+    background-color: #3B1D6B;
+  }
+  .zvonok__wrapper-h1 {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2%;
+    color: #FFFFFF;
+    text-shadow: 0 -0.5px 0 #FFFFFF, 0 -0.5px 0 #FFFFFF, 0 0.5px 0 #FFFFFF, 0 0.5px 0 #FFFFFF, -0.5px 0 0 #FFFFFF, 0.5px 0 0 #FFFFFF, -0.5px 0 0 #FFFFFF, 0.5px 0 0 #FFFFFF, 4px 4px 2px rgba(0, 0, 0, 0.25);
+  }
+  .zvonok__wrapper-line {
+    width: 44%;
+    height: 0;
+    margin: 3% 0;
+    margin-left: 28%;
+    border: 1px solid #FFFFFF;
+  }
+  .zvonok__wrapper-h2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'skalalend';
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .zvonok__wrapper form {
+    z-index: 8;
+    position: relative;
+    width: 70%;
+    margin: 7% auto;
+  }
+  .zvonok__input {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3% 0;
+    text-align: center;
+    background: #fff;
+    color: #111111;
+    font-size: 20px;
+    z-index: 8;
+  }
+  .zvonok__input:focus {
+    outline: none;
+  }
+  .zvonok__wrapper-fon {
+    display: none;
+  }
+  .zvonok__but {
+    width: 50%;
+    position: relative;
+    right: 0;
+    margin: 10% auto;
+    text-align: center;
+    border-radius: 50px;
+    border: 3px solid  #fff;
+    background: none;
+    z-index: 10;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    padding: 0;
+  }
+  .zvonok__but a {
+    width: 100%;
+    padding: 0;
+    font-family: 'skalalend';
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+  }
+  .zvonok__but a:hover {
+    text-decoration: none;
+    color: #00A3E1;
+    padding: 25% 0;
+  }
+  .zvonok__but:hover {
+    padding: 4% 4%;
+    right: 4%;
+    bottom: 3%;
+    color: #00A3E1;
+    background: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+  }
+  .zvonok__logo {
+    display: none;
+  }
+  .zvonok__crest {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 10;
+    opacity: .7;
+    width: 10px;
+    height: 10px;
+  }
+  .zvonok__crest img {
+    width: 100%;
+    height: 100%;
+  }
   .face {
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.8);
     position: relative;
   }
   .face__h1 {
@@ -2316,7 +2621,7 @@
     text-align: center;
   }
   .face__h1txt span {
-    font-size: 30px;
+    font-size: 25px;
   }
   .face__h1phone {
     width: 100%;
@@ -2332,7 +2637,7 @@
     text-align: center;
   }
   .face__h1phone span {
-    font-size: 35px;
+    font-size: 30px;
   }
   .face__line {
     border: 0px solid #FFD507;
@@ -2411,7 +2716,7 @@
     opacity: .8;
   }
   .about {
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.8);
   }
   .about__h1 {
     width: 100%;
@@ -2432,7 +2737,7 @@
     margin-top: 0;
   }
   .about__h1txt span {
-    font-size: 25px;
+    font-size: 20px;
   }
   .about__h1txtf {
     border-bottom: 0px solid rgba(255, 255, 255, 0.8);
@@ -2487,11 +2792,11 @@
     height: 100%;
     position: absolute;
     margin-top: 2%;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 17px;
+    line-height: 22px;
   }
   .about__h2txt span {
-    font-size: 20px;
+    font-size: 17px;
   }
   .about__h2tx1 {
     width: 95%;
@@ -2511,7 +2816,7 @@
     height: 0;
     position: absolute;
     top: -2%;
-    border: 2px solid #FFD507;
+    border: 1px solid #111;
     margin: 0;
     left: 10%;
   }
@@ -2533,7 +2838,7 @@
     text-align: center;
   }
   .about__h3 span {
-    font-size: 25px;
+    font-size: 20px;
   }
   .acktiv {
     background-color: rgba(255, 255, 255, 0.6);
@@ -2598,7 +2903,7 @@
     margin: 0 auto;
     margin-top: 5%;
     position: relative;
-    background: yellow;
+    background: none;
     border-radius: 43px;
   }
   .aslaid p {
@@ -2613,39 +2918,40 @@
   .aslaid__btn:hover {
     font-size: 27px;
   }
-  .prais {
-    background-color: rgba(253, 253, 253, 0.6);
-  }
-  .prais__h1 {
-    width: 100%;
-    height: 20%;
-    top: 5%;
-    z-index: 2;
-    position: absolute;
-  }
-  .prais__h1 p {
-    margin: 0;
-    font-size: 25px;
-    line-height: 30px;
+  .prais h1 {
+    height: 10%;
     text-align: center;
-  }
-  .prais__h1 span {
     font-size: 30px;
   }
-  .prais__h1f {
-    border-bottom: 0px solid rgba(255, 255, 255, 0.8);
+  .prais span {
+    margin: 5% auto;
   }
-  .prais__cena {
-    width: 100%;
-    height: 70%;
-    position: absolute;
-    top: 30%;
+  .prais-slider {
+    height: 450px;
   }
-  .cena1 {
-    width: 0%;
+  .pslide {
+    height: 450px;
   }
-  .cena2 {
-    width: 100%;
+  .prais-posesh h1 {
+    padding: 1% 5%;
+    margin: 5% 0;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .prais-posesh h2 {
+    padding: 1% 5%;
+    font-family: 'skalalend';
+    font-size: 10px;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+  .prais-posesh span {
+    width: 10%;
+    position: relative;
+    left: -40%;
+  }
+  .prais-posesh-1 {
+    width: 33%;
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2654,161 +2960,65 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 0 3%;
+    text-align: left;
   }
-  .cena2__txt {
-    width: 100%;
-    height: 40%;
+  .prais-posesh-but {
+    width: 33%;
+    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    z-index: 2;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .cena2__txt1 {
-    width: 48%;
-    height: 100%;
-    border-radius: 50px;
-    background: rgba(255, 255, 255, 0.5);
-    border: 3px solid #FFD507;
-  }
-  .txt__content {
-    font-size: 16px;
-    line-height: 21px;
-  }
-  .txt__content li {
-    margin-top: 7%;
-  }
-  .txt__content li span {
-    font-size: 13px;
-  }
-  .txt__contentline {
-    border: 2px solid #FFD507;
-  }
-  .txt__content2 {
-    font-size: 16px;
-    line-height: 21px;
-  }
-  .txt__content2 li {
-    margin-top: 7%;
-  }
-  .txt__content2 li span {
-    font-size: 13px;
-  }
-  .txt__contentline2 {
-    border: 2px solid #00A3E1;
-  }
-  .cena__animat {
-    font-size: 16px;
-    line-height: 21px;
-  }
-  .cena__animat span {
-    font-size: 13px;
-  }
-  .cena__button {
-    margin-top: 30%;
-    font-size: 25px;
-    line-height: 30px;
-  }
-  .cena__button:hover {
-    margin-top: 28%;
-  }
-  .cena2__f {
-    display: none;
-  }
-  .prais__line {
-    width: 90%;
-    height: 0;
-    top: 20%;
-    border: 2px solid #FFD507;
-  }
-  .zakaz {
-    background-color: rgba(255, 255, 255, 0.6);
-  }
-  .zakaz__h1 {
-    font-size: 30px;
-    line-height: 35px;
+  .prais-posesh-but h1 {
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 100%;
   }
-  .zakaz__h1 p {
+  .prais-posesh-but button {
     width: 100%;
-    padding: 0;
+    margin: 15% auto;
+    padding: 1% 3%;
+    font-family: 'skalalend';
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #111111;
+    background: transparent;
+    -webkit-transition: all linear .5s;
+    transition: all linear .5s;
   }
-  .zakaz__h1 span {
-    font-size: 35px;
-  }
-  .zakaz__h1f {
-    border-bottom: 0px solid rgba(255, 255, 255, 0.8);
-  }
-  .zakaz__forma {
+  .prais-posesh-but button:hover {
     width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.2);
-  }
-  input[type=text], input[type=email], input[type=tel], textarea {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
-  .input {
-    width: 90%;
-    height: 40px;
     font-size: 15px;
     line-height: 20px;
-  }
-  .input:focus {
-    width: 95%;
-    outline: 0;
-    border: 3px solid #00A3E1;
-  }
-  ::-webkit-input-placeholder {
-    color: #00A3E1;
-  }
-  :-ms-input-placeholder {
-    color: #00A3E1;
-  }
-  ::-ms-input-placeholder {
-    color: #00A3E1;
-  }
-  ::placeholder {
-    color: #00A3E1;
-  }
-  textarea.input {
-    resize: none;
-    height: 305px;
-    padding-top: 15px;
-  }
-  select.input:focus {
-    width: 90%;
-  }
-  select, option {
+    margin: 14% auto;
+    padding: 2% 4%;
+    border-radius: 20px;
+    background: rgba(253, 253, 253, 0.9);
     cursor: pointer;
   }
-  .zakaz__button {
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 10%;
+  .prais-posesh-2 {
+    width: 33%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: right;
   }
-  .zakaz__button1 button {
-    font-size: 15px;
-    line-height: 20px;
+  .prais-posesh-2 h1 {
+    text-align: right;
   }
-  .zakaz__button2 button {
-    font-size: 15px;
-    line-height: 20px;
-  }
-  .zakaz__line {
-    width: 90%;
-    left: 5%;
-    top: 17%;
+  .prais-posesh-2 span {
+    position: relative;
+    left: 40%;
   }
   .kontakts {
     position: absolute;
@@ -2829,14 +3039,14 @@
     line-height: 30px;
     padding: 5% 3%;
     margin-bottom: 5%;
-    color: #3F4D8B;
+    color: #111;
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, 0);
   }
   .kontakts__h1 span {
     font-size: 25px;
-    color: #3F4D8B;
+    color: #111;
   }
   .kontakst__block {
     width: 100%;
@@ -2865,7 +3075,7 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 25px;
-    color: #3F4D8B;
+    color: #111;
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
   }
   .kontakts__text p {
@@ -2874,7 +3084,7 @@
     z-index: 2;
   }
   .kontakts__text span {
-    color: #3F4D8B;
+    color: #111;
     font-weight: normal;
     font-size: 20px;
   }
@@ -2886,9 +3096,10 @@
     font-size: 10px;
     font-weight: normal;
     text-align: center;
-    color: #FFFFFF;
-    background-color: #3F4D8B;
+    color: #111;
+    background-color: none;
     border-radius: 20px;
+    border: 1px solid #111;
     -webkit-box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
             box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
     z-index: 2;
@@ -2898,12 +3109,12 @@
   .kontakts__call:hover {
     padding: 3% 0;
     cursor: pointer;
-    background-color: #5d70c5;
+    background-color: #fff;
   }
   .kontakts__call a {
     text-decoration: none;
     padding: 10% 0;
-    color: #FFFFFF;
+    color: #111;
   }
   .kontakts__tetxf {
     width: 40%;
@@ -2980,8 +3191,18 @@
     position: relative;
     overflow: hidden;
     border-radius: 55px;
-    border: 5px solid #3F4D8B;
+    border: 5px solid #111;
     -webkit-box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
             box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
+  }
+  .show {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    z-index: 500;
+    background: rgba(255, 255, 255, 0.8);
   }
 }
